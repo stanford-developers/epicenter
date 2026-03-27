@@ -1,0 +1,5 @@
+# /robots.txt file for http://epicenter.stanford.edu/
+
+User-agent: *
+Crawl-delay: 2
+Sitemap: http://epicenter.stanford.edu/sitemap.xml

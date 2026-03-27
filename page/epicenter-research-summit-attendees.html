@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML SYSTEM "about:legacy-compat">
+<html><head><link href="../resources/dijit/themes/tundra/tundra.css" type="text/css" rel="stylesheet"/><link href="../resources/styles/epicenter.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/autosuggest-tags/autoSuggest.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/file-upload/file-upload.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/jquery-ui-1.8.23/css/smoothness/jquery-ui-1.8.23.custom.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/jwysiwyg/jquery.wysiwyg.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/datatables/css/dataTables.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/fineuploader.jquery/fineuploader.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/flexslider/flexslider.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/simpletabs/simpletabs.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/images/favicon.ico" type="image/ico" rel="shortcut icon"/><script src="../resources/jquery-ui-1.8.23/js/jquery-1.8.0.min.js" type="text/javascript"></script><script src="../resources/mygrid2/js/superfish-ver=3.3.2.js" type="text/javascript"></script><script src="../resources/mygrid2/js/jquery.hoverIntent.minified-ver=3.3.2.js" type="text/javascript"></script><script type="text/javascript">var djConfig = {parseOnLoad: false, isDebug: false, locale: 'en-us'};</script><script type="text/javascript" src="../resources/dojo/dojo.js"></script><script type="text/javascript" src="../resources/spring/Spring.js"></script><script type="text/javascript" src="../resources/spring/Spring-Dojo.js"></script><script type="text/javascript" language="JavaScript">dojo.require("dojo.parser");</script><script type="text/javascript" src="../resources/file-upload/jelly.min.js"></script><script type="text/javascript" src="../resources/file-upload/file-upload.js"></script><script type="text/javascript" src="../resources/autosuggest-tags/jquery.autoSuggest.js"></script><script type="text/javascript" src="../resources/elastic/jquery.elastic.source.js"></script><script type="text/javascript" src="../resources/ckeditor/ckeditor.js"></script><script type="text/javascript" src="../resources/ckeditor/adapters/jquery.js"></script><script type="text/javascript" src="../resources/jquery-ui-1.8.23/js/jquery-ui-1.8.23.custom.min.js"></script><script type="text/javascript" src="../resources/jquery-ui-1.8.23/jquery-ui-timepicker-addon.js"></script><script type="text/javascript" src="../resources/datatables/js/dataTables.min.js"></script><script type="text/javascript" src="../resources/fineuploader.jquery/jquery.fineuploader-3.0.min.js"></script><script type="text/javascript" src="../resources/flexslider/jquery.flexslider-min.js"></script><script src="../resources/jfeed/jquery.jfeed.js" type="text/javascript"></script><title>Epicenter:  Epicenter Research Summit Attendees</title><link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700"/><link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"/><script type="text/javascript">//
+	// Google Analytics for WordPress by Yoast v4.2.3 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	if (window.location.host.indexOf('staging')<0) {
+		// Production
+		_gaq.push(['_setAccount','UA-25375360-1']);
+	} else {
+		_gaq.push(['_setAccount','UA-25375360-1']);
+	}
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	//</script></head><body class="home blog"><div version="2.0" id="container"><div version="2.0" id="header"><style type="text/css">ul.topnav li {
+	float: left;
+	margin: 0;	
+	padding: 0 0 0 15px;
+	position: relative; /*--Declare X and Y axis base for sub navigation--*/
+}
+ul.topnav li a{
+	padding: 10px 5px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	float: left;
+}
+ul.topnav li a:hover{
+	background-color: #2F3641 !important;
+}
+ul.topnav li span { /*--Drop down trigger styles--*/
+	width: 17px;
+	height: 35px;
+	float: left;
+	background-color: #2F3641 !important;
+}
+ul.topnav li span.subhover {background-position: center bottom; cursor: pointer;} /*--Hover effect for trigger--*/
+ul.topnav li ul.subnav {
+	list-style: none;
+	position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+	left: 0; top: 35px;
+	background: #333;
+	margin: 0; padding: 0;
+	display: none;
+	float: left;
+	width: 170px;
+	border: 1px solid #111;
+	z-index: 1000000;
+	
+}
+ul.topnav li ul.subnav li{
+	margin: 0; padding: 0;
+	border-top: 1px solid #252525; /*--Create bevel effect--*/
+	border-bottom: 1px solid #444; /*--Create bevel effect--*/
+	clear: both;
+	width: 170px;
+	text-align: left !important;
+}
+html ul.topnav li ul.subnav li a {
+	float: left;
+	width: 145px;
+	background-color: #2F3641 !important;
+	padding-left: 20px;
+}
+html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
+	background-color: #2F3641 !important;
+}
+</style><div class="box"><a class="main-logo" href="../index.html">Epicenter: National Center for Engineering Pathways to Innovation</a><div id="links" class="nav-top-wrap"><ul class="nav-top"><li><a href="../login.html">Login</a></li><li><form action="../search.html" method="get"><input type="text" name="term" value="Search" maxlength="50" onblur="if (this.value == '') {this.value = 'Search'; this.style.color='#888888';}" onfocus="if (this.value == 'Search') {this.value = ''; this.style.color='#000000';}"/></form></li></ul></div><div class="nav-main-wrap"><ul class="nav-main sf-js-enabled topnav"><li><a class="sf-with-ul" href="#">About <i class="fa fa-sort-asc"></i></a><ul class="subnav"><li><a href="about.html">Overview</a></li><li><a href="about-programs.html">What We Do</a></li><li><a href="about-team.html">Team</a></li><li><a href="in-the-news.html">In the News</a></li></ul></li><li><a class="sf-with-ul" href="#">Initiatives <i class="fa fa-sort-asc"></i></a><ul class="subnav"><li><a href="university-innovation-fellows.html">University Innovation Fellows</a></li><li><a href="pathways-to-innovation.html">Pathways to Innovation Program</a></li><li><a href="fostering-innovative-generations-studies.html">Fostering Innovative Generations Studies</a></li></ul></li><li><a class="sf-with-ul" href="#">Resources <i class="fa fa-sort-asc"></i></a><ul class="subnav"><li><a href="../resources/story.html">Stories</a></li><li><a href="../events.html">Events</a></li><li><a href="../resources/all.html">Tools</a></li></ul></li><li><a href="newsletter.html">Newsletter</a><span></span></li><li><a href="contact.html">Contact</a></li></ul></div></div><script type="text/javascript">
+	
+	$(document).ready(function(){
+
+		$("ul.subnav").parent().append("<span/>"); //Only shows drop down trigger when js is enabled (Adds empty span tag after ul.subnav*)
+		
+		$("ul.topnav li a").hover(function() { //When trigger is clicked...
+			
+			//Following events are applied to the subnav itself (moving subnav up and down)
+			$(this).parent().find("ul.subnav").slideDown('fast').show(); //Drop down the subnav on click
+
+			$(this).parent().hover(function() {
+			}, function(){	
+				$(this).parent().find("ul.subnav").slideUp('slow'); //When the mouse hovers out of the subnav, move it back up
+			});
+
+			//Following events are applied to the trigger (Hover events for the trigger)
+			}).hover(function() { 
+				$(this).addClass("subhover"); //On hover over, add class "subhover"
+			}, function(){	//On Hover Out
+				$(this).removeClass("subhover"); //On hover out, remove class "subhover"
+		});
+
+	});
+	</script></div><div class="main"><div class="post" id="post-101"><div class="page-heading"><h2><a href="epicenter-research-summit-attendees.html" rel="bookmark" title="">Epicenter Research Summit Attendees</a></h2></div><div class="entry_full bags">
+
+<img src="../images/7801.jpeg" /><br />
+<br />
+<table border="0" cellpadding="10" cellspacing="0" width="840">
+	<tbody>
+		<tr>
+			<td valign="top" width="222">
+				<div style="font-size:11px">
+					<p>
+						<a href="epicenter-research-summit-2014.html">Summit Home</a><br />
+						<br />
+						<a href="epicenter-research-summit-attendees.html">Attendees</a><br />
+						<br />
+						<a href="epicenter-research-summit-agenda.html">Agenda</a><br />
+						<br />
+						<span>Presentations</span><br />
+						<span>-&nbsp;</span><a href="epicenter-research-summit-session-a.html">Session A: Students</a><br />
+						<span>-&nbsp;</span><a href="epicenter-research-summit-session-b.html">Session B: University Innovation Fellows</a><br />
+						<span>-&nbsp;</span><a href="epicenter-research-summit-session-c.html">Session C: Programs</a><br />
+						<span>-&nbsp;</span><a href="epicenter-research-summit-session-d.html">Session D: Curriculum</a><br />
+						<span>-&nbsp;</span><a href="epicenter-research-summit-session-e.html">Session E: Re-cap, Re-flect, Re-search</a><br />
+						<br />
+						<span>Materials</span><br />
+						<span>-&nbsp;</span><a href="epicenter-research-summit-evaluation.html">Evaluation Report</a><br />
+						- <a href="epicenter-research-summit-session-notes.html">Session Notes</a><br />
+						<span>-&nbsp;</span><a href="epicenter-research-summit-posters.html">Posters</a><br />
+						<span>-&nbsp;</span><a href="epicenter-research-summit-recommended-resources.html">Recommended Resources</a><br />
+						<span>-&nbsp;</span><a href="epicenter-research-summit-photos.html">Photos</a><br />
+						<span>-&nbsp;</span><a href="epicenter-research-summit-videos.html">Videos</a><br />
+						<span>-&nbsp;</span><a href="../story/big-questions-epicenter-research-summit-2014.html" target="_blank">Feature article: &quot;Big Questions&quot;</a><br />
+						<br />
+						<span>Get Involved</span><br />
+						<span>-&nbsp;</span><a href="epicenter-research-summit-asee-call-for-submissions.html">ASEE 2015 Call for Submissions</a></p>
+				</div>
+			</td>
+			<td valign="top" width="2">
+				<hr size="450" width="1" />
+			</td>
+			<td valign="top" width="557">
+				<p>
+					<strong>Summit Attendees</strong><br />
+					<br />
+					<br />
+					<strong>Ilya Avdeev</strong><br />
+					<br />
+					Ilya Avdeev has more than ten years of leadership experience both in industry and academia. His research interests include new modeling techniques for solving complex multiphysics problems, numerical methods and various areas of design and advanced manufacturing. Dr. Avdeev&rsquo;s research, collaborative in nature, has contributed to advancements in medical imaging-, energy storage- and turbo machinery technologies. Dr. Avdeev has been a champion of change in student innovation and entrepreneurship culture at UWM since his first day at UWM in 2009. Dr. Avdeev had founded and leads the UWM Student Startup Challenge and Epicenter Pathways to Innovation Team on campus.&nbsp;<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Mary Besterfield-Sacre</strong><br />
+					<br />
+					Dr. Mary Besterfield-Sacre is an Associate Professor and Fulton C. Noss Faculty Fellow in Industrial Engineering at the University of Pittsburgh.&nbsp; She is the Director for the Engineering Education Research Center (EERC) in the Swanson School of Engineering, and serves as a Center Associate for the Learning Research and Development Center.&nbsp; Her principal research is in engineering education assessment, which has been funded by the NSF, Department of Ed, Sloan, EIF, and NCIIA.&nbsp; Dr. Sacre&rsquo;s current research focuses on three distinct but highly correlated areas &ndash; innovative design and entrepreneurship, engineering modeling, and global competency in engineering. She is currently associate editor for the AEE Journal.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Susan Brennan</strong><br />
+					<br />
+					Susan brings more than 24 years of manufacturing experience, including automotive vehicle, powertrain and components assembly. Susan has dedicated her career to improving American manufacturing and assuring that the United States maintains a vital manufacturing footprint, especially in areas of key technological advances. In her time as a manufacturing practitioner, she has always been a strong proponent of sustainability, starting in her first role as the Environmental and Coating Manager with Douglas and Lomason, leading the plant to the State of Iowa&#39;s first ever Waste Minimization award and, most recently, launching the all-electric Nissan Leaf in Smyrna, TN. Throughout her career, she has maintained that jobs and the environment can have a symbiotic relationship, and that passion drives her as she pursues her role at Bloom. In addition, she has created and supported organizations that encourage young women to pursue careers in math and science as a way to support future generations of technological manufacturing in the United States. Susan holds a Master of Business Administration from the University of Nebraska, Omaha and a Bachelor&#39;s of Science in Microbiology from the University of Illinois, C-U.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Anna Breed</strong><br />
+					<br />
+					A junior in Mechanical Engineering, Anna likes applying the creative, design-thinking approach to technical problems. Anna is currently working on projects to help redesign Professor Sheri Sheppard&#39;s ENGR-14: Introduction to Solid Mechanics Lab, and is on a team focusing on research related to how&nbsp;entrepreneurship&nbsp;and engineering overlap and what influences lead to entrepreneurial-like life choices. Her interest in design and education stems from a love of teaching and explaining, as well as a desire to see more diversity in engineering fields, including racial, gender, and socioeconomic. Some of her favorite classes at Stanford have been Mechanics of Materials (ME 80), Introduction to Visual Thinking (ME 101), Introduction to Electronics (E-40), and Fiction Writing (English 90).<br />
+					<br />
+					Anna is also pursuing a creative writing minor, as she enjoys letting imagination and creativity overlap with everyday life. She also enjoys running, hiking, and skiing, and is in the Leland Stanford Junior University Marching Band. An animal and nature lover, Anna grew up in the Pacific Northwest with many pets, and now has a rabbit named Robyn. Anna also served on the Undergraduate Senate at Stanford for a term. In the future, Anna hopes to travel and see more of the world, and eventually pursue a career path in which she&rsquo;ll truly enjoy her work and follow her passions.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Leticia Britos Cavagnaro</strong><br />
+					<br />
+					Leticia Britos Cavagnaro is fascinated with how people learn and the dynamics of creative teams. Growing up, one of the people who influenced her the most was her basketball coach, who taught her that perseverance and team play can do much more than just win championships. In design thinking she has found the ultimate team sport that pushes her onto greater challenges. She&rsquo;s not sure what the next play will be and she&rsquo;s comfortable with not knowing. Leticia has a Ph.D. in developmental biology from Stanford University&rsquo;s School of Medicine. Along with the degree, she acquired strong analytical skills -which she balances with creative thinking-, and the ability to learn from failed experiments. Venturing outside of the biology lab, Leticia found that designing learning experiences was just as challenging, and even more rewarding. She isn&rsquo;t planning to give up experimenting any time soon though.<br />
+					<br />
+					Leticia is a lecturer at the School of Engineering and Deputy Director of the National Center for Engineering Pathways to Innovation (Epicenter). She has collaborated with the d.school&rsquo;s K-12 Lab and, as a former member of the Research in Education and Design team (RED Lab), explored how design thinking contributes to developing creative learners. As lecturer of the&nbsp;Creativity and Innovation course, she witnesses the journey of students as they develop their creative confidence and go on to accomplish amazing things. As a result, bringing design thinking to as many people as possible has become a priority for Leticia, and she has worked with hundreds of teachers and students of all ages, as well as corporate and non-profit leaders in the US and abroad. In the summer of 2013, Leticia engaged thousands of people from over 130 countries in learning design thinking and applying the methodology to innovate in their contexts, via an&nbsp;experiential MOOC.<br />
+					<br />
+					Her favorite thing in the world is to act as a catalyst, creating connections between people and ideas, and building bridges between disciplines. If she were granted a wish, she would ask to bring her home country of Uruguay a tad closer to California. A teleporter to go back and forth in an instant would do too.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Tom Byers</strong><br />
+					<br />
+					Tom Byers holds the Entrepreneurship Professorship endowed chair in the Stanford University School of Engineering where he focuses on innovation and entrepreneurship education. He has been a faculty director since inception of the Stanford Technology Ventures Program (STVP), which serves as the entrepreneurship center in the engineering school. He is the Director and Co-Principal Investigator of Epicenter.<br />
+					<br />
+					For his efforts at Stanford in the past, Tom is a Bass University Fellow in Undergraduate Education. Tom has also received Stanford&#39;s Gores Award for teaching (the university&#39;s highest award) and its Tau Beta Pi Award for undergraduate teaching in the engineering school. The National Academy of Engineering (NAE) awarded him the 2009 Gordon Prize, which is the profession&#39;s highest honor recognizing innovation in engineering and technology education.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Helen L. Chen</strong><br />
+					<br />
+					Helen L. Chen is a research scientist in the Designing Education Lab in the Department of Mechanical Engineering and the Director of ePortfolio Initiatives in the Office of the Registrar at Stanford University. &nbsp;She is also a member of the research team in the National Center for Engineering Pathways to Innovation (Epicenter) co-led by Professor Sheri Sheppard. &nbsp;Helen earned her undergraduate degree from UCLA and her PhD in Communication with a minor in Psychology from Stanford University in 1998. &nbsp;She works closely with Association of American Colleges and Universities as a faculty member for the Institute on General Education and Assessment. Helen and her colleagues Tracy Penny Light and John Ittelson are the authors of Documenting Learning with ePortfolios: A Guide for College Instructors (2011, Wiley).<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Anne Colby</strong><br />
+					<br />
+					Anne Colby&nbsp;is Consulting Professor at Stanford University. Prior to that, she was director of the Henry Murray Research Center at Harvard University and then Senior Scholar at the Carnegie Foundation for the Advancement of Teaching. She is co-author of The Measurement of Moral Judgment; Some Do Care: Contemporary Lives of Moral Commitment; Educating Citizens: Preparing America&rsquo;s Undergraduates for Lives of Moral and Civic Responsibility; Educating Lawyers; Educating for Democracy: Preparing Undergraduates for Responsible Political Engagement; Educating Engineers: Designing for the Future of the Field; and Rethinking Undergraduate Business Education: Liberal Learning for the Profession<strong>*</strong>. Colby is also co-editor of Ethnography and Human Development: Context and Meaning in Human Inquiry; Competence and Character through Life; and Looking at Lives: American Longitudinal Studies of the Twentieth Century. A life-span developmental psychologist, Colby holds a B.A. from McGill University and a Ph.D. in psychology from Columbia University.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Emanuel Costache</strong><br />
+					<br />
+					Since joining SageFox in 2009, Emanuel has worked on a variety of NIH- and NSF-funded projects.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Janet Daisley</strong><br />
+					<br />
+					Janet Daisley develops and manages national entrepreneurship educational and training programs and facilitates the development of higher education training focused on building faculty networks to promote invention and innovation. She supervises all program officers and consultants and builds external relationships on behalf of the organization. Prior to joining NCIIA in January 2014, she served for eight years as Director of the Commonwealth Corporation, which held a $17 million state contract to support the education and workforce training of youth in the Massachusetts juvenile justice system, where she fostered social impact by creating and seeking funding for micro-enterprises, including a silk screening business, to promote their ability to gain entrepreneurship skills and viable jobs. She holds a B.A. degree in Political Science from Colgate University and a Masters degree in Public and International Affairs from the University of Pittsburgh.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Bill Damon</strong><br />
+					<br />
+					Dr. Damon writes on moral development through the lifespan. Recently he has begun a study on the development of purpose during adolescence. In addition, he is conducting research on how young professionals can learn to do work that is at the same time highly masterful and highly moral. Damon has written several books on moral and character development, and he is the editor-in-chief of New Directions for Child and Adolescent Development and The Handbook of Child Psychology. Damon also serves as the director of the Stanford Center on Adolescence, a campus-based research think-tank that focuses on character and civic education. Damon&#39;s research has led to a number of widely-recognized educational methods, including community &quot;youth charters&quot; and a training program on good journalism for mid-career news professionals.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Phillip DeLeon</strong><br />
+					<br />
+					Phillip DeLeon, PhD is a professor at New Mexico State University and holds the John and Tome Nakayama Professorship in the Klipsch School of Electrical and Computer Engineering. He earned a B.S. in Electrical Engineering and B.A. in Mathematics from University of Texas at Austin and a M.S. and Ph.D. in Electrical Engineering from University of Colorado at Boulder. He teaches courses in digital signal processing (DSP) and mobile device programming and has research interests in speech-signal processing and pattern recognition and machine learning.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Nathalie Duval-Couetil</strong></p>
+				<p>
+					Nathalie Duval-Couetil is the Director of the Certificate in Entrepreneurship and Innovation Program, Associate Director of the Burton D. Morgan Center, and an Associate Professor in the Department of Technology Leadership and Innovation at Purdue University. She is responsible for the launch and development of the university&rsquo;s multidisciplinary undergraduate entrepreneurship program, which has involved over&nbsp;5000 students from all majors since 2005. She has established entrepreneurship capstone, global entrepreneurship, and women and leadership courses and initiatives at both the undergraduate and graduate levels. Prior to her work in academia, Nathalie spent several years in the field of market research and business strategy consulting in Europe and the United States with Booz Allen and Hamilton and Data and Strategies Group. She received a BA from the University of Massachusetts at Amherst, an MBA from Babson College, and MS and PhD degrees from Purdue University. She currently serves on the board of the United States Association for Small Business and Entrepreneurship in the role of Vice President for Research. She is also a Senior Research Advisor to the Stanford University Epicenter.<br />
+					<br />
+					Specialties:&nbsp;<br />
+					- Entrepreneurship education program development and administration<br />
+					- Multidisciplinary entrepreneurship education<br />
+					- Entrepreneurship education in engineering<br />
+					- Environments and conditions that foster entrepreneurial activity among students<br />
+					- Evaluation and assessment<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Katie Dzugan</strong><br />
+					<br />
+					Katie is a former University Innovation Fellow who graduated from Southern Illinois University at Carbondale and joined NCIIA &amp; Epicenter to expand the national student movement, through the work of the University Innovation Fellows program. By grooming engineering students to be change agents on campus, the Fellows program empowers students to create programming and resources to support the growing student interest in Innovation and Entrepreneurship. Katie provides support to communities of Fellows working to deploy similar strategies and who collaborate regionally. In addition, Katie is expanding the programs communications strategies to meet the aggressive program growth goals. She continues to pursue her passion for learning about the entrepreneurial mindset and lending her knowledge to student catalysts changing the innovation and entrepreneurship ecosystem on campuses nationwide. Katie holds a B.S. in Management, Marketing, and Entrepreneurship, as well as a dual Master&rsquo;s of Business Administration and Master&rsquo;s of Arts focused on the nonprofit sector and strategic communication.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Humera Fasihuddin</strong><br />
+					Humera is a Senior Program Officer at NCIIA and leads the University Innovation Fellows Program, a key driver of Epicenter&#39;s student engagement strategy. In it, she works with students to create lasting institutional impact within the innovation and entrepreneurship ecosystem on campus. While at NCIIA she has led the creation of numerous program including the organization&#39;s first foray in advanced venture training workshops, which today account for over half of the 501c(3)&#39;s income.</p>
+				<p>
+					Prior to NCIIA, Humera created innovation networks between industry and the University of Massachusetts Amherst under an NSF Partnership for Innovation grant. Humera began her career at the publicly-traded UK firm Rexam, serving as product manager in their precision coated materials subsidiary. Humera holds an M.B.A. from UMass Amherst and a B.S. from Smith College.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Daniel Ferguson</strong><br />
+					<br />
+					Daniel M. Ferguson (Dan) is the recipient of three NSF awards for research in engineering education and a research associate at Purdue University. Prior to Purdue he was Assistant Professor of Entrepreneurship at Ohio Northern University and Associate Director of the Inter-professional Studies Program at Illinois Institute of Technology. He has been involved in service learning, assessment processes and in research on interventions aimed at improving learning objective attainment. Previously he was Founder and CEO of The EDI Group, Ltd. and The EDI Group Canada, Ltd, independent professional services companies specializing in B2B electronic commerce and electronic data interchange. &nbsp;&nbsp;<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>D. Jake Follmer</strong><br />
+					<br />
+					D. Jake Follmer is a doctoral student in the educational psychology program at Penn State. He is a graduate research assistant at the Leonhard Center for Enhancement of Engineering Education at Penn State. He is interested in assessment as well as learning and educational issues.<br />
+					&nbsp;</p>
+				<br />
+				<strong>Shannon Gilmartin</strong><br />
+				Shannon Gilmartin, Epicenter Research Scientist, is currently conducting mixed-methods research on entrepreneurship programs and engineering students&rsquo; experiences in entrepreneurship learning environments. Shannon also is a Consulting Associate Professor at Stanford University&rsquo;s School of Engineering and the Director of SKG Analysis, a research consulting firm. Shannon&rsquo;s expertise is in higher education and workforce research, especially in science and engineering fields.<br />
+				<br />
+				She received her B.A. at Stanford University and her M.A. and Ph.D. at UCLA, and held two research appointments at the California Institute of Technology and Stanford before starting her consulting practice in 2006.She has taught undergraduate courses at UCLA in gender, education, and psychology, and, since 2008, has worked with Professor Sheri Sheppard&rsquo;s Designing Education Lab on studies of engineering student pathways. She has published in a wide range of journals in education, gender studies, and related areas.
+				<p>
+					&nbsp;<br />
+					<br />
+					<strong>Ruth Graham</strong><br />
+					<br />
+					Ruth Graham has been an independent consultant in Engineering Education and Entrepreneurship since 2008. Prior to this time, and building on her academic background as a Mechanical Engineer, she worked at Imperial College London leading a school-wide reform to the engineering curriculum.</p>
+				<p>
+					Ruth&rsquo;s work as a consultant is focused on fostering change in higher education; supporting the emergence of technology-driven entrepreneurship within universities and helping to equip engineering graduates to solve the complex challenges of the 21st century. Her activities range from undertaking international studies designed to benchmark effective practice, to providing targeted support for individual universities and engineering schools. Further details can be found on Ruth&rsquo;s website:&nbsp;www.rhgraham.org<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Kathryn Jablokow</strong><br />
+					<br />
+					Dr. Kathryn Jablokow is Associate Professor of Mechanical Engineering and Engineering Design at the Pennsylvania State University. A graduate of Ohio State University (Ph.D., Electrical Engineering), Dr. Jablokow&rsquo;s teaching and research interests include creativity, problem solving, and cognitive diversity in engineering, as well as robotics and computational dynamics. In addition to her membership in ASEE, she is a Senior Member of IEEE and a Fellow of ASME. Dr. Jablokow is the architect of a unique 4-course graduate module focused on creativity and problem solving leadership and is currently developing a new methodology for cognition-based design.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Qu Jin</strong><br />
+					<br />
+					Qu Jin is a Postdoctoral Student in Mechanical Engineering at Stanford University. Her research interest focuses on educational researches that can help improve teaching, learning, and educational policy decision makings in engineering using both quantitative and qualitative research methods.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Christine Kurihara</strong><br />
+					<br />
+					As Senior Associate Director of Global and Communication, Christine oversees Biodesign global fellowship programs and is the primary point of contact for all global relationships. She is also responsible for efforts that support Stanford students, fellows and faculty working on device projects based on global needs.<br />
+					<br />
+					Ms. Kurihara oversees IT and web projects and is responsible for communication and marketing for Biodesign. She manages several websites for Biodesign including biodesign.stanford.edu; ebiodesign.org, a companion website for the textbook; bme-idea.org, for the BME Academic community and indiabiodesign.org, a social networking site for persons interested in the development of the medical device industry in India.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Magda Lagoudas</strong><br />
+					<br />
+					Magda Lagoudas leads efforts at the Dwight Look College of Engineering at Texas A&amp;M to engage industry and nonprofit organizations in formal and informal academic programs to benefit undergraduate engineering students. Engagement in the formal curriculum includes capstone design projects and student undergraduate team research projects while the informal curriculum includes weekend challenges such as the Aggies Invent program and Pop Up Classes promoting innovation and entrepreneurial mindset. She leads innovation and entrepreneurship efforts on campus in collaboration with the Mays Business and college of Architecture with Epicenter&#39;s Pathways to Innovation program.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Micah Lande</strong>, Ph.D. is an Assistant Professor in the Polytechnic School in the Ira A. Fulton Schools of Engineering at Arizona State University. He teaches human-centered engineering design and innovation courses. Micah researches how technical and non-technical people learn and apply a design process to their work. He received his B.S in Engineering (Product Design), M.A. in Education (Learning, Design and Technology) and Ph.D. in Mechanical Engineering (Design) from Stanford University.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Calvin</strong>&nbsp;<strong>Ling</strong><br />
+					<br />
+					Calvin Ling was born and raised in Austin, Texas. He is a rising junior at Stanford University majoring in Management Science and Engineering with a concentration in Financial and Decision Engineering. In his free time, he enjoys cars, technology, and travel.&nbsp;<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Florian Lintl</strong><br />
+					<br />
+					Florian is studying Environmental Planning and Ecological Engineering at the Technical University of Munich (TUM). His majors are Sustainable City Development, Renewable Energy, International Land Use Planning and Environmental Economics. He is also participant in the Entrepreneurial Qualification Program &quot;Manage&amp;More&quot;. This is a program of the Center for Innovation and Business Creation at the TU Munich (&ldquo;UnternehmerTUM&rdquo;) which supports Innovation and Start-Up Projects. While at UnternehmerTUM, Florian&nbsp;was involved in a marketing project for a tourism startup (Social Tourist) and consulting for another startup that monitors super lightweight structures (fos4x). He is also working on an online marketplace for students, an urban farming concept and a carbon trading project.<br />
+					<br />
+					He joined the Designing Education Lab to learn more about entrepreneurial decision making for profit or non-profit organizations and social entrepreneurship in general. He likes to spend his free time outside,&nbsp;hiking,&nbsp;swimming, skiing&nbsp;or&nbsp;biking.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Erin MacDonald&nbsp;</strong><br />
+					<br />
+					Dr. Erin MacDonald is an Assistant Professor of Mechanical Engineering and Design at Iowa State University. Her research integrates concepts from psychology, economics, and marketing to build cognitive empathy into engineering design. She teaches courses on design and creativity at the undergraduate and graduate levels, emphasizing interdisciplinary learning. She received an M.S. (2004) and Ph.D. (2008) in Mechanical Engineering from the University of Michigan; and a B.S. with Honors in Materials Science and Engineering from Brown University (1998). She was a Postdoctoral Associate and Instructor at MIT (2008-2009). She spent several years designing hiking products, and holds two patents on consumer product designs.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Heather Malin</strong><br />
+					<br />
+					Heather is a research associate at the Stanford Center on Adolescence, where she conducts research on entrepreneurial development in early adulthood.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Paul Mathis</strong><br />
+					<br />
+					Paul is a PhD student in Engineering Education department at Purdue University. B.S. in Physical Science and a Masters in Education. He is a former high school teacher from Gilbert, Arizona.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Ann McKenna</strong><br />
+					<br />
+					Ann F. McKenna is a Professor in the Ira A. Fulton Schools of Engineering and Director of the programs on the Polytechnic campus at Arizona State University. Prior to joining ASU she served as a program director at the National Science Foundation in the Division of Undergraduate Education, and was on the faculty in the Department of Mechanical Engineering and Segal Design Institute at Northwestern University. Dr. McKenna received her B.S. and M.S. degrees in Mechanical Engineering from Drexel University and Ph.D. from the University of California at Berkeley. Dr. McKenna is also a Senior Associate Editor for the Journal of Engineering Education.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Doug Melton</strong><br />
+					<br />
+					Dr. Douglas E. Melton is a Program Director at the Kern Family Foundation for Kern Entrepreneurship Education Network (KEEN) program. &nbsp;Prior to his current work with the engineering programs at a number of universities, he served as a faculty member for seventeen years within the department of Electrical &amp; Computer Engineering at Kettering University in Flint, Mich.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Jessica Menold</strong></p>
+				<p>
+					Jessica Menold is a graduate student interested in entrepreneurship, the design process, and innovitiveness of engineering graduates and professionals. She is currently engaged in a student business launch pad at Penn State where she serves as a graduate mentor/designer for student entrepreneurs. She loves her extra-research work in entrepreneurship and is passionate about innovation and design.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Hristina Milojevic</strong><br />
+					<br />
+					Hristina Milojevic is a rising senior at Union College in New York. She is majoring in Mechanical Engineering and minoring in Mathematics. Hristina&#39;s excellent academic performance and extensive leadership involvement granted her the opportunity to advance innovation, entrepreneurship, and creativity at Union College as a University Innovation Fellow, affiliated with Epicenter. Her innovation efforts include formation and leadership of U-CREATE, initiative on creativity and moonshot thinking. She is the lead designer of an Idea Lab and assists professors in implementing a curiosity course. Hristina holds the position of Chair in the Engineering Student Forum. She was formerly a founder of Women&#39;s Network, Vice President of ASME Student Chapter, and tutor for mechanical engineering. Hristina&#39;s interests range from fluid mechanics to international relations. She currently conducts undergraduate research in combustion with the focus on catalytic testing of aerogels. Hristina expects to continue her academic and professional growth in the direction of technological, creative, and social innovation. &nbsp;Hristina is also fully bilingual, with high conversational proficiency in three other languages. At her age of 22, she has already lived and studied in three different countries. She enjoys visiting new places and meeting people from vastly different backgrounds.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Thema Monroe-White</strong><br />
+					<br />
+					Thema Monroe-White is an evaluator focused on driving organizational and program performance through efficient and effective evaluation design and implementation. Thema has over 6 years of experience assisting public and private organizations achieve their goals in measurable and quantifiable ways.<br />
+					<br />
+					She&rsquo;s worked intimately with professionals at several Research I Universities on numerous multi-million dollar NSF and NIH funded grants. She has also implemented IRB approved protocols for human subjects research. Thema has taught and served as an invited guest lecturer for courses in leadership, statistics and cross-cultural psychology. She has also taught courses in the K-12 environment.<br />
+					<br />
+					Thema has received awards from the National Institutes of Mental Health, the American Psychological Association and the Southern Regional Education Board (SREB). She obtained her Master&rsquo;s Degree in Cognitive and Developmental Psychology from Howard University in 2004 and her Ph.D. in Science, Technology and Innovation Policy with an emphases in Evaluation, Leadership and Entrepreneurship at the Georgia Institute of Technology in 2014. She currently lives in Atlanta, GA with her husband and three beautiful children.<br />
+					&nbsp;</p>
+				<p>
+					<br />
+					<strong>Laurie Moore</strong></p>
+				<p>
+					Laurie Moore is Epicenter&rsquo;s communications manager and leads community outreach efforts at Epicenter. She manages the website and its content, social media accounts, media relations, email campaigns, and tells the stories of engineering faculty and students who exemplify the innovative, entrepreneurial spirit that defines the center.</p>
+				<p>
+					Laurie has worked for eight years as a writer and editor for web and print, with experience in website management and graphic design. Before joining Epicenter, she worked for the University of Southern California as the web editor for the USC Dornsife College.</p>
+				<p>
+					&nbsp;<br />
+					<br />
+					<strong>Xaver Neumeyer</strong><br />
+					<br />
+					Xaver Neumeyer received his MSc in mechanical engineering in 2005. He is currently completing his PhD in mechanical engineering at Northwestern University.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Wendy Newstetter</strong><br />
+					<br />
+					Wendy C. Newstetter, a cognitive and learning scientist, is the Director of Educational Research and Innovation in the College of Engineering at Georgia Tech. &nbsp;Her research focuses on the socio-cognitive practices of investigators on the frontiers of science and engineering. Science as Psychology- Sense-Making and Identity in Science, a book Wendy co-authored, won the William James Book Award in 2012. She was recently named one of the top twenty science and engineering professors in Georgia. Wendy is a yoga and cycling enthusiast.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Sabrina Niederle</strong><br />
+					<br />
+					Sabrina Niederle is the executive director responsible for the entrepreneurship qualification program Manage&amp;More at UnternehmerTUM. Since 2005 she is working at UnternehmerTUM and has been with Manage&amp;More nearly from its beginnings in the year 2004. Her close contact to the world of entrepreneurship began back in her school and university days while working as a co-founder of a startup in the events service business. She holds a diploma in sports science, with a major in economy and management and in her PhD examines the relationship between Entrepreneurship Education and the employability of program participants.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Alan Peterfreund</strong><br />
+					<br />
+					Alan Peterfreund, Ph.D., has 30 years of experience as a consultant, evaluator and researcher for clients in the public and private sectors of business, government and education. Dr. Peterfreund has a Ph.D. in Geology from Arizona State University, and has been a research faculty member at Brown University. He participated on numerous NASA planetary exploration missions studying Mars, Venus, and the moons of Jupiter. A career-shift in 1984 led to 16 years of consulting in the private and public sector with primary emphasis on organizational change, quality management, and employee participation. In 2000, Dr. Peterfreund began to focus on supporting higher education partners in projects that address the broadening of participation in the sciences, graduate student development, and other educational reforms. Additionally, Dr. Peterfreund has been active in supporting the design, implementation, and evaluation of international programs for WorldBank, USAID, and the U.S. Department of Labor.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Edward Pines</strong><br />
+					<br />
+					Edward Pines is Department Head of Industrial Engineering at New Mexico State University. His teaching and research is focused around people and how they create and fund new enterprises and systems. Entrepreneurship education for engineers is one of his current efforts and he is co-team leader of the NMSU Pathways to Innovation team for Epicenter.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>?Bob Podlasek</strong><br />
+					<br />
+					Bob Podlasek is the Engineering Liaison for the Turner School of Entrepreneurship and Innovation at Bradley University.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Tenelle Porter</strong><br />
+					<br />
+					Tenelle Porter is a doctoral candidate in Developmental and Psychological Sciences at Stanford University. Her research focuses on ways to promote positive development among adolescents and young adults. Specific research interests include youth civic engagement, youth entrepreneurship, purpose, growth mindset and intellectual humility. Before Stanford, Tenelle worked on a cross-national study of youth character development at Oxford&rsquo;s Centre for Cognition and Culture. Tenelle has a BA from the University of Kansas and an MSc in Evidence Based Social Intervention from the University of Oxford.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Bre Przestrzelski</strong><br />
+					<br />
+					Breanne (Bre) Przestrzelski is a University Innovation Fellow at Clemson University where she is pursuing her PhD in Bioengineering with a focus on immersion of engineers (and others!) in design and entrepreneurship opportunities on university, community, and global levels. &nbsp;The University Innovation Fellowship, which is a program of Epicenter and a joint-venture of NCIIA and Stanford University, has inspired Bre to share her passion for design and entrepreneurship through a variety of initiatives she is helping to bring to Upstate South Carolina. &nbsp;Bre was a former four-year varsity rower for Clemson, and still enjoys staying active outdoors, whether back on Clemson&rsquo;s Lake Hartwell or out on a sand volleyball court.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>?enay Purzer</strong><br />
+					<br />
+					?enay Purzer is an Assistant Professor in the School of Engineering Education at Purdue University. She is a NAE/CASEE New Faculty Fellow and the recipient of a 2012 NSF CAREER award. She is a PI on four NSF-funded projects. She currently teaches courses on educational research methods and introduction to engineering. ?enay is a governing board member of the international Research in Engineering Education Network (REEN) representing North America zone. She received a B.S.E with distinction in Engineering at Arizona State University in 2009 as well as a B.S. degree in Physics Education in 1999. Her M.A. and Ph.D. degrees are in Science Education from Arizona State University.&nbsp;http://web.ics.purdue.edu/~spurzer/<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Mary Raber</strong><br />
+					<br />
+					Mary Raber is Associate Director for the Institute for Leadership &amp; Innovation at Michigan Technological University. &nbsp;She has overseen the coordination of the Enterprise Program since its inception in 2000, and her responsibilities include sponsorship development, assessment, and course instruction. &nbsp;She is also involved with curriculum development, assessment and instruction in the Pavlis Global Leadership program. She received her BSME from the University of Michigan and MBA from Wayne State University and is currently working on her PhD at Michigan Tech. &nbsp;Before joining MTU she held various engineering and management positions during a 14 year career in the automotive industry.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Gisele Ragusa</strong><br />
+					<br />
+					Dr. Gisele Ragusa is an associate professor at the University of Southern California (USC) in the Viterbi School of Engineering in the Division of Engineering Education. She co-directs USC&rsquo;s STEM Education Consortium. Her research interests and areas of expertise include: engineering education, engineering innovation and global preparedness, college access, STEM K-12 education and teacher education, STEM literacy education, as well as assessment and measurement in STEM education. She teaches courses in research design, measurement theory, critical pedagogy in STEM and courses in learning and instructional theory. She extensive expertise in assessment, psychometrics, advanced quantitative analyses, and multimodal research design. She is active in many professional associations in the engineering and science education, teacher education, distance learning, program evaluation and special education fields. She has been the principal investigator on several federal grants through the US Department of Education, the National Institute of Health, and the National Science Foundation.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Gurlovleen Rathore</strong>&nbsp;<br />
+					<br />
+					Gurlovleen Rathore is a PhD student in the Interdisciplinary Engineering program at Texas A&amp;M University. She is passionate about transforming engineering education through research and teaching. Her research interests include problem-based learning, design creativity and innovation, and STEM faculty professional development. She currently assists with coordination of the Undergraduate Summer Research Grants and the Explore Engineering programs in Engineering Academic and Student Affairs. She has coordinated and facilitated multiple NSF- and non-funded STEM professional development workshops in the past. She is the 2014-2015 ASEE Student Division Chair. Gurlovleen is also a University Innovation Fellow, a program of the Epicenter and a joint-venture of NCIIA and Stanford. She has BS in Engineering Physics and M.S. in Mechanical Engineering.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Teri Reed</strong><br />
+					<br />
+					Dr. Teri Reed is assistant vice chancellor of academic affairs for engineering of the Texas A&amp;M system, assistant dean of academic affairs for the Dwight Look College of Engineering, and associate professor in the Department of Petroleum Engineering. She received her BS in petroleum engineering from the University of Oklahoma and spent 7 years in the petroleum industry during which time she earned her MBA. Her PhD is in industrial engineering from Arizona State University. Her teaching interests include statistics, introductory engineering, diversity and leadership. &nbsp;Professor Reed is a fellow of the American Society for Engineering Education (ASEE). &nbsp;She serves as an ABET Engineering Accreditation Council evaluator for ASEE and current chair of the Diversity Committee.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Philip Reeves</strong><br />
+					<br />
+					Philip is a graduate student in the department of educational psychology at Penn State. He works as a graduate student assistant in the Leonhard Center for the Enhancement of Engineering Education. His main responsibilities center around evaluating and assessing a new university wide entrepreneurship minor.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Ben Riddle</strong>&nbsp;<br />
+					<br />
+					Ben Riddle breaks the mold to take his generation to new heights. Call him connector but don&#39;t call him crazy: Riddle builds networks and ecosystems that drive positive change.<br />
+					<br />
+					Intrapreneurial Instigator: Messy problems hide in broken systems. Ben works with stakeholders across sectors to build capacity and retool broken systems from within. Ben is currently immersed in the field at Furman University, where he&#39;s working as a University Innovation Fellow to build an ecosystem of students, faculty and administrators that use design thinking and social enterprise as strategies for engaged learning.<br />
+					<br />
+					Creative Catalyst: From grassroots groups to global design agencies - Ben curates crowds of doers and thinkers that design projects, policies, experiences and experiments to serve people and bridge divides.<br />
+					<br />
+					When learning, Ben explores fields that delve into the moral imagination, social innovation, urban renewal and the creative process. ?In practice, Ben works with students and teachers to design courses that ask hard questions, spur radical collaboration and inspire agency.<br />
+					<br />
+					?In communities,&nbsp;Ben partners with residents to preserve local identity, communicate shared values and create ventures that foster sustainability. When playing, Ben tells stories, watches the world, makes messes, creates culture, listens deeply and likes to bake bread.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Elliot Roth</strong><br />
+					<br />
+					Elliot Roth is an undergraduate in Biomedical Engineering at Virginia Commonwealth University. He has worked with his school to start Seed, an organization dedicated to getting student involved in product-based entrepreneurship. He also is deeply involved in planning and implementing the first TEDx for his university. This past year he placed first in the Venture Creation Competition and received the People&#39;s Choice award for the city-wide i.e. Competition for a medical product of his design. Elliot enjoys putting together teams that are better than the sum of their parts and in his &quot;free time&quot; he is working on developing a non-profit community science space called Indie Lab.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Erik Sander</strong><br />
+					<br />
+					Erik Sander has served the University of Florida College of Engineering &nbsp;as Director of the University Center, Associate Director for the Engineering Research Center and the Florida Energy Systems Consortium, and Director of Industry Programs. &nbsp;Erik was a Principal for Cenetec Ventures and V2R Group and grew several start-up companies along the way. In 2011, Erik was named the founding Director of the University of Florida Engineering Innovation Institute.<br />
+					<br />
+					<strong>?</strong><br />
+					<br />
+					<strong>Mark Schar</strong><br />
+					<br />
+					Mark recently completed a Ph.D. in Mechanical Engineering/Design at Stanford University. The focus of his research can broadly be described as &ldquo;pivot thinking,&rdquo; the cognitive aptitudes and abilities that encourage innovation, and the tension between design engineering and business management cognitive styles. Mark is a Lecturer in the School of Engineering at Stanford University and teaches the course&nbsp;ME310X Product Management.<br />
+					<br />
+					Mark has extensive background in consumer products management, having managed more than 50 consumer driven businesses over a 25-year career with The Procter &amp; Gamble Company. In 2005, he joined Intuit, Inc. as Senior Vice President and Chief Marketing Officer and initiated a number of consumer package goods marketing best practices, introduced the use of competitive response modeling and &quot;on-the-fly&quot; A|B testing program to qualify software improvements. Mark is the Co-Founder and Managing Director of&nbsp;One Page Solutions, a consulting firm that uses the OGSP&reg; process to help technology and branded product clients develop better strategic plans. Mark is a member of The Band of Angels, Silicon Valley&#39;s oldest organization dedicated exclusively to funding seed stage start-ups. In addition, he serves on the board of several technology start-up companies.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Helmut Schoenenberg</strong><br />
+					<br />
+					Inspiring people for entrepreneurship and innovation &ndash; that&rsquo;s Helmut Schoenenberger&rsquo;s goal as co-founder and CEO of UnternehmerTUM, the Center for Innovation and Business Creation at Technische Universit&auml;t M&uuml;nchen (TUM). During his study of management, the aerospace engineer co-founded a consulting firm. For TUM he developed a strategy for the advancement of entrepreneurship at the university in his diploma thesis &ndash; it became the nucleus for UnternehmerTUM in 2002.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Raimund Schwendner</strong><br />
+					<br />
+					Raimund Schwendner holds a Master degree and Ph.D. in economic psychology (Max-Planck-Institute) and a Master degree in communication sciences. He has been senior expert and strategy advisor for the Worldbank, the UN and the EU. Currently he works as internal advisor for GIZ programs on human capacity development. Dr Schwendner is initiator and head of the Future Capacity Building program, being responsible for university networking on sustainable innovation and leadership. As docent and professor at universities in Europe and USA, he focussed on &ldquo;sustainable innovation strategies&rdquo;, &ldquo;sustainable management and leadership&rdquo; and &ldquo;entrepreneurial education&rdquo;. Beyond, he coaches and advises international operating leaders and professionals and is an internationally recognized keynote speaker.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Angela Shartrand</strong><br />
+					<br />
+					Angela Shartrand&nbsp;is a member of the research team at the&nbsp;National Center for Engineering Pathways to Innovation (Epicenter)&nbsp;and is Director of&nbsp;Research and Evaluation at NCIIA,&nbsp;where she has been developing R&amp;E projects and partnerships for the past eight years. Her work at NCIIA is focused primarily on evaluating educational and commercial outcomes of entrepreneurship and innovation programs for scientists and engineers, as well as studying entrepreneurship ecosystems and the institutionalization of entrepreneurship education. She and her team at NCIIA are currently exploring the phenomenon of &quot;perspective transformation&quot; and &quot;pivoting&quot; among innovators who are pursuing the commercialization and scale-up of new technologies, products, and services, and are developing diagnostic tools to assess the venture and product development status of innovation teams. Prior to NCIIA she worked as a researcher at the Harvard Family Research Project and the Boston Women&rsquo;s Fund, where she studied educational programs and policies to support children, youth, and family development. She received her B.A. from Williams College, an Ed.M. from Harvard University and a Ph.D. in Applied Developmental and Educational Psychology from Boston College.</p>
+				<p>
+					<br />
+					<strong>Sheri Sheppard</strong><br />
+					Sheri Sheppard has been a Stanford Professor of Mechanical Engineering in the Design division since 1986. Her research focuses on weld fatigue and impact failures, fracture mechanics and applied finite element analysis. Sheri is also co-director of the Center for Design Research in Stanford&#39;s School of Engineering.</p>
+				<p>
+					Sheri is a nationally recognized expert on engineering education. She led a three-year study of engineering education, &quot;Educating Engineers,&quot; in the United States at the Carnegie Foundation for the Advancement of Teaching. For the last decade, she has been the faculty adviser to the Mechanical Engineering Women&#39;s Group at Stanford, which holds an annual seminar series and a welcome program for all female engineers. In 2010, she received the Stanford Gores Award, the university&#39;s highest award for excellence in teaching.<br />
+					&nbsp;</p>
+				<p>
+					<strong>Valerie Sherry</strong><br />
+					<br />
+					Valerie is a part of the University Innovation Fellows, a program of Epicenter, a joint venture between NCIIA and Stanford. She is a Masters of Architecture candidate at the University of Maryland, College Park&rsquo;s School of Architecture, Planning and Preservation. At Maryland, Valerie serves on the Curriculum Committee and as an elected representative for the Architecture Student Association. She is passionate about social design, entrepreneurship, and designing applied learning experiences. She works in the fabrication lab and enjoys helping students give their ideas built form.<br />
+					<br />
+					In fall 2013 Valerie founded the student run campus organization Maryland Design Impact Lab [mDIL]. mDIL aims to bring interdisciplinary undergraduate and graduate students together to use Design Thinking and rapid prototyping methods to design impactful solutions with and for communities in order to address social and environmental needs. She co-designed the experience for mDIL&rsquo;s first &ldquo;Design Tent&rdquo;, events which bring interdisciplinary students and industry partners together to play under the same tent during a one to two day prototyping experience.<br />
+					<br />
+					In Spring 2014 Valerie became an Adjunct Faculty member with University of Maryland&rsquo;s Academy of Innovation and Entrepreneurship. She teaches Design Thinking to undergraduate students of all disciplines.<br />
+					<br />
+					Valerie received a Bachelor of Arts in Architectural Studies from Brown University. At Brown, she played Division I Women&rsquo;s Lacrosse, was a member of the Women&rsquo;s Leadership Council, and Women&rsquo;s Launch Pad, a mentoring program connecting students and alumni. She served as a Meiklejohn scholar advisor and enrolled in studio design classes at Rhode Island School of Design. She also co-facilitated a campaign with community members to build smokeless stoves in the Dominican Republic to reduce respiratory illness and promote job creation in five rural villages.<br />
+					<br />
+					Valerie has professional experience in construction management as a site superintendent and project manager. She has a technical background as an energy modeler and building scientist and has studied high performance building skins; systems design, building durability and human comfort. She is a certified Passive House Consultant, LEED AP, and International Living Futures Institute Member.<br />
+					<br />
+					&nbsp;</p>
+				<p>
+					<strong>Nathaniel Stern</strong><br />
+					<br />
+					Nathaniel Stern is primarily an artist, featured in 250+ exhibitions, performances and lectures worldwide. With degrees in telecommunications and engineering, he also speaks the languages of business and technology; Stern worked as a designer, consultant, and/or coder at and with hi-tech companies in New York, San Francisco, Milwaukee and Johannesburg. He specializes in understanding the relationships between culture and industry &ndash; how the latter support and mobilize each other, in both the short- and long-term. His expertise has helped businesses and startups come up with new products and ideas, grow or invest in new areas, and build prototypes for testing.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Autumn Turpin</strong><br />
+					<br />
+					Autumn Turpin is a rising junior at Stanford studying Product Design. She joined the Designing Education Lab in the spring of 2014, and is currently working with KJ Chew on a project regarding the introductory Statics undergraduate course. Her interests in education include retention of students in engineering majors and the changing effect of college applications on the high school education experience. Within engineering, Autumn is looking forward to beginning manufacturing classes. She loves art and drawing, and is interested in the way people interact with different products. Her favorite classes she has taken at Stanford include ME 110 (Design Sketching), PWR 1 (Speaking of Dreams), ENGR30 (Thermodynamics), and ENGR14 (Statics).&nbsp;<br />
+					<br />
+					She is currently beginning training for a half marathon, her first race since high school track and cross country. Her other interests include reading, science and art museums, and DIY crafting. She hopes to have many pets in the future, to have a hands-on job, and to design her own home and to make many of the things within it.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Ari Turrentine</strong><br />
+					<br />
+					I am in charge of survey administration for internal program evaluation on the research and evaluation team at the National Collegiate Inventors and Innovators Alliance (NCIIA). My duties include survey creation, qualitative and quantitative data analysis, program logic model development, and evaluation coordination across various stakeholder groups. Most recently I held positions in Austin, Texas at OneStar Foundation as a Fellow on the Texas Connector project and at the Hogg Foundation for Mental Health as a Program Evaluation Graduate Research Assistant. I received my Bachelor&rsquo;s Degree from Lewis &amp; Clark College in Psychology and my Master&rsquo;s degree from the University of Texas at Austin School of Social Work. At UT Austin I completed the Community Administration and Leadership concentration and earned a portfolio certificate in Nonprofit Studies from the LBJ school of Public Affairs.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Karl Vesper</strong><br />
+					<br />
+					Karl Vesper is retired from the University of Washington in Seattle where he held professorships in Management, Mechanical Engineering and Marine Studies since 1969 with a main focus on new ventures. Other schools where he pursued this interest via visiting appointments over the years included, in order, Harvard, Baylor, Babson, Trinity College in Dublin, and the Universities of Calgary, Hawaii, California at San Diego, and Texas Tech. Industrial jobs included engineering design work on aircraft, high-performance electric motors, and oceanographic instruments. He earned BS, MS, and PhD degrees in engineering from Stanford and an MBA from Harvard. His hobbies include motorcycles, snowboarding, surfing, and learning from his children and grandchildren.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Phil</strong>&nbsp;<strong>Weilerstein</strong><br />
+					<br />
+					Phil Weilerstein began his career as a student entrepreneur at the University of Massachusetts. He and a team, including his advisor, launched a start-up biotech company that ultimately went public. This experience, coupled with a lifelong passion for entrepreneurship, led to his work with the National Collegiate Inventors and Innovators Alliance (NCIIA). Phil&rsquo;s tenure at the NCIIA is marked by his skill for network-building and expert leverage of resources. He has a special talent for seeking out gifted educators and other important contributors and putting them to work for the betterment of invention, innovation, and entrepreneurship education in the US and worldwide. As an entrepreneur in a not-for-profit organization, he has grown the NCIIA from a grassroots group of enthusiastic faculty to a nationally known and in-demand knowledge base and resource center. Phil also serves as the Chair of the Entrepreneurship Division of the American Society of Engineering Education.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Michelle Weiner</strong><br />
+					<br />
+					Michelle B. Weiner is a doctoral student in the department of Child Study and Human Development, and a research assistant at the Institute for Applied Research in Youth Development, at Tufts University in Medford, MA. She holds a Bachelor of Arts in Psychology and Political Science from University of Maryland, and a Master of Arts in Developmental Psychology from San Francisco State University.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Jacob Wheadon</strong><br />
+					<br />
+					Jacob Wheadon is a PhD candidate in Engineering Education at Purdue University. He also has a Bachelors Degree in Manufacturing Engineering Technology and a Masters in Technology and Engineering Education from Brigham Young University. Jacob&#39;s research focuses on teaching engineering students to be more entrepreneurial and strategies for evaluating and improving instruction.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Gregory Wilson</strong><br />
+					<br />
+					Gregory is a currently a University Innovation Fellow and PhD student at the University of Georgia. His field of study is in Learning, Design, and Technology in the College of Education with a specialization in engineering education. He has a background in computer science with a BS from Georgia Tech and a MS from Virginia Tech. His mission is to empower people to make great products that affect the world.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Sarah Zappe</strong><br />
+					<br />
+					Dr. Sarah Zappe is Research Associate and Director of Assessment and Instructional Support in the Leonhard Center for the Enhancement of Engineering Education at Penn State.&nbsp;She holds a doctoral degree in educational psychology emphasizing applied measurement and testing. &nbsp;In her position, Sarah is responsible for developing instructional support programs for faculty, providing evaluation support for educational proposals and projects, and working with faculty to publish educational research. Her research interests primarily involve creativity, innovation, and entrepreneurship education.<br />
+					<br />
+					&nbsp;<br />
+					<br />
+					<strong>Carla Zoltowski</strong><br />
+					<br />
+					Carla B. Zoltowski is Co-Director of the EPICS Program at Purdue University. &nbsp;She holds a B.S.E.E., M.S.E.E., and Ph.D. in Engineering Education, all from Purdue and is responsible for teaching design and developing curriculum and assessment tools for the EPICS program. Carla&rsquo;s academic and research interests include Human-Centered Design, Ethical Reasoning, Leadership, Service-Learning, and Assistive Technology and she oversees the research efforts within EPICS. She is Vice Chair of the Community Engagement in Engineering Education (CEEE) division of ASEE.<br />
+					&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>
+
+
+
+
+<span style="float: right;"><strong>2035 page views</strong></span><div style="clear: both;"></div></div></div></div><div version="2.0" id="footer"><div class="box"><div id="footer_ie" style="height: 140px; width: 840px;"><div class="container"><div id="FooterTwo" style="width: 840px; text-align:center; padding: 20px;"><a class="logo" href="http://nsf.gov/"><img width="90px" height="90px" src="../resources/images/nsfLogo.gif"/></a><a class="logo" href="http://www.stanford.edu/"><img width="175px" height="80px" src="../resources/images/SUSig_White_Stack.png"/></a><a class="logo" href="http://venturewell.org/"><img width="320px" height="87px" src="../resources/images/VW-logo-website-footer.png"/></a></div></div></div><p class="disclaimer" style="width: 740px;padding-left: 45px;">This material is based upon work supported by the National Science Foundation under Grant No. 1125457. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</p><p class="epi_copy">&copy; 2018 Epicenter&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a target="_blank" href="http://www.stanford.edu/site/terms.html">Terms of Service</a></p></div><script type="text/javascript"> 
+ 
+	jQuery(document).ready(function() { 
+        jQuery('ul.sf-menu').superfish(); 
+
+		jQuery('.postinn').css('opacity','0');
+
+		jQuery('#latestpost li').hoverIntent(function() {
+			jQuery(this).find('.postinn')
+				.animate({
+					opacity: '1', 	
+				}, 600); 
+
+			} , function() {
+			jQuery(this).find('.postinn')
+				.animate({
+					opacity: '0', 	
+				}, 1000); 
+
+		});
+
+		jQuery('.latestpost_hidden li').hoverIntent(function() {
+			jQuery(this).find('.postinn')
+				.animate({
+					opacity: '1', 	
+				}, 600); 
+
+			} , function() {
+			jQuery(this).find('.postinn')
+				.animate({
+					opacity: '0', 	
+				}, 1000); 
+
+		});
+
+		jQuery(".more_div_img").click(function() {
+			var id = jQuery(this).attr('id').substring(13);
+			jQuery("#more_div_"+id).fadeOut("fast", function() {
+				jQuery("#latestpost_hidden_"+id).slideDown();
+			});
+		});
+
+    	jQuery('.accordion-title').click(function() {
+    		$(this).next().slideToggle();
+		});
+	});
+</script></div></div></body></html>
