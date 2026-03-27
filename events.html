@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML SYSTEM "about:legacy-compat">
+<html><head><link href="resources/dijit/themes/tundra/tundra.css" type="text/css" rel="stylesheet"/><link href="resources/styles/epicenter.css" media="screen" type="text/css" rel="stylesheet"/><link href="resources/autosuggest-tags/autoSuggest.css" media="screen" type="text/css" rel="stylesheet"/><link href="resources/file-upload/file-upload.css" media="screen" type="text/css" rel="stylesheet"/><link href="resources/jquery-ui-1.8.23/css/smoothness/jquery-ui-1.8.23.custom.css" media="screen" type="text/css" rel="stylesheet"/><link href="resources/jwysiwyg/jquery.wysiwyg.css" media="screen" type="text/css" rel="stylesheet"/><link href="resources/datatables/css/dataTables.css" media="screen" type="text/css" rel="stylesheet"/><link href="resources/fineuploader.jquery/fineuploader.css" media="screen" type="text/css" rel="stylesheet"/><link href="resources/flexslider/flexslider.css" media="screen" type="text/css" rel="stylesheet"/><link href="resources/simpletabs/simpletabs.css" media="screen" type="text/css" rel="stylesheet"/><link href="resources/images/favicon.ico" type="image/ico" rel="shortcut icon"/><script src="resources/jquery-ui-1.8.23/js/jquery-1.8.0.min.js" type="text/javascript"></script><script src="resources/mygrid2/js/superfish-ver=3.3.2.js" type="text/javascript"></script><script src="resources/mygrid2/js/jquery.hoverIntent.minified-ver=3.3.2.js" type="text/javascript"></script><script type="text/javascript">var djConfig = {parseOnLoad: false, isDebug: false, locale: 'en-us'};</script><script type="text/javascript" src="resources/dojo/dojo.js"></script><script type="text/javascript" src="resources/spring/Spring.js"></script><script type="text/javascript" src="resources/spring/Spring-Dojo.js"></script><script type="text/javascript" language="JavaScript">dojo.require("dojo.parser");</script><script type="text/javascript" src="resources/file-upload/jelly.min.js"></script><script type="text/javascript" src="resources/file-upload/file-upload.js"></script><script type="text/javascript" src="resources/autosuggest-tags/jquery.autoSuggest.js"></script><script type="text/javascript" src="resources/elastic/jquery.elastic.source.js"></script><script type="text/javascript" src="resources/ckeditor/ckeditor.js"></script><script type="text/javascript" src="resources/ckeditor/adapters/jquery.js"></script><script type="text/javascript" src="resources/jquery-ui-1.8.23/js/jquery-ui-1.8.23.custom.min.js"></script><script type="text/javascript" src="resources/jquery-ui-1.8.23/jquery-ui-timepicker-addon.js"></script><script type="text/javascript" src="resources/datatables/js/dataTables.min.js"></script><script type="text/javascript" src="resources/fineuploader.jquery/jquery.fineuploader-3.0.min.js"></script><script type="text/javascript" src="resources/flexslider/jquery.flexslider-min.js"></script><script src="resources/jfeed/jquery.jfeed.js" type="text/javascript"></script><title>Epicenter: Events </title><link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700"/><link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"/><script type="text/javascript">//
+	// Google Analytics for WordPress by Yoast v4.2.3 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	if (window.location.host.indexOf('staging')<0) {
+		// Production
+		_gaq.push(['_setAccount','UA-25375360-1']);
+	} else {
+		_gaq.push(['_setAccount','UA-25375360-1']);
+	}
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	//</script></head><body class="home blog"><div version="2.0" id="container"><div version="2.0" id="header"><style type="text/css">ul.topnav li {
+	float: left;
+	margin: 0;	
+	padding: 0 0 0 15px;
+	position: relative; /*--Declare X and Y axis base for sub navigation--*/
+}
+ul.topnav li a{
+	padding: 10px 5px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	float: left;
+}
+ul.topnav li a:hover{
+	background-color: #2F3641 !important;
+}
+ul.topnav li span { /*--Drop down trigger styles--*/
+	width: 17px;
+	height: 35px;
+	float: left;
+	background-color: #2F3641 !important;
+}
+ul.topnav li span.subhover {background-position: center bottom; cursor: pointer;} /*--Hover effect for trigger--*/
+ul.topnav li ul.subnav {
+	list-style: none;
+	position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+	left: 0; top: 35px;
+	background: #333;
+	margin: 0; padding: 0;
+	display: none;
+	float: left;
+	width: 170px;
+	border: 1px solid #111;
+	z-index: 1000000;
+	
+}
+ul.topnav li ul.subnav li{
+	margin: 0; padding: 0;
+	border-top: 1px solid #252525; /*--Create bevel effect--*/
+	border-bottom: 1px solid #444; /*--Create bevel effect--*/
+	clear: both;
+	width: 170px;
+	text-align: left !important;
+}
+html ul.topnav li ul.subnav li a {
+	float: left;
+	width: 145px;
+	background-color: #2F3641 !important;
+	padding-left: 20px;
+}
+html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
+	background-color: #2F3641 !important;
+}
+</style><div class="box"><a class="main-logo" href="index.html">Epicenter: National Center for Engineering Pathways to Innovation</a><div id="links" class="nav-top-wrap"><ul class="nav-top"><li><a href="login.html">Login</a></li><li><form action="search.html" method="get"><input type="text" name="term" value="Search" maxlength="50" onblur="if (this.value == '') {this.value = 'Search'; this.style.color='#888888';}" onfocus="if (this.value == 'Search') {this.value = ''; this.style.color='#000000';}"/></form></li></ul></div><div class="nav-main-wrap"><ul class="nav-main sf-js-enabled topnav"><li><a class="sf-with-ul" href="#">About <i class="fa fa-sort-asc"></i></a><ul class="subnav"><li><a href="page/about.html">Overview</a></li><li><a href="page/about-programs.html">What We Do</a></li><li><a href="page/about-team.html">Team</a></li><li><a href="page/in-the-news.html">In the News</a></li></ul></li><li><a class="sf-with-ul" href="#">Initiatives <i class="fa fa-sort-asc"></i></a><ul class="subnav"><li><a href="page/university-innovation-fellows.html">University Innovation Fellows</a></li><li><a href="page/pathways-to-innovation.html">Pathways to Innovation Program</a></li><li><a href="page/fostering-innovative-generations-studies.html">Fostering Innovative Generations Studies</a></li></ul></li><li><a class="sf-with-ul" href="#">Resources <i class="fa fa-sort-asc"></i></a><ul class="subnav"><li><a href="resources/story.html">Stories</a></li><li><a href="events.html">Events</a></li><li><a href="resources/all.html">Tools</a></li></ul></li><li><a href="page/newsletter.html">Newsletter</a><span></span></li><li><a href="page/contact.html">Contact</a></li></ul></div></div><script type="text/javascript">
+	
+	$(document).ready(function(){
+
+		$("ul.subnav").parent().append("<span/>"); //Only shows drop down trigger when js is enabled (Adds empty span tag after ul.subnav*)
+		
+		$("ul.topnav li a").hover(function() { //When trigger is clicked...
+			
+			//Following events are applied to the subnav itself (moving subnav up and down)
+			$(this).parent().find("ul.subnav").slideDown('fast').show(); //Drop down the subnav on click
+
+			$(this).parent().hover(function() {
+			}, function(){	
+				$(this).parent().find("ul.subnav").slideUp('slow'); //When the mouse hovers out of the subnav, move it back up
+			});
+
+			//Following events are applied to the trigger (Hover events for the trigger)
+			}).hover(function() { 
+				$(this).addClass("subhover"); //On hover over, add class "subhover"
+			}, function(){	//On Hover Out
+				$(this).removeClass("subhover"); //On hover out, remove class "subhover"
+		});
+
+	});
+	</script></div><div class="main"><div class="post" id="post-101"><div version="2.0" class="simpleTabs"><div class="page-heading"><h2 class="title_witl_big_button"><a href="#" rel="bookmark">Events</a></h2></div><br clear="all"/><ul class="simpleTabsNavigation"><li><a class="current" onclick="switchTab(3);" id="tab_header_3" href="javascript://no-op">Past Events (59)</a></li></ul><div class="entry bags"><div id="tab_3" class="simpleTabsContent currentTab"><div class="archthumb"><a href="event/2016-asee-annual-conference.html"><img src="images/11781.jpeg" alt="2016 ASEE Annual Conference & Exposition"/></a></div><h3><a href="event/2016-asee-annual-conference.html" rel="bookmark" title="2016 ASEE Annual Conference & Exposition">2016 ASEE Annual Conference & Exposition</a></h3><strong>Jun 26, 2016 - Jun 29, 2016</strong><br/><strong>
+							New Orleans, LA
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><p>
+	Join Epicenter leaders and community members at the 2016 ASEE Annual Conference &amp; Exposition in New Orleans.</p>
+
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/university-innovation-fellows-annual-meetup-2016.html"><img src="images/11351.jpeg" alt="University Innovation Fellows Silicon Valley Meetup 2016"/></a></div><h3><a href="event/university-innovation-fellows-annual-meetup-2016.html" rel="bookmark" title="University Innovation Fellows Silicon Valley Meetup 2016">University Innovation Fellows Silicon Valley Meetup 2016</a></h3><strong>Mar 17, 2016 - Mar 20, 2016</strong><br/><strong>
+							Stanford, CA
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><p>
+	The University Innovation Fellows Silicon Valley Meetup 2016 will teach Fellows new techniques to change higher education and will connect them with educators, thought leaders and entrepreneurs.</p>
+
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/open-2016.html"><img src="images/10851.jpeg" alt="Open 2016"/></a></div><h3><a href="event/open-2016.html" rel="bookmark" title="Open 2016">Open 2016</a></h3><strong>Mar 04, 2016 - Mar 05, 2016</strong><br/><strong>
+							Portland, OR
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><p>
+	Join VentureWell and Epicenter at Open 2016 in Portland, OR!</p>
+
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/pathways-to-innovation-program-team-meeting-2016.html"><img src="images/11311.jpeg" alt="Pathways to Innovation Program Team Meeting 2016"/></a></div><h3><a href="event/pathways-to-innovation-program-team-meeting-2016.html" rel="bookmark" title="Pathways to Innovation Program Team Meeting 2016">Pathways to Innovation Program Team Meeting 2016</a></h3><strong>Jan 13, 2016 - Jan 15, 2016</strong><br/><strong>
+							Scottsdale, AZ
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><p>
+	This Pathways to Innovation Program event will introduce new teams to the program.</p>
+
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/university-innovation-fellows-james-madison-university-regional-meetup.html"><img src="images/10911.jpeg" alt="James Madison University Regional Meetup"/></a></div><h3><a href="event/university-innovation-fellows-james-madison-university-regional-meetup.html" rel="bookmark" title="James Madison University Regional Meetup">James Madison University Regional Meetup</a></h3><strong>Nov 14, 2015 - Nov 15, 2015</strong><br/><strong>
+							Harrisonburg, VA
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><p>
+	This Fall, James Madison&#39;s University Innovation Fellows will host a Regional Meetup with the theme &quot;Own It. Do It.&quot;</p>
+
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/university-innovation-fellows-kent-state-university-regional-meetup.html"><img src="images/10881.jpeg" alt="Kent State University Regional Meetup"/></a></div><h3><a href="event/university-innovation-fellows-kent-state-university-regional-meetup.html" rel="bookmark" title="Kent State University Regional Meetup">Kent State University Regional Meetup</a></h3><strong>Nov 07, 2015 - Nov 08, 2015</strong><br/><strong>
+							Kent, OH
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><p>
+	This Fall, Kent State&#39;s University Innovation Fellows will host a Regional Meetup with the theme &quot;Bring Your Own Discipline.&quot;</p>
+
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/lean-launchpad-educators-seminar-november-2015.html"><img src="images/9971.jpeg" alt="Lean LaunchPad Educators Seminar November 2015"/></a></div><h3><a href="event/lean-launchpad-educators-seminar-november-2015.html" rel="bookmark" title="Lean LaunchPad Educators Seminar November 2015">Lean LaunchPad Educators Seminar November 2015</a></h3><strong>Nov 02, 2015 - Nov 04, 2015</strong><br/><strong>
+							Santa Cruz, CA
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><p>
+	The Lean LaunchPad Educators Seminar will challenge you to rethink your approach to teaching entrepreneurship.</p>
+
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/2015-ieee-frontiers-in-education-conference.html"><img src="images/10371.jpeg" alt="2015 IEEE Frontiers in Education Conference"/></a></div><h3><a href="event/2015-ieee-frontiers-in-education-conference.html" rel="bookmark" title="2015 IEEE Frontiers in Education Conference">2015 IEEE Frontiers in Education Conference</a></h3><strong>Oct 21, 2015 - Oct 24, 2015</strong><br/><strong>
+							El Paso, TX
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><p>
+	Epicenter team members will host a session and a workshop at the 45th Annual Frontiers in Education (FIE) Conference.</p>
+
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/pathways-to-innovation-program-workshop-las-vegas-2015.html"><img src="images/10361.jpeg" alt="Pathways to Innovation Program Workshop"/></a></div><h3><a href="event/pathways-to-innovation-program-workshop-las-vegas-2015.html" rel="bookmark" title="Pathways to Innovation Program Workshop">Pathways to Innovation Program Workshop</a></h3><strong>Oct 07, 2015 - Oct 09, 2015</strong><br/><strong>
+							Las Vegas, NV
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><p>
+	The University of Nevada, Las Vegas will host a workshop for Pathways leaders and program participants.</p>
+
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/ueda-annual-summit-2015.html"><img src="images/10331.jpeg" alt="UEDA Annual Summit 2015"/></a></div><h3><a href="event/ueda-annual-summit-2015.html" rel="bookmark" title="UEDA Annual Summit 2015">UEDA Annual Summit 2015</a></h3><strong>Sep 27, 2015 - Sep 30, 2015</strong><br/><strong>
+							Anchorage, AK
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><p>
+	Epicenter&#39;s University Innovation Fellows will host a session at the UEDA Annual Summit in Anchorage, AK.</p>
+
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/pathways-to-innovation-program-online-info-session-august-4.html"><img src="images/10301.jpeg" alt="Pathways to Innovation Program Online Info Session"/></a></div><h3><a href="event/pathways-to-innovation-program-online-info-session-august-4.html" rel="bookmark" title="Pathways to Innovation Program Online Info Session">Pathways to Innovation Program Online Info Session</a></h3><strong>Aug 04, 2015</strong><br/><strong>
+							Online
+						</strong><div style="margin-left: 120px; margin-top: 15px;">To learn more about the Pathways to Innovation Program and the application process, join program staff and current participants for an online info session.</p>
+
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/2015-asee-annual-conference.html"><img src="images/9651.jpeg" alt="2015 ASEE Annual Conference & Exposition"/></a></div><h3><a href="event/2015-asee-annual-conference.html" rel="bookmark" title="2015 ASEE Annual Conference & Exposition">2015 ASEE Annual Conference & Exposition</a></h3><strong>Jun 14, 2015 - Jun 17, 2015</strong><br/><strong>
+							Seattle, WA
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><p>
+	Join Epicenter leaders and community members at the 2015 ASEE Annual Conference &amp; Exposition.</p>
+
+						<br/><br/><strong><a href="tag/ASEE.html">ASEE</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/2015-deshpande-symposium.html"><img src="images/10011.jpeg" alt="Deshpande Symposium"/></a></div><h3><a href="event/2015-deshpande-symposium.html" rel="bookmark" title="Deshpande Symposium">Deshpande Symposium</a></h3><strong>Jun 09, 2015 - Jun 11, 2015</strong><br/><strong>
+							Lowell, MA
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><p>
+	Join leaders and members of Epicenter&#39;s programs at the 2015 Deshpande Symposium.</p>
+
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/2015-engineering-deans-institute-annual-conference.html"><img src="images/9051.jpeg" alt="2015 Engineering Deans Institute Annual Conference"/></a></div><h3><a href="event/2015-engineering-deans-institute-annual-conference.html" rel="bookmark" title="2015 Engineering Deans Institute Annual Conference">2015 Engineering Deans Institute Annual Conference</a></h3><strong>Apr 12, 2015 - Apr 15, 2015</strong><br/><strong>
+							Kiawah Island, SC
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><p>
+	The annual ASEE Engineering Deans Institute provides an opportunity for engineering deans to discuss the crucial issues facing their schools, colleges, and profession.</p>
+
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/lean-launchpad-educators-seminar-april-2015.html"><img src="images/9031.jpeg" alt="Lean LaunchPad Educators Seminar April 2015"/></a></div><h3><a href="event/lean-launchpad-educators-seminar-april-2015.html" rel="bookmark" title="Lean LaunchPad Educators Seminar April 2015">Lean LaunchPad Educators Seminar April 2015</a></h3><strong>Apr 06, 2015 - Apr 08, 2015</strong><br/><strong>
+							Santa Cruz, CA
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><p style="font-size: 11.8181819915771px;">
+	The Lean LaunchPad Educators Seminar will challenge you to rethink your approach to teaching entrepreneurship.</p>
+
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/open-2015-conference.html"><img src="images/8691.jpeg" alt="Open 2015"/></a></div><h3><a href="event/open-2015-conference.html" rel="bookmark" title="Open 2015">Open 2015</a></h3><strong>Mar 20, 2015 - Mar 21, 2015</strong><br/><strong>
+							Washington, DC
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><p>
+	<span style="font-size: 11.8181819915771px;">Open 2015 is an intensive two-day conference for practitioners of technology entrepreneurship in higher education.&nbsp;</span></p>
+
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/university-innovation-fellows-annual-meetup-2015.html"><img src="images/9091.jpeg" alt="University Innovation Fellows Annual Meetup 2015"/></a></div><h3><a href="event/university-innovation-fellows-annual-meetup-2015.html" rel="bookmark" title="University Innovation Fellows Annual Meetup 2015">University Innovation Fellows Annual Meetup 2015</a></h3><strong>Feb 20, 2015 - Feb 22, 2015</strong><br/><strong>
+							Stanford, CA
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><p>
+	The University Innovation Fellows Annual Meetup, which will take place in Silicon Valley February 20-22, 2015, will connect Fellows from across the country with educators, thought leaders and local entrepreneurs.</p>
+
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/pathways-team-leader-meeting-2015.html"><img src="resources/images/search_placeholder.png" alt="Pathways Team Leader Meeting"/></a></div><h3><a href="event/pathways-team-leader-meeting-2015.html" rel="bookmark" title="Pathways Team Leader Meeting">Pathways Team Leader Meeting</a></h3><strong>Jan 14, 2015 - Jan 15, 2015</strong><br/><strong>
+							Stanford, CA
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><p>
+	<span style="font-size: 11.8181819915771px;">Pathways to Innovation Program team leaders from the new 2015 cohort will attended a training workshop to discuss the two-year process of the program.</span></p>
+
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/hbcu-2014-innovation-summit.html"><img src="images/8711.jpeg" alt="HBCU 2014 Innovation Summit"/></a></div><h3><a href="event/hbcu-2014-innovation-summit.html" rel="bookmark" title="HBCU 2014 Innovation Summit">HBCU 2014 Innovation Summit</a></h3><strong>Nov 13, 2014 - Nov 17, 2014</strong><br/><strong>
+							Stanford, CA
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><span style="font-size: 11.8181819915771px;">This event, taking place November 13-18 in Silicon Valley, brings together faculty, students and leaders from Historically Black Colleges and Universities (HBCUs) across the country.&nbsp;</span>
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/lean-launchpad-educators-seminar-november-2014.html"><img src="images/7631.png" alt="Lean LaunchPad Educators Seminar November 2014"/></a></div><h3><a href="event/lean-launchpad-educators-seminar-november-2014.html" rel="bookmark" title="Lean LaunchPad Educators Seminar November 2014">Lean LaunchPad Educators Seminar November 2014</a></h3><strong>Nov 03, 2014 - Nov 05, 2014</strong><br/><strong>
+							Santa Cruz, CA
+						</strong><div style="margin-left: 120px; margin-top: 15px;">The Lean LaunchPad Educators Seminar, to be held at the Hilton Santa Cruz-Scotts Valley in November 2014, will challenge you to rethink your approach to teaching entrepreneurship.
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/university-innovation-fellows-mid-atlantic-regional-meetup.html"><img src="images/8581.jpeg" alt="University Innovation Fellows Mid-Atlantic Regional Meetup"/></a></div><h3><a href="event/university-innovation-fellows-mid-atlantic-regional-meetup.html" rel="bookmark" title="University Innovation Fellows Mid-Atlantic Regional Meetup">University Innovation Fellows Mid-Atlantic Regional Meetup</a></h3><strong>Nov 01, 2014 - Nov 02, 2014</strong><br/><strong>
+							College Park, MD
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><span style="font-size: 11.8181819915771px;">The University Innovation Fellows Mid-Atlantic Regional Meetup will take place at the University of Maryland in College Park, MD, and in Washington, DC.</span>
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/higher-education-maker-summit.html"><img src="images/8381.jpeg" alt="Higher Education Maker Summit"/></a></div><h3><a href="event/higher-education-maker-summit.html" rel="bookmark" title="Higher Education Maker Summit">Higher Education Maker Summit</a></h3><strong>Oct 23, 2014 - Oct 24, 2014</strong><br/><strong>
+							Chandler, AZ
+						</strong><div style="margin-left: 120px; margin-top: 15px;">Join leaders from renowned institutions of higher education, acclaimed innovators and pioneers in the maker movement for this two-day discussion on the future of making in higher education.
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/university-innovation-fellows-southeastern-regional-meetup-2014.html"><img src="images/8301.jpeg" alt="University Innovation Fellows Southeastern Regional Meetup"/></a></div><h3><a href="event/university-innovation-fellows-southeastern-regional-meetup-2014.html" rel="bookmark" title="University Innovation Fellows Southeastern Regional Meetup">University Innovation Fellows Southeastern Regional Meetup</a></h3><strong>Oct 03, 2014 - Oct 04, 2014</strong><br/><strong>
+							Greenville, SC
+						</strong><div style="margin-left: 120px; margin-top: 15px;">The University Innovation Fellows Southeastern Regional Meetup in October 2014 will gather Epicenter&#39;s student Fellows from across the country for a day and a half of experiences that will ignite Greenville and the surrounding community.
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/pathways-to-innovation-program-online-info-session-september-23.html"><img src="images/8191.jpeg" alt="Pathways to Innovation Program Online Info Session"/></a></div><h3><a href="event/pathways-to-innovation-program-online-info-session-september-23.html" rel="bookmark" title="Pathways to Innovation Program Online Info Session">Pathways to Innovation Program Online Info Session</a></h3><strong>Sep 23, 2014</strong><br/><strong>
+							Online
+						</strong><div style="margin-left: 120px; margin-top: 15px;">To learn more about the Pathways to Innovation Program and the application process, join program staff and current participants for an online info session.
+						<br/><br/><strong><a href="tag/Pathways.html">Pathways</a>&nbsp;|&nbsp;<a href="tag/%20Faculty.html"> Faculty</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/webinar-transforming-sandboxing-repurposing-learning-spaces-for-nurturing-creative-learning-creative-learners.html"><img src="images/8041.jpeg" alt="Learning Spaces Webinar"/></a></div><h3><a href="event/webinar-transforming-sandboxing-repurposing-learning-spaces-for-nurturing-creative-learning-creative-learners.html" rel="bookmark" title="Learning Spaces Webinar">Learning Spaces Webinar</a></h3><strong>Sep 16, 2014</strong><br/><strong>
+							Online
+						</strong><div style="margin-left: 120px; margin-top: 15px;">Gain insights and practical advice about how to transform and repurpose spaces to nurture the capacity of learners to become agents of their own learning in this webinar on September 16.&nbsp;
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/pathways-to-innovation-program-online-info-session-september-10.html"><img src="images/8031.jpeg" alt="Pathways to Innovation Program Online Info Session"/></a></div><h3><a href="event/pathways-to-innovation-program-online-info-session-september-10.html" rel="bookmark" title="Pathways to Innovation Program Online Info Session">Pathways to Innovation Program Online Info Session</a></h3><strong>Sep 10, 2014</strong><br/><strong>
+							Online
+						</strong><div style="margin-left: 120px; margin-top: 15px;">To learn more about the Pathways to Innovation Program and the application process, join program staff and current participants for an online info session.
+						<br/><br/><strong><a href="tag/Pathways.html">Pathways</a>&nbsp;|&nbsp;<a href="tag/%20Faculty.html"> Faculty</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/pathways-to-innovation-program-online-info-session-august-14.html"><img src="images/8011.jpeg" alt="Pathways to Innovation Program Online Info Session"/></a></div><h3><a href="event/pathways-to-innovation-program-online-info-session-august-14.html" rel="bookmark" title="Pathways to Innovation Program Online Info Session">Pathways to Innovation Program Online Info Session</a></h3><strong>Aug 14, 2014</strong><br/><strong>
+							Online
+						</strong><div style="margin-left: 120px; margin-top: 15px;">To learn more about the Pathways to Innovation Program and the application process, join program staff and current participants for an online info session.
+						<br/><br/><strong><a href="tag/Pathways.html">Pathways</a>&nbsp;|&nbsp;<a href="tag/%20Faculty.html"> Faculty</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/event-epicenter-research-summit-2014.html"><img src="images/7441.jpeg" alt="Epicenter Research Summit 2014"/></a></div><h3><a href="event/event-epicenter-research-summit-2014.html" rel="bookmark" title="Epicenter Research Summit 2014">Epicenter Research Summit 2014</a></h3><strong>Aug 04, 2014 - Aug 05, 2014</strong><br/><strong>
+							Stanford, CA
+						</strong><div style="margin-left: 120px; margin-top: 15px;">The first Epicenter Research Summit will be held on August 4 and 5, 2014, at Stanford University.&nbsp;
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/2014-asee-annual-conference.html"><img src="images/7151.jpeg" alt="2014 ASEE Annual Conference & Exposition"/></a></div><h3><a href="event/2014-asee-annual-conference.html" rel="bookmark" title="2014 ASEE Annual Conference & Exposition">2014 ASEE Annual Conference & Exposition</a></h3><strong>Jun 15, 2014 - Jun 18, 2014</strong><br/><strong>
+							Indianapolis, IN
+						</strong><div style="margin-left: 120px; margin-top: 15px;">Join Epicenter leaders and community members at the 2014 ASEE Annual Conference &amp; Exposition. 
+						<br/><br/><strong><a href="tag/engineering.html">engineering</a>&nbsp;|&nbsp;<a href="tag/%20Faculty.html"> Faculty</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/educating-engineers-grand-challenges.html"><img src="images/6281.jpeg" alt="Educating Engineers to Meet the Grand Challenges"/></a></div><h3><a href="event/educating-engineers-grand-challenges.html" rel="bookmark" title="Educating Engineers to Meet the Grand Challenges">Educating Engineers to Meet the Grand Challenges</a></h3><strong>Apr 30, 2014 - May 01, 2014</strong><br/><strong>
+							Washington, DC
+						</strong><div style="margin-left: 120px; margin-top: 15px;">The&nbsp;National Academy of Engineering will host a workshop to help prepare engineering students to address Grand Challenges.
+						<br/><br/><strong><a href="tag/%20Faculty.html"> Faculty</a>&nbsp;|&nbsp;<a href="tag/Workshop.html">Workshop</a>&nbsp;|&nbsp;<a href="tag/Students.html">Students</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/2014-asme-ishow.html"><img src="images/5881.jpeg" alt="2014 ASME IShow"/></a></div><h3><a href="event/2014-asme-ishow.html" rel="bookmark" title="2014 ASME IShow">2014 ASME IShow</a></h3><strong>Apr 28, 2014</strong><br/><strong>
+							Washington, D.C.
+						</strong><div style="margin-left: 120px; margin-top: 15px;">The 2014 ASME IShow provides a platform for teams of creative, entrepreneurial students to compete for seed money to further develop their products. Team applications for will be accepted from Sept. 13 through Dec. 13, 2013.&nbsp;
+						<br/><br/><strong><a href="tag/Competition.html">Competition</a>&nbsp;|&nbsp;<a href="tag/Students.html">Students</a>&nbsp;|&nbsp;<a href="tag/Undergraduates.html">Undergraduates</a>&nbsp;|&nbsp;<a href="tag/Graduates.html">Graduates</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/lean-launchpad-educators-seminar-april-2014.html"><img src="images/6601.jpeg" alt="Lean LaunchPad Educators Seminar April 2014"/></a></div><h3><a href="event/lean-launchpad-educators-seminar-april-2014.html" rel="bookmark" title="Lean LaunchPad Educators Seminar April 2014">Lean LaunchPad Educators Seminar April 2014</a></h3><strong>Apr 21, 2014 - Apr 23, 2014</strong><br/><strong>
+							Stanford, CA
+						</strong><div style="margin-left: 120px; margin-top: 15px;">The Lean LaunchPad Educators Seminar, held at Stanford University in April 2014, will challenge you to rethink your approach to teaching entrepreneurship.
+						<br/><br/><strong><a href="tag/Faculty.html">Faculty</a>&nbsp;|&nbsp;<a href="tag/Faculty.html">Faculty</a>&nbsp;|&nbsp;<a href="tag/%20Seminar.html"> Seminar</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/2014-engineering-deans-institute-annual-conference.html"><img src="images/6361.jpeg" alt="Engineering Deans Institute Annual Conference"/></a></div><h3><a href="event/2014-engineering-deans-institute-annual-conference.html" rel="bookmark" title="Engineering Deans Institute Annual Conference">Engineering Deans Institute Annual Conference</a></h3><strong>Apr 06, 2014 - Apr 08, 2014</strong><br/><strong>
+							Scottsdale, AZ
+						</strong><div style="margin-left: 120px; margin-top: 15px;">The annual ASEE Engineering Deans Institute (EDI) provides an opportunity for engineering deans - and only deans - to gather and discuss the crucial issues facing their schools, colleges, and profession.
+						<br/><br/><strong><a href="tag/Deans.html">Deans</a>&nbsp;|&nbsp;<a href="tag/Conference.html">Conference</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/open-2014-conference.html"><img src="images/4881.jpeg" alt="OPEN 2014 Conference"/></a></div><h3><a href="event/open-2014-conference.html" rel="bookmark" title="OPEN 2014 Conference">OPEN 2014 Conference</a></h3><strong>Mar 21, 2014 - Mar 22, 2014</strong><br/><strong>
+							San Jose, CA
+						</strong><div style="margin-left: 120px; margin-top: 15px;">Join the National Collegiate Inventors and Innovators Alliance (NCIIA) and Epicenter at OPEN 2014 in San Jose.
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/step-grantees-meeting-2014.html"><img src="images/6781.jpeg" alt="STEP Grantees Meeting 2014"/></a></div><h3><a href="event/step-grantees-meeting-2014.html" rel="bookmark" title="STEP Grantees Meeting 2014">STEP Grantees Meeting 2014</a></h3><strong>Mar 05, 2014 - Mar 07, 2014</strong><br/><strong>
+							Marriott Wardman Park Hotel, 2660 Woodley Rd NW, Washington, DC 20008
+						</strong><div style="margin-left: 120px; margin-top: 15px;">Epicenter&#39;s leaders will share&nbsp;updates on activities and network with fellow grantees at the annual STEP Grantees Meeting.
+						<br/><br/><strong><a href="tag/Meeting.html">Meeting</a>&nbsp;|&nbsp;<a href="tag/Faculty.html">Faculty</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/lean-launchpad-educators-program-january-2014.html"><img src="images/5721.jpeg" alt="Lean LaunchPad Educators Seminar January 2014"/></a></div><h3><a href="event/lean-launchpad-educators-program-january-2014.html" rel="bookmark" title="Lean LaunchPad Educators Seminar January 2014">Lean LaunchPad Educators Seminar January 2014</a></h3><strong>Jan 22, 2014 - Jan 24, 2014</strong><br/><strong>
+							UC Berkeley
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><p>
+	The Lean LaunchPad Educators Seminar, held at&nbsp;UC Berkeley&nbsp;in January 2014, will challenge you to rethink your approach to teaching entrepreneurship.</p>
+
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/lemelson-mit-national-collegiate-student-prize-competition-2013.html"><img src="images/6301.jpeg" alt="The Lemelson-MIT National Collegiate Student Prize Competition"/></a></div><h3><a href="event/lemelson-mit-national-collegiate-student-prize-competition-2013.html" rel="bookmark" title="The Lemelson-MIT National Collegiate Student Prize Competition">The Lemelson-MIT National Collegiate Student Prize Competition</a></h3><strong>Dec 31, 2013</strong><br/><strong>
+							Massachusetts Institute of Technology
+						</strong><div style="margin-left: 120px; margin-top: 15px;">This student prize competition is open to teams of inventive undergraduates and individual graduate students.&nbsp;Apply by Dec. 31!
+						<br/><br/><strong><a href="tag/Students.html">Students</a>&nbsp;|&nbsp;<a href="tag/Students.html">Students</a>&nbsp;|&nbsp;<a href="tag/Competition.html">Competition</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/global-consortium-of-entrepreneurship-centers-conference-2013.html"><img src="images/5671.jpeg" alt=" Global Consortium of Entrepreneurship Centers Conference"/></a></div><h3><a href="event/global-consortium-of-entrepreneurship-centers-conference-2013.html" rel="bookmark" title=" Global Consortium of Entrepreneurship Centers Conference"> Global Consortium of Entrepreneurship Centers Conference</a></h3><strong>Oct 24, 2013 - Oct 26, 2013</strong><br/><strong>
+							University of Missouri-Kansas City
+						</strong><div style="margin-left: 120px; margin-top: 15px;">The 2013 Global Consortium of Entrepreneurship Centers (GCEC) Conference brings together directors from around the globe to share best practices, and provide opportunities for networking and learning.
+						<br/><br/><strong><a href="tag/entrepreneurship.html">entrepreneurship</a>&nbsp;|&nbsp;<a href="tag/Faculty.html">Faculty</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/2013-ieee-fie.html"><img src="images/891.png" alt="2013 IEEE Frontiers in Education Conference (FIE) – Oklahoma City, Oklahoma"/></a></div><h3><a href="event/2013-ieee-fie.html" rel="bookmark" title="2013 IEEE Frontiers in Education Conference (FIE) – Oklahoma City, Oklahoma">2013 IEEE Frontiers in Education Conference (FIE) – Oklahoma City, Oklahoma</a></h3><strong>Oct 23, 2013 - Oct 26, 2013</strong><br/><strong>
+							Renaissance Oklahoma City Convention Center Hotel 10 North Broadway Avenue, Oklahoma City, Oklahoma 73102 USA 
+						</strong><div style="margin-left: 120px; margin-top: 15px;">The Frontiers in Education (FIE) Conference is the major international conference about educational innovations and research in engineering and computing. 
+						<br/><br/><strong><a href="tag/IEEE.html">IEEE</a>&nbsp;|&nbsp;<a href="tag/Conference.html">Conference</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/lean-launchpad-educators-program-september-2013.html"><img src="images/4821.jpeg" alt="Lean LaunchPad Educators Program September 2013"/></a></div><h3><a href="event/lean-launchpad-educators-program-september-2013.html" rel="bookmark" title="Lean LaunchPad Educators Program September 2013">Lean LaunchPad Educators Program September 2013</a></h3><strong>Sep 25, 2013 - Sep 27, 2013</strong><br/><strong>
+							Columbia University, 116th and Broadway, New York, NY 10027
+						</strong><div style="margin-left: 120px; margin-top: 15px;">The Lean LaunchPad Educators Program at Columbia University will challenge you to rethink your approach to teaching entrepreneurship.&nbsp;
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/2013-asee-annual-conference.html"><img src="images/881.jpeg" alt="2013 ASEE Annual Conference & Exposition"/></a></div><h3><a href="event/2013-asee-annual-conference.html" rel="bookmark" title="2013 ASEE Annual Conference & Exposition">2013 ASEE Annual Conference & Exposition</a></h3><strong>Jun 23, 2013 - Jun 26, 2013</strong><br/><strong>
+							Georgia World Congress Center 285 Andrew Young International Blvd., NW Atlanta, Georgia 30313-1591
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><p>
+	Epicenter&#39;s Tina Seelig, Tom Byers and Leticia Britos Cavagnaro will present sessions and talks at the ASEE Annual Conference and Exposition in June, the only conference dedicated to all disciplines of engineering education.&nbsp;</p>
+
+						<br/><br/><strong><a href="tag/ASEE.html">ASEE</a>&nbsp;|&nbsp;<a href="tag/%20Conference.html"> Conference</a>&nbsp;|&nbsp;<a href="tag/%20Exposition.html"> Exposition</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/lean-launchpad-educators-program-june-2013.html"><img src="images/3531.jpeg" alt="Lean LaunchPad Educators Program June 2013"/></a></div><h3><a href="event/lean-launchpad-educators-program-june-2013.html" rel="bookmark" title="Lean LaunchPad Educators Program June 2013">Lean LaunchPad Educators Program June 2013</a></h3><strong>Jun 18, 2013 - Jun 20, 2013</strong><br/><strong>
+							Stanford University, Stanford, CA 94305
+						</strong><div style="margin-left: 120px; margin-top: 15px;">The Lean LaunchPad Educators Program, hosted by the National Collegiate Inventors and Innovators Alliance (NCIIA),&nbsp;will challenge you to rethink your approach to teaching entrepreneurship.
+						<br/><br/><strong><a href="tag/Faculty.html">Faculty</a>&nbsp;|&nbsp;<a href="tag/Program.html">Program</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/entrepreneurial-living-learning-community-roundtable-2013.html"><img src="images/3651.jpeg" alt="Entrepreneurial LLC Roundtable"/></a></div><h3><a href="event/entrepreneurial-living-learning-community-roundtable-2013.html" rel="bookmark" title="Entrepreneurial LLC Roundtable">Entrepreneurial LLC Roundtable</a></h3><strong>Jun 17, 2013 - Jun 18, 2013</strong><br/><strong>
+							University of Illinois at Urbana-Champaign, 901 West Illinois Street, Urbana, IL 61801
+						</strong><div style="margin-left: 120px; margin-top: 15px;">The Entrepreneurial Living-Learning Community Roundtable at the University of Illinois at Urbana-Champaign&nbsp;will give leaders of these communities the opportunity to gather for a shared discussion and networking opportunities.
+						<br/><br/><strong><a href="tag/Roundtable.html">Roundtable</a>&nbsp;|&nbsp;<a href="tag/%20Faculty.html"> Faculty</a>&nbsp;|&nbsp;<a href="tag/Students.html">Students</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/designing-for-student-engagement.html"><img src="images/3781.jpeg" alt="Designing for Student Engagement"/></a></div><h3><a href="event/designing-for-student-engagement.html" rel="bookmark" title="Designing for Student Engagement">Designing for Student Engagement</a></h3><strong>Jun 10, 2013 - Jun 14, 2013</strong><br/><strong>
+							Franklin W. Olin College of Engineering, Needham, MA 02492 USA
+						</strong><div style="margin-left: 120px; margin-top: 15px;">&quot;Meeting the Needs of the 21st Century:&nbsp;Designing for Student Engagement&quot; is one of two courses offered as part of Olin College&#39;s I2E2 Summer Institute, which provides participants with the opportunity to conceive and catalyze change in engineering education.
+						<br/><br/><strong><a href="tag/Faculty.html">Faculty</a>&nbsp;|&nbsp;<a href="tag/Program.html">Program</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/becoming-an-effective-educational-change-agent.html"><img src="images/3811.jpeg" alt="Becoming an Effective Educational Change Agent"/></a></div><h3><a href="event/becoming-an-effective-educational-change-agent.html" rel="bookmark" title="Becoming an Effective Educational Change Agent">Becoming an Effective Educational Change Agent</a></h3><strong>Jun 05, 2013 - Jun 07, 2013</strong><br/><strong>
+							Franklin W. Olin College of Engineering, Needham, MA 02492 USA
+						</strong><div style="margin-left: 120px; margin-top: 15px;">&quot;Facilitating Change that Sticks: Becoming an Effective Educational Change Agent&quot; is one of two courses offered as part of Olin College&#39;s I2E2 Summer Institute, which provides participants with the opportunity to conceive and catalyze change in engineering education.&nbsp;
+						<br/><br/><strong><a href="tag/Faculty.html">Faculty</a>&nbsp;|&nbsp;<a href="tag/%20Workshop.html"> Workshop</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/tedx-ucsd-2013.html"><img src="images/2711.jpeg" alt="TEDxUCSD"/></a></div><h3><a href="event/tedx-ucsd-2013.html" rel="bookmark" title="TEDxUCSD">TEDxUCSD</a></h3><strong>May 11, 2013</strong><br/><strong>
+							University of California, San Diego, San Diego, CA
+						</strong><div style="margin-left: 120px; margin-top: 15px;">TEDxUCSD presents the 2013 theme Innovation &amp; Tradition on May 11th, 2013, at Irwin M. Jacobs Qualcomm Hall, University of California, San Diego.
+						<br/><br/><strong><a href="tag/%20Student%20Ambassador.html"> Student Ambassador</a>&nbsp;|&nbsp;<a href="tag/TEDx.html">TEDx</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/e-bootcamp-2013.html"><img src="images/2681.jpeg" alt="E-Bootcamp 2013"/></a></div><h3><a href="event/e-bootcamp-2013.html" rel="bookmark" title="E-Bootcamp 2013">E-Bootcamp 2013</a></h3><strong>Apr 18, 2013 - Apr 21, 2013</strong><br/><strong>
+							Stanford University, Stanford, CA
+						</strong><div style="margin-left: 120px; margin-top: 15px;">Immerse yourself in the heart of Silicon Valley entrepreneurship from April 18 to April 21 at Stanford University.
+						<br/><br/><strong><a href="tag/Stanford%20University.html">Stanford University</a>&nbsp;|&nbsp;<a href="tag/Students.html">Students</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/2013-edi.html"><img src="images/871.jpeg" alt="2013 Engineering Deans Institute (EDI)"/></a></div><h3><a href="event/2013-edi.html" rel="bookmark" title="2013 Engineering Deans Institute (EDI)">2013 Engineering Deans Institute (EDI)</a></h3><strong>Apr 14, 2013 - Apr 16, 2013</strong><br/><strong>
+							Grand Hyatt New York 109 East 42nd Street at Grand Central New York, NY 10017
+						</strong><div style="margin-left: 120px; margin-top: 15px;">The annual ASEE Engineering Deans Institute (EDI) provides an opportunity for engineering deans to gather and discuss the crucial issues facing their schools, colleges and profession. 
+						<br/><br/><strong><a href="tag/Conference.html">Conference</a>&nbsp;|&nbsp;<a href="tag/Deans.html">Deans</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/mit-global-startup-workshop-2013.html"><img src="images/2921.jpeg" alt="MIT Global Startup Workshop (GSW)"/></a></div><h3><a href="event/mit-global-startup-workshop-2013.html" rel="bookmark" title="MIT Global Startup Workshop (GSW)">MIT Global Startup Workshop (GSW)</a></h3><strong>Mar 25, 2013 - Mar 27, 2013</strong><br/><strong>
+							Tornimäe 3, 10145 Tallinn, Estonia
+						</strong><div style="margin-left: 120px; margin-top: 15px;">The MIT GSW is the world&rsquo;s premier workshop dedicated to fostering entrepreneurship and building entrepreneurial ecosystems globally.
+						<br/><br/><strong><a href="tag/Workshop.html">Workshop</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/open-2013-conference-washington-d-c.html"><img src="images/2971.jpeg" alt="OPEN 2013 Conference"/></a></div><h3><a href="event/open-2013-conference-washington-d-c.html" rel="bookmark" title="OPEN 2013 Conference">OPEN 2013 Conference</a></h3><strong>Mar 22, 2013 - Mar 23, 2013</strong><br/><strong>
+							999 Ninth Street NW · Washington, District Of Columbia 20001 USA
+						</strong><div style="margin-left: 120px; margin-top: 15px;">Engage and network with other engineering and science faculty active in bring entrepreneurship and innovation learning into undergraduate education.&nbsp; 
+						<br/><br/><strong><a href="tag/NCIIA.html">NCIIA</a>&nbsp;|&nbsp;<a href="tag/Epicenter.html">Epicenter</a>&nbsp;|&nbsp;<a href="tag/Conference.html">Conference</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/e-week-2013.html"><img src="images/3001.jpeg" alt="Stanford Entrepreneurship Week 2013"/></a></div><h3><a href="event/e-week-2013.html" rel="bookmark" title="Stanford Entrepreneurship Week 2013">Stanford Entrepreneurship Week 2013</a></h3><strong>Feb 27, 2013 - Mar 06, 2013</strong><br/><strong>
+							Stanford University, 450 Serra Mall, Stanford, CA 94305
+						</strong><div style="margin-left: 120px; margin-top: 15px;">Stanford E-Week 2013 will feature lectures, panel discussions, hands-on challenges, and networking events.
+						<br/><br/><strong><a href="tag/Workshop.html">Workshop</a>&nbsp;|&nbsp;<a href="tag/Conference.html">Conference</a>&nbsp;|&nbsp;<a href="tag/Lecture.html">Lecture</a>&nbsp;|&nbsp;<a href="tag/Networking.html">Networking</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/lean-launchpad-educators-program.html"><img src="images/1521.jpeg" alt="Lean LaunchPad Educators Program"/></a></div><h3><a href="event/lean-launchpad-educators-program.html" rel="bookmark" title="Lean LaunchPad Educators Program">Lean LaunchPad Educators Program</a></h3><strong>Jan 30, 2013 - Feb 01, 2013</strong><br/><strong>
+							Berkeley Skydeck at the University of California, Berkeley
+						</strong><div style="margin-left: 120px; margin-top: 15px;">
+	The Lean LaunchPad Educators Program, Jan. 30-Feb. 1, 2013, will challenge you to rethink your approach to teaching entrepreneurship.&nbsp;
+
+						<br/><br/><strong><a href="tag/NCIIA.html">NCIIA</a>&nbsp;|&nbsp;<a href="tag/%20Epicenter.html"> Epicenter</a>&nbsp;|&nbsp;<a href="tag/Workshop.html">Workshop</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/penn-state-ultimate-trader-challenge.html"><img src="images/2821.jpeg" alt="Penn State Ultimate Trader Challenge"/></a></div><h3><a href="event/penn-state-ultimate-trader-challenge.html" rel="bookmark" title="Penn State Ultimate Trader Challenge">Penn State Ultimate Trader Challenge</a></h3><strong>Jan 25, 2013 - Mar 18, 2013</strong><br/><strong>
+							Penn State University
+						</strong><div style="margin-left: 120px; margin-top: 15px;">Join Penn State&#39;s Ultimate Trader Challenge to acquire, through trades, the item with the greatest possible value in eight weeks.
+						<br/><br/><strong><a href="tag/Student%20Ambassadors.html">Student Ambassadors</a>&nbsp;|&nbsp;<a href="tag/Challenge.html">Challenge</a></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/university-private-equity-summit.html"><img src="images/2341.jpeg" alt="University Private Equity Summit"/></a></div><h3><a href="event/university-private-equity-summit.html" rel="bookmark" title="University Private Equity Summit">University Private Equity Summit</a></h3><strong>Jan 24, 2013 - Jan 26, 2013</strong><br/><strong>
+							Rice-Eccles Stadium Tower, Salt Lake City, Utah 84112 United States 
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><p>
+	The 10th Annual University Private Equity Summit takes place January 24-26, 2013. The conference brings together college students from around the globe to learn from top entrepreneurs, venture capitalists and private equity investors. It&rsquo;s a great opportunity to learn, network and ski. &nbsp;</p>
+
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/retreat.html"><img src="resources/images/search_placeholder.png" alt="Epicenter Retreat"/></a></div><h3><a href="event/retreat.html" rel="bookmark" title="Epicenter Retreat">Epicenter Retreat</a></h3><strong>Sep 30, 2012 - Oct 03, 2012</strong><br/><strong>
+							Stanford's Sierra Camp, Lake Tahoe, CA
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><p>
+	Hosted at the Stanford Sierra Camp near Lake Tahoe, this is an opportunity for entrepreneurship and engineering faculty to come together for spontaneous inspiration and interactions around creating a nation of entrepreneurial engineers.</p>
+
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/llp.html"><img src="resources/images/search_placeholder.png" alt="Lean LaunchPad Educators Program"/></a></div><h3><a href="event/llp.html" rel="bookmark" title="Lean LaunchPad Educators Program">Lean LaunchPad Educators Program</a></h3><strong>Aug 22, 2012 - Aug 24, 2012</strong><br/><strong>
+							UC Berkeley
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><p>
+	Dive into the Lean LaunchPad customer development approach to teaching entrepreneurship, hosted by the National Collegiate Inventors and Innovators Alliance (NCIIA) and led by Steve Blank, Jerry Engel, and a team of entrepreneurs and educators at UC Berkeley.</p>
+
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/student-ambassadors.html"><img src="resources/images/search_placeholder.png" alt="Student Ambassadors Program"/></a></div><h3><a href="event/student-ambassadors.html" rel="bookmark" title="Student Ambassadors Program">Student Ambassadors Program</a></h3><strong>Aug 01, 2012 - Aug 04, 2012</strong><br/><strong>
+							none
+						</strong><div style="margin-left: 120px; margin-top: 15px;"><p>The Epicenter and NCIIA are teaming up to provide new opportunities for students across the country, as part of <a href="http://nciia.org/studentambassadorsFAQ" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://nciia.org']);">Student Ambassadors program</a>. Student ambassadors catalyze innovation on their campuses, by holding events and creating networks that inspire and foster student entrepreneurs. 
+
+If you know a student on your campus, or within your program, who would thrive in this role, we encourage you to sponsor their participation in our training program.</p>
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/american-society-for-engineering-education.html"><img src="resources/images/search_placeholder.png" alt="American Society for Engineering Education 2012 Conference – San Antonio, TX"/></a></div><h3><a href="event/american-society-for-engineering-education.html" rel="bookmark" title="American Society for Engineering Education 2012 Conference – San Antonio, TX">American Society for Engineering Education 2012 Conference – San Antonio, TX</a></h3><strong>Jun 10, 2012 - Jun 13, 2012</strong><br/><strong>
+							San Antonio, TX
+						</strong><div style="margin-left: 120px; margin-top: 15px;">Principal Investigator Tom Byers presents the purpose, development and future plans of the Epicenter at the conference plenary.
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div><div class="archthumb"><a href="event/open-2012.html"><img src="resources/images/search_placeholder.png" alt="OPEN 2012 Conference – San Francisco, CA"/></a></div><h3><a href="event/open-2012.html" rel="bookmark" title="OPEN 2012 Conference – San Francisco, CA">OPEN 2012 Conference – San Francisco, CA</a></h3><strong>Mar 22, 2012 - Mar 24, 2012</strong><br/><strong>
+							OPEN 2012
+						</strong><div style="margin-left: 120px; margin-top: 15px;">Thank you for joining us at the OPEN 2012 conference and taking part in 
+the Epicenter session track that examined participation and engagement 
+in the Epicenter community, as well as issues of assessment and industry
+ impact connected with the Epicenter. OPEN 2012 was presented by the 
+National Collegiate Inventors and Innovators Alliance. 
+						<br/><br/><strong></strong></div><div class="hrlineC" style="width:594px;"></div></div><br/><br/><span style="float: right;"><strong></strong></span><p/><div style="clear: both;"></div></div><script type="text/javascript">//
+	function switchTab(tab_id) {
+		for (var i=1; i<=3; i++) {
+			$("#tab_header_"+i).removeClass("current");
+			$("#tab_"+i).removeClass("currentTab");
+		}
+		$("#tab_header_"+tab_id).addClass("current");
+		$("#tab_"+tab_id).addClass("currentTab");
+	}
+
+	//</script><div class="cell last bags"><?xml version="1.0" encoding="UTF-8"?>
+<div version="2.0" id="sidebar"><h4>Recent Stories</h4><a href="http://feeds.feedburner.com/EpicenterStories" class="rsslink"><img src="resources/images/rss-icon-10.png" style="width: 18px; height: 18px;"/></a><a href="story/a-journey-towards-i-e.html">A Journey towards I&E</a><a href="story/creating-a-connected-city.html">Creating a Connected City</a><a href="story/inventure-prize-comes-to-clemson.html">InVenture Prize Comes to Clemson</a><a href="story/how-to-activate-student-changemakers-meetup-2016.html">How to Activate Student Changemakers</a><a href="story/tanner-wheadon-prototyping-to-prove-a-concept.html">Prototyping to Prove a Concept</a><br/><h4>Latest Tools</h4><a href="http://feeds.feedburner.com/EpicenterTools" class="rsslink"><img src="resources/images/rss-icon-10.png" style="width: 18px; height: 18px;"/></a><a href="resource/recommended-books.html">Epicenter Recommended Books</a><a href="resource/aee-winter-2016-special-issue.html">AEE Special Issue</a><a href="resource/makerspaces-plan-and-launch-or-pivot-as-you-go.html">Makerspaces: Plan and Launch or Pivot as You Go?</a><a href="resource/so-you-want-to-offer-a-pop-up-class.html">So You Want to Offer a Pop-Up Class? </a><a href="resource/how-to-grow-your-institutions-innovation-and-entrepreneurship-ecosystem.html">How to Grow Your Institution's Innovation and Entrepreneurship Ecosystem</a><br/></div></div></div></div></div><div version="2.0" id="footer"><div class="box"><div id="footer_ie" style="height: 140px; width: 840px;"><div class="container"><div id="FooterTwo" style="width: 840px; text-align:center; padding: 20px;"><a class="logo" href="http://nsf.gov/"><img width="90px" height="90px" src="resources/images/nsfLogo.gif"/></a><a class="logo" href="http://www.stanford.edu/"><img width="175px" height="80px" src="resources/images/SUSig_White_Stack.png"/></a><a class="logo" href="http://venturewell.org/"><img width="320px" height="87px" src="resources/images/VW-logo-website-footer.png"/></a></div></div></div><p class="disclaimer" style="width: 740px;padding-left: 45px;">This material is based upon work supported by the National Science Foundation under Grant No. 1125457. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</p><p class="epi_copy">&copy; 2018 Epicenter&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a target="_blank" href="http://www.stanford.edu/site/terms.html">Terms of Service</a></p></div><script type="text/javascript"> 
+ 
+	jQuery(document).ready(function() { 
+        jQuery('ul.sf-menu').superfish(); 
+
+		jQuery('.postinn').css('opacity','0');
+
+		jQuery('#latestpost li').hoverIntent(function() {
+			jQuery(this).find('.postinn')
+				.animate({
+					opacity: '1', 	
+				}, 600); 
+
+			} , function() {
+			jQuery(this).find('.postinn')
+				.animate({
+					opacity: '0', 	
+				}, 1000); 
+
+		});
+
+		jQuery('.latestpost_hidden li').hoverIntent(function() {
+			jQuery(this).find('.postinn')
+				.animate({
+					opacity: '1', 	
+				}, 600); 
+
+			} , function() {
+			jQuery(this).find('.postinn')
+				.animate({
+					opacity: '0', 	
+				}, 1000); 
+
+		});
+
+		jQuery(".more_div_img").click(function() {
+			var id = jQuery(this).attr('id').substring(13);
+			jQuery("#more_div_"+id).fadeOut("fast", function() {
+				jQuery("#latestpost_hidden_"+id).slideDown();
+			});
+		});
+
+    	jQuery('.accordion-title').click(function() {
+    		$(this).next().slideToggle();
+		});
+	});
+</script></div></div></body></html>

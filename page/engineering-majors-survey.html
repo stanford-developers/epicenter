@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML SYSTEM "about:legacy-compat">
+<html><head><link href="../resources/dijit/themes/tundra/tundra.css" type="text/css" rel="stylesheet"/><link href="../resources/styles/epicenter.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/autosuggest-tags/autoSuggest.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/file-upload/file-upload.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/jquery-ui-1.8.23/css/smoothness/jquery-ui-1.8.23.custom.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/jwysiwyg/jquery.wysiwyg.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/datatables/css/dataTables.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/fineuploader.jquery/fineuploader.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/flexslider/flexslider.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/simpletabs/simpletabs.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/images/favicon.ico" type="image/ico" rel="shortcut icon"/><script src="../resources/jquery-ui-1.8.23/js/jquery-1.8.0.min.js" type="text/javascript"></script><script src="../resources/mygrid2/js/superfish-ver=3.3.2.js" type="text/javascript"></script><script src="../resources/mygrid2/js/jquery.hoverIntent.minified-ver=3.3.2.js" type="text/javascript"></script><script type="text/javascript">var djConfig = {parseOnLoad: false, isDebug: false, locale: 'en-us'};</script><script type="text/javascript" src="../resources/dojo/dojo.js"></script><script type="text/javascript" src="../resources/spring/Spring.js"></script><script type="text/javascript" src="../resources/spring/Spring-Dojo.js"></script><script type="text/javascript" language="JavaScript">dojo.require("dojo.parser");</script><script type="text/javascript" src="../resources/file-upload/jelly.min.js"></script><script type="text/javascript" src="../resources/file-upload/file-upload.js"></script><script type="text/javascript" src="../resources/autosuggest-tags/jquery.autoSuggest.js"></script><script type="text/javascript" src="../resources/elastic/jquery.elastic.source.js"></script><script type="text/javascript" src="../resources/ckeditor/ckeditor.js"></script><script type="text/javascript" src="../resources/ckeditor/adapters/jquery.js"></script><script type="text/javascript" src="../resources/jquery-ui-1.8.23/js/jquery-ui-1.8.23.custom.min.js"></script><script type="text/javascript" src="../resources/jquery-ui-1.8.23/jquery-ui-timepicker-addon.js"></script><script type="text/javascript" src="../resources/datatables/js/dataTables.min.js"></script><script type="text/javascript" src="../resources/fineuploader.jquery/jquery.fineuploader-3.0.min.js"></script><script type="text/javascript" src="../resources/flexslider/jquery.flexslider-min.js"></script><script src="../resources/jfeed/jquery.jfeed.js" type="text/javascript"></script><title>Epicenter:  Engineering Majors Survey</title><link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700"/><link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"/><script type="text/javascript">//
+	// Google Analytics for WordPress by Yoast v4.2.3 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	if (window.location.host.indexOf('staging')<0) {
+		// Production
+		_gaq.push(['_setAccount','UA-25375360-1']);
+	} else {
+		_gaq.push(['_setAccount','UA-25375360-1']);
+	}
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	//</script></head><body class="home blog"><div version="2.0" id="container"><div version="2.0" id="header"><style type="text/css">ul.topnav li {
+	float: left;
+	margin: 0;	
+	padding: 0 0 0 15px;
+	position: relative; /*--Declare X and Y axis base for sub navigation--*/
+}
+ul.topnav li a{
+	padding: 10px 5px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	float: left;
+}
+ul.topnav li a:hover{
+	background-color: #2F3641 !important;
+}
+ul.topnav li span { /*--Drop down trigger styles--*/
+	width: 17px;
+	height: 35px;
+	float: left;
+	background-color: #2F3641 !important;
+}
+ul.topnav li span.subhover {background-position: center bottom; cursor: pointer;} /*--Hover effect for trigger--*/
+ul.topnav li ul.subnav {
+	list-style: none;
+	position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+	left: 0; top: 35px;
+	background: #333;
+	margin: 0; padding: 0;
+	display: none;
+	float: left;
+	width: 170px;
+	border: 1px solid #111;
+	z-index: 1000000;
+	
+}
+ul.topnav li ul.subnav li{
+	margin: 0; padding: 0;
+	border-top: 1px solid #252525; /*--Create bevel effect--*/
+	border-bottom: 1px solid #444; /*--Create bevel effect--*/
+	clear: both;
+	width: 170px;
+	text-align: left !important;
+}
+html ul.topnav li ul.subnav li a {
+	float: left;
+	width: 145px;
+	background-color: #2F3641 !important;
+	padding-left: 20px;
+}
+html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
+	background-color: #2F3641 !important;
+}
+</style><div class="box"><a class="main-logo" href="../index.html">Epicenter: National Center for Engineering Pathways to Innovation</a><div id="links" class="nav-top-wrap"><ul class="nav-top"><li><a href="../login.html">Login</a></li><li><form action="../search.html" method="get"><input type="text" name="term" value="Search" maxlength="50" onblur="if (this.value == '') {this.value = 'Search'; this.style.color='#888888';}" onfocus="if (this.value == 'Search') {this.value = ''; this.style.color='#000000';}"/></form></li></ul></div><div class="nav-main-wrap"><ul class="nav-main sf-js-enabled topnav"><li><a class="sf-with-ul" href="#">About <i class="fa fa-sort-asc"></i></a><ul class="subnav"><li><a href="about.html">Overview</a></li><li><a href="about-programs.html">What We Do</a></li><li><a href="about-team.html">Team</a></li><li><a href="in-the-news.html">In the News</a></li></ul></li><li><a class="sf-with-ul" href="#">Initiatives <i class="fa fa-sort-asc"></i></a><ul class="subnav"><li><a href="university-innovation-fellows.html">University Innovation Fellows</a></li><li><a href="pathways-to-innovation.html">Pathways to Innovation Program</a></li><li><a href="fostering-innovative-generations-studies.html">Fostering Innovative Generations Studies</a></li></ul></li><li><a class="sf-with-ul" href="#">Resources <i class="fa fa-sort-asc"></i></a><ul class="subnav"><li><a href="../resources/story.html">Stories</a></li><li><a href="../events.html">Events</a></li><li><a href="../resources/all.html">Tools</a></li></ul></li><li><a href="newsletter.html">Newsletter</a><span></span></li><li><a href="contact.html">Contact</a></li></ul></div></div><script type="text/javascript">
+	
+	$(document).ready(function(){
+
+		$("ul.subnav").parent().append("<span/>"); //Only shows drop down trigger when js is enabled (Adds empty span tag after ul.subnav*)
+		
+		$("ul.topnav li a").hover(function() { //When trigger is clicked...
+			
+			//Following events are applied to the subnav itself (moving subnav up and down)
+			$(this).parent().find("ul.subnav").slideDown('fast').show(); //Drop down the subnav on click
+
+			$(this).parent().hover(function() {
+			}, function(){	
+				$(this).parent().find("ul.subnav").slideUp('slow'); //When the mouse hovers out of the subnav, move it back up
+			});
+
+			//Following events are applied to the trigger (Hover events for the trigger)
+			}).hover(function() { 
+				$(this).addClass("subhover"); //On hover over, add class "subhover"
+			}, function(){	//On Hover Out
+				$(this).removeClass("subhover"); //On hover out, remove class "subhover"
+		});
+
+	});
+	</script></div><div class="main"><div class="post" id="post-101"><div class="page-heading"><h2><a href="engineering-majors-survey.html" rel="bookmark" title="">Engineering Majors Survey</a></h2></div><div class="entry_full bags">
+
+<p>
+	<img src="../images/9251.jpeg" /></p>
+<table border="0" cellpadding="15" cellspacing="0" width="840">
+	<tbody>
+		<tr>
+			<td valign="top" width="115">
+				<p>
+					<a href="#Updates"><strong>News and Updates</strong></a></p>
+				<p>
+					<strong><a href="#About">About</a></strong></p>
+				<p>
+					<strong><a href="#FAQ">FAQ</a></strong></p>
+				<p>
+					<strong><a href="#Resources">Resources and Downloads</a></strong></p>
+				<p>
+					<a href="#TeamBios"><strong>Team Bios</strong></a></p>
+				<p>
+					<strong><a href="#Contact">Contact</a></strong></p>
+				<p>
+					<a href="fostering-innovative-generations-studies.html"><strong>FIGS main page</strong></a></p>
+			</td>
+			<td valign="top" width="2">
+				<hr size="350" width="1" />
+			</td>
+			<td width="674">
+				<h3>
+					<a name="Updates"></a>News and Updates<br />
+					&nbsp;</h3>
+				<p>
+					May 2016:</p>
+				<p>
+					Come see us at ASEE in June 2016! The below papers draw from EMS 1.0 data will be presented on the following days and times:</p>
+				<ul>
+					<li>
+						<div>
+							Cao, E., Gilmartin, S., Jin, Q., Dungs, C., &amp; Sheppard, S. Business program participation and engineering innovation: An exploration of engineering students&#39; minors, certificates, and concentrations. <em>Mon. June 27 11:30 AM to 1:00 PM<br />
+							New Orleans Convention Center, 277</em></div>
+					</li>
+					<li>
+						<div>
+							Grau, M., Gilmartin, S., Rieken, B., &amp; Sheppard, S. What do you want to do with your life? Insights into how engineering students think about their future career plans.<br />
+							<em>Wed. June 29, 2016 3:00 PM to 4:30 PM<br />
+							New Orleans Convention Center, 277</em></div>
+					</li>
+					<li>
+						<div>
+							Peterfreund, A., Costache, E., Chen, H., Gilmartin, S., &amp; Sheppard, S. Infusing Innovation and Entrepreneurship into Engineering Education: Looking for change as seen by ASEE members, 2012 to 2015.</div>
+						<div>
+							<em>Mon. June 27 7:00 PM to 8:30 PM</em></div>
+						<div>
+							<em>New Orleans Convention Center, 263</em><br />
+							&nbsp;</div>
+					</li>
+				</ul>
+				<p>
+					April 2016:</p>
+				<ul>
+					<li>
+						The Engineering Majors Survey &ldquo;2.0&rdquo; was launched in early April. This follow-up survey was emailed to over 3,500 engineering students and recent graduates who had agreed to receive an invitation from us on EMS &ldquo;1.0&rdquo; in 2015.</li>
+					<li>
+						The survey will be open throughout April.</li>
+					<li>
+						EMS 2.0 includes many of the same items that were asked on EMS 1.0, in order to learn about students&rsquo; change in engineering and innovation interests over time.</li>
+				</ul>
+				<p>
+					<br />
+					September 2015:</p>
+				<ul>
+					<li>
+						We administered the Engineering Majors Survey to upwards of 30,000 engineering undergraduates across 27 U.S. institutions between February-May 2015.</li>
+					<li>
+						A total of 7,197 students responded to the survey; of these, 6,187 are self-reported &ldquo;juniors&rdquo; and &ldquo;seniors&rdquo;.</li>
+					<li>
+						Approximately 30 percent of all respondents are women.</li>
+					<li>
+						About 95 percent of respondents are full-time students; and one-quarter are transfer students.</li>
+					<li>
+						Consistent with national data on degree attainment by field, Mechanical Engineering majors compose the largest group of respondents by major; just under 10 percent of respondents report having a second major, half of which are in engineering fields.</li>
+					<li>
+						We are preparing for our follow-up survey in Winter/Spring 2016.</li>
+					<li>
+						We are preparing two articles on the &ldquo;baseline&rdquo; 2015 data (&ldquo;EMS 1.0&rdquo;) that will give an overview of students&rsquo; career interests and plans surrounding innovative work, as well as predictors of these plans (e.g., &ldquo;innovation self-efficacy&rdquo;, innovation-related learning experiences, and &ldquo;innovation outcome expectations&rdquo;).<br />
+						<br />
+						&nbsp;</li>
+				</ul>
+				<h3>
+					<a name="About"></a>About</h3>
+				<br />
+				<p>
+					As more students than ever are pursuing and earning an engineering bachelor&rsquo;s degree in the U.S., questions about their post-graduation pathways are increasing. Which skills have they developed? How are they applying these skills? What are their interests, passions, and goals? Are they designing&mdash;and leading&mdash;technological and social innovations? Which college experiences are associated with their confidence to innovate, their technical accomplishments, their creative breakthroughs?</p>
+				<p>
+					<strong>To address these questions, the Epicenter research team, whose works is collectively known as Fostering Innovative Generations Studies (FIGS), has launched a major longitudinal study of engineering students&#39; interests and career goals surrounding innovation and entrepreneurship (I&amp;E).</strong> This study is part of a larger set of <a href="fostering-innovative-generations-studies.html">research projects</a> being pursued by the FIGS team, ranging from investigations of I&amp;E programs for engineering students, to comparative analyses of engineering and business students&rsquo; entrepreneurial intent, to explorations of how I&amp;E might be added to traditional engineering coursework.</p>
+				<p>
+					<strong>For this study, a 35-question survey, the &quot;</strong><a href="engineering-majors-survey.html"><strong>Engineering Majors Survey</strong></a><strong>&quot;, was administered to over 30,000 engineering juniors and seniors across a nationally representative sample of 27 U.S. engineering schools in February-March 2015.</strong> This survey draws upon psychological theories of career choice to ask students about their &quot;innovation self-efficacy&quot;, their expectations for the outcomes of innovative behaviors, their innovation interests, and their goals around doing innovative work in their early careers. This survey also is designed to measure a comprehensive range of undergraduate learning experiences that may influence students&#39; beliefs about their ability to innovate, and includes measures of students&#39; entrepreneurial activities, past, present, and future. Findings will be shared starting Summer 2015.</p>
+				<p>
+					In early 2016, a follow-up survey will be administered to Engineering Majors Survey respondents, many of whom will have graduated by that time and entered the workforce. This longitudinal view will show how engineering students&#39; interests and goals surrounding innovation change over time, in concert with new workplace environments and experiences. The FIGS team hopes to continue to administer follow-up surveys throughout the first ten years of respondents&#39; careers. <strong>When complete, this will be among the largest and most extensive studies to date of engineering students&#39; innovation pathways, building from a nationally representative sample of engineering schools and theory-driven instrument design and analysis.</strong></p>
+				<p>
+					&nbsp;</p>
+				<h3>
+					<a id="FAQ" name="FAQ"></a>FAQ</h3>
+				<br />
+				<p>
+					<strong><em>Who is funding and supporting FIGS?</em></strong></p>
+				<p>
+					FIGS is a critical activity within the&nbsp;<a href="../index.html">Epicenter</a>, which is funded by the National Science Foundation (Grant No. 1125457) and managed by Stanford University and&nbsp;<a href="http://venturewell.org/">VentureWell</a>, formerly the National Collegiate Inventors and Innovators Alliance (NCIIA). Epicenter&rsquo;s mission is to empower undergraduate engineering students to bring their ideas to life for the benefit of our economy and society.<br />
+					<br />
+					<a href="https://profiles.stanford.edu/sheri-sheppard">Professor Sheri Sheppard</a> (<a href="https://web.stanford.edu/group/design_education/cgi-bin/mediawiki/index.php/Sheri_Sheppard">Designing Education Lab</a><span>, Department of Mechanical Engineering, Epicenter Co-PI) leads the FIGS research team, whose aims are to examine (1) models for educating engineers in entrepreneurial thinking, (2) undergraduate engineering students&rsquo; innovation and entrepreneurial interests, abilities and achievements, (3) the integration of entrepreneurship activities into &quot;traditional&quot; engineering courses, and (4) the development of entrepreneurship education research communities. More information about Epicenter research publications, conference presentations and community-building activities can be found </span><a href="fostering-innovative-generations-studies.html"> here</a><span>.</span></p>
+				<p>
+					<strong><em>Why is FIGS important?</em></strong></p>
+				<p>
+					Opportunities for innovation and entrepreneurship education for undergraduate engineering students are rapidly expanding. Yet more exploration is needed to understand the impact of these educational opportunities on our engineering students. Insights from FIGS will inform the efforts of higher education institutions to design entrepreneurship opportunities for their engineering students that are aligned with other goals of engineering education. These insights may also help engineering faculty become more familiar with the range of skills and attributes associated with entrepreneurship and innovation education.</p>
+				<p>
+					<em><strong>What are the benefits of participating in the Engineering Majors Survey?</strong></em></p>
+				<p>
+					The value of the Engineering Majors Survey and the FIGS research to participating institutions are the summative data that will provide insights into each school&rsquo;s engineering students to inform future decision making and strategic planning. Participants will also have the opportunity to connect with a larger community of institutions and people who are eager to learn more about engineering students&rsquo; innovation and entrepreneurship experiences in the context of engineering education.<br />
+					<br />
+					Finally, few, if any, institutions are using a longitudinal approach on a national scale to understand how undergraduate educational experiences are influencing entrepreneurial and innovation interest over time, and particularly during the transition from higher education into the professional workplace. By participating in FIGS, institutions will be informing and contributing to a national picture of innovation and entrepreneurship education in the United States.</p>
+				<p>
+					<em><strong>What is the selection process for institutions in the Engineering Majors Survey and FIGS?</strong></em></p>
+				<p>
+					Using a stratified quasi-random sampling plan, the institutional sample for the Engineering Majors Survey was designed to represent the larger population of U.S. institutions with engineering schools in terms of type, size, and business resources for undergraduates. All 350 U.S. institutions with an ASEE member engineering school as of 2011 composed the population from which the participating institutions were identified. These 350 institutions were stratified by type (research university versus non-research university), engineering program size (large engineering program versus medium/small engineering program), and presence of an undergraduate business program on campus (yes or no). The sample was selected from this 2x2x2=8-cell stratification scheme.<br />
+					<br />
+					Following this sampling plan procedure, we are delighted to be collaborating with 27 institutions on this important research:</p>
+				<ul>
+					<li>
+						Arizona State University</li>
+					<li>
+						Baylor University</li>
+					<li>
+						Boise State University</li>
+					<li>
+						Bucknell University</li>
+					<li>
+						California State University-Fresno</li>
+					<li>
+						Embry Riddle Aeronautical University-Daytona Beach</li>
+					<li>
+						Franklin W. Olin College of Engineering</li>
+					<li>
+						Indiana University-Purdue University-Indianapolis</li>
+					<li>
+						Messiah College</li>
+					<li>
+						Michigan Technological University</li>
+					<li>
+						North Carolina State University at Raleigh</li>
+					<li>
+						Rochester Institute of Technology</li>
+					<li>
+						Seattle Pacific University</li>
+					<li>
+						Smith College</li>
+					<li>
+						Stanford University</li>
+					<li>
+						Temple University</li>
+					<li>
+						Tennessee Technological University</li>
+					<li>
+						The University of Texas at San Antonio</li>
+					<li>
+						Tufts University</li>
+					<li>
+						University of Illinois at Urbana-Champaign</li>
+					<li>
+						University of the District of Columbia</li>
+					<li>
+						University of Utah</li>
+					<li>
+						University of Wisconsin &ndash; Madison</li>
+					<li>
+						University of Wisconsin &ndash; Platteville</li>
+					<li>
+						Washington University in St Louis</li>
+					<li>
+						Wayne State University</li>
+					<li>
+						Western Michigan University</li>
+				</ul>
+				<br />
+				<br />
+				<p>
+					<strong><em>What kinds of questions will be asked on the Engineering Majors Survey?</em></strong></p>
+				<p>
+					The Engineering Majors Survey will identify how engineering undergraduates&rsquo; learning experiences, self-confidence, and career perceptions might contribute to their interests in pursuing innovative and/or entrepreneurial careers after graduation. Examples of these kinds of learning experiences and perceptions include participation in courses and programs that have an innovation focus, interactions with faculty and peers about new design or business ideas, and involvement in extra-curricular student clubs and groups. A final draft of the survey is available for&nbsp;<a href="../documents/Engineering%20Majors%20Survey%20design%20package.pdf">download</a>.</p>
+				<p>
+					<strong><em>Will students be compensated for completing the Engineering Majors Survey?</em></strong></p>
+				<p>
+					Participating students in our survey will not be paid but will have the opportunity to enter their name in a drawing for an Amazon gift card as a thank you for completing the survey.</p>
+				<p>
+					<strong><em>Who are the FIGS researchers?</em></strong></p>
+				<p>
+					FIGS is being led by <a href="https://web.stanford.edu/group/design_education/cgi-bin/mediawiki/index.php/Sheri_Sheppard">Dr. Sheri Sheppard</a>, Co-PI of Epicenter and Professor of Mechanical Engineering at Stanford University and members from the Epicenter Research team and Dr. Sheppard&rsquo;s <a href="http://del.stanford.edu/">Designing Education Lab</a>. Our research team comes to FIGS and Epicenter with extensive engineering education-related research experience.&nbsp; Please see our team member bios and selected references representing our prior and current work.</p>
+				<ul>
+					<li>
+						<a href="../resource/us-based-entrepreneurship-programs-for-undergraduate-engineers.html">U.S.-Based Entrepreneurship Programs for Undergraduate Engineers: Scope, Development, Goals, and Pedagogies</a> (Epicenter Technical Brief, 2014)</li>
+					<li>
+						<a href="../resource/epicenter-research-papers-asee-2014.html">Comparing Engineering and Business Undergraduate Students&rsquo;&nbsp; Entrepreneurial Interests and Characteristics</a> (ASEE, 2014)</li>
+					<li>
+						<a href="epicenter-research-summit-2014.html">2014 Epicenter Research Summit</a> presentations, session summaries, posters, and photos</li>
+				</ul>
+				<br />
+				<br />
+				<h3>
+					<a id="Resources" name="Resources"></a>Resources and Downloads</h3>
+				<br />
+				<br />
+				<p>
+					<strong>Survey Design Package</strong><br />
+					<br />
+					Download a collection of materials used to create the Engineering Majors Survey, including the annotated survey instrument, reference list and a graphic representation of the Social Cognitive Career Theory. <a href="../documents/Engineering%20Majors%20Survey%20design%20package%20-%20rev%20Feb%202017.pdf">Download (pdf) &raquo;</a></p>
+				<p>
+					<br />
+					<strong>October 2015 Webinar Links</strong><br />
+					<br />
+					EMS campus leads joined us for a webinar on October 21, 2015, to discuss the individual schools&#39; results.<br />
+					<br />
+					Webinar Recording: <a href="http://vimeo.com/144169494" target="_blank">http://vimeo.com/144169494</a></p>
+				<p>
+					<br />
+					<strong>May 2015 Webinar Links and Resources</strong><br />
+					<br />
+					More than 25 participants joined us for the &quot;What is the Engineering Majors Survey?&quot; webinar on May 6, 2015. Below is a link to a recording of the webinar as well as some of the resources mentioned during the conversation. We are also soliciting ideas for the report format (e.g., Executive Summary, narrative, PPT slide deck) and attributes (e.g., short, long, tables only, interactive data set) for the campus reports that will be generated at the end of the summer. If you or any of your colleagues would like to participate in or be informed about future FIGS webinars on emerging findings from the Engineering Majors Survey, please feel free to register here: <a href="http://goo.gl/forms/uwjqQ996uz" target="_blank">http://goo.gl/forms/uwjqQ996uz</a>.</p>
+				<p>
+					Webinar Recording: <a href="http://vimeo.com/127506307" target="_blank">http://vimeo.com/127506307</a><br />
+					PDF of slide deck: <a href="https://stanford.box.com/s/3bxbxkns7gf0xoqbk2oeppzt9t3fh1sa" target="_blank">https://stanford.box.com/s/3bxbxkns7gf0xoqbk2oeppzt9t3fh1sa</a><br />
+					<br />
+					<em>Resources referenced in the webinar: </em><br />
+					<br />
+					EMS Survey Design Package: <a href="../documents/Engineering%20Majors%20Survey%20design%20package.pdf" target="_blank">http://epicenter.stanford.edu//documents/681</a><br />
+					Lime Survey - open source survey platform: <a href="https://www.limesurvey.org/en/" target="_blank">https://www.limesurvey.org/en/</a><br />
+					<br />
+					<em>Theoretical framework for EMS: </em><br />
+					<br />
+					Toward a Unifying Social Cognitive Theory of Career and Academic Interest, Choice, and Performance. Robert W. Lent, Steven D. Brown, Gail Hackett Journal of Vocational Behavior, Volume 45, Issue 1, August 1994, Pages 79&ndash;122 <a href="http://www.sciencedirect.com/science/article/pii/S000187918471027X" target="_blank">http://www.sciencedirect.com/science/article/pii/S000187918471027X</a></p>
+				<p>
+					Self-efficacy: Toward a unifying theory of behavioral change. Albert Bandura, Psychological Review, Vol 84(2), Mar 1977, 191-215 <a href="https://stanford.box.com/s/3bxbxkns7gf0xoqbk2oeppzt9t3fh1sa" target="_blank">http://psycnet.apa.org/journals/rev/84/2/191/ </a></p>
+				<p>
+					&nbsp;</p>
+				<h3>
+					<strong><a id="TeamBios" name="TeamBios"></a>Team Bios</strong></h3>
+				<br />
+				<p>
+					<strong>Sheri Sheppard</strong> has been a Stanford Professor of Mechanical Engineering in the Design Group since 1986. Her research focuses on weld fatigue and impact failures, fracture mechanics and applied finite element analysis. Sheri is the Director of the Designing Education Lab, co-director of the Center for Design Research in Stanford&#39;s School of Engineering, and co-PI of the NSF-funded Epicenter, National Center for Engineering Pathways to Innovation.<br />
+					&nbsp;<br />
+					Sheri is a nationally recognized expert on engineering education. She led a three-year study of engineering education, &quot;Educating Engineers,&quot; in the United States at the Carnegie Foundation for the Advancement of Teaching. For the last decade, she has been the faculty adviser to the Mechanical Engineering Women&#39;s Group at Stanford, which holds an annual seminar series and a welcome program for all female engineers. In 2010, she received the Stanford Gores Award, the university&#39;s highest award for excellence in teaching.<br />
+					&nbsp;<br />
+					<strong>Emily Cao</strong> is a student at Stanford University graduating in 2017. She is pursuing a B.S. in Mechanical Engineering with a minor in Computer Science. Her interests include art, design, and product development, as well as teaching. In previous work, she has analyzed data at a semiconductor power conversion firm and has designed and developed art programs for the U.S. Arts Education Center. She is interested in researching how to increase the effectiveness of engineering education and engineering major retention.<br />
+					<br />
+					<strong>Bethany Chaffin</strong> is a junior studying Product Design at Stanford. At the intersection between education and engineering, her interests include the role that gender plays among engineering students, before, during, and after college, as well as the ways in which people&#39;s perceptions of engineering transform throughout their education. Within her own engineering education, Bethany is interested in exploring both the visual and structural aspects of creating products for people, especially learning what it means to design a product that effectively induces a specific experience for its users. She joined the Designing Education Lab in Winter Quarter of 2015, and is working with DEL and the Engineering Majors Survey team during the summer and fall of 2015.<br />
+					<br />
+					One of Bethany&#39;s favorite classes thus far at Stanford is ME 101 (Visual Thinking), in which she worked in teams to design and build machines out of simple materials that were required to perform tasks autonomously (e.g. throwing a twinkie through a hula hoop). Another favorite project was in ENGR 14 (Introduction to Solid Mechanics), which was to build a bridge out of balsa wood that was designed to withstand loads according to a specific factor of safety. Outside of school, Bethany enjoys photography, reading, spending time at the ocean, and watching old movies.<br />
+					<br />
+					<strong>Helen L. Chen </strong>is a research scientist in the Designing Education Lab in the Department of Mechanical Engineering and the Director of ePortfolio Initiatives in the Office of the Registrar at Stanford University.&nbsp; She is also a research scientist in the National Center for Engineering Pathways to Innovation (Epicenter) and was a researcher with the <a href="http://www.engr.washington.edu/caee/">Center for the Advancement of Engineering Education</a> from 2003-2010.&nbsp; Helen earned her undergraduate degree in communication studies from UCLA and her PhD in communication with a minor in psychology from Stanford University in 1998.&nbsp; She works closely with Association of American Colleges and Universities as a faculty member for the Institute on General Education and Assessment. Helen and her colleagues Tracy Penny Light and John Ittelson are the authors of <em>Documenting Learning with ePortfolios: A Guide for College Instructors</em> (2011, Wiley).<br />
+					<br />
+					Helen&rsquo;s current research interests include entrepreneurship and persistence in engineering education; assessment of innovations in active learning spaces; and ePortfolio pedagogy and reflective practices in higher education.&nbsp; Helen&rsquo;s prior survey work has included the design, implementation, data collection, and analysis for the Persistence in Engineering (PIE) survey, Academic Pathways of People Learning Survey (APPLES), and Pathways of Engineering Alumni Research Survey (PEARS) research led by Professor Sheppard. &nbsp;Publications and presentations associated with this research can be found <a href="http://web.stanford.edu/group/design_education/cgi-bin/mediawiki/index.php/Library">here</a>.<br />
+					<br />
+					<strong>Shannon Gilmartin</strong>, Epicenter Research Scientist, is currently conducting research on engineering students&rsquo; experiences surrounding entrepreneurship and innovation learning opportunities, and how these experiences may link to students&rsquo; career goals and choices over time. Shannon is a Consulting Associate Professor at Stanford University&rsquo;s School of Engineering and the Director of SKG Analysis, a research consulting firm. An education scientist by training, Shannon&rsquo;s expertise is in higher education and workforce research, especially in science and engineering fields. She has long studied the representation of women in education and workplaces, examining the role of social, cultural, and organizational factors in women&rsquo;s academic and professional pathways.<br />
+					<br />
+					She received her B.A. at Stanford University and her M.A. and Ph.D. at UCLA, and held two research appointments at the California Institute of Technology and Stanford&rsquo;s Clayman Institute of Gender Research before starting her consulting practice in 2006. Shannon has taught undergraduate courses at UCLA in gender, education, and psychology, and, since 2008, has worked with Professor Sheri Sheppard&rsquo;s Designing Education Lab on studies of engineering student pathways. She has published in a wide range of journals in education, gender studies, and related areas. She has led survey design and data analysis projects for over 15 years, first as part of UCLA&rsquo;s Higher Education Research Institute, and later for research and evaluation at Caltech, Stanford, the Anita Borg Institute, the American Chemical Society, the University of Alaska, and other institutions. <a href="http://link.springer.com/article/10.1023%2FA%3A1024232915870">Here</a> is a link to a 2003 article Shannon co-authored with colleagues Linda Sax and Alyssa Bryant on survey nonresponse. See <a href="https://web.stanford.edu/group/design_education/cgi-bin/mediawiki/index.php/Shannon_Gilmartin">here</a> for links to recent work on engineering students and alumni.<br />
+					<br />
+					<strong>Michelle Grau</strong> has been working with Professor Sheri Sheppard&#39;s Designing Education Lab since 2011. She has worked on several research projects with DEL, including co-designing an engineering career pathways survey, and most recently, studying entrepreneurship education for engineering students. She has collected and analyzed an extensive range of institutional, programmatic, and student-level data over the past four years, and is currently thinking about ways to measure students&rsquo; high school experiences relating to engineering and entrepreneurship as part of a larger exploration of engineers&rsquo; career choices. She graduated with a BS in Mechanical Engineering from Stanford in 2013, and her love of the intersection between engineering and teaching led her to her current job as an engineering and robotics teacher at The Nueva School. She also coaches the FIRST Robotics Competition team at the high school level, and several FIRST Lego League teams at the middle school level.<br />
+					&nbsp;<br />
+					<strong>Angela Harris i</strong>s currently a PhD candidate in Stanford&#39;s Environmental Engineering and Science Program (expected completion, Winter 2015).&nbsp; Angela completed her B.S. in Chemical Engineering at the Georgia Institute of Technology prior to coming to Stanford for her M.S. in Civil and Environmental Engineering.&nbsp; Angela conducts research related to water, sanitation, and child health in developing countries. Angela has extensive experience in developing survey questionnaires and conducting structured observations at the household level as a part of research studies in Tanzania, Kenya, and Bangladesh. Angela also seeks to better understand how to most effectively educate in the engineering fields. She is interested in identifying effective teaching methods to provide students with the skills and expertise they need for the careers they are passionate about pursuing. Angela is involved in Stanford&#39;s student chapter of American Society of Engineering Education and has served on the executive board for two years, including the role of President for the 2013-2014 academic year.<br />
+					<br />
+					<strong>Qu Jin</strong>, Epicenter postdoctoral researcher, is currently conducting research measuring engineering students&rsquo; entrepreneurial interests and related characteristics. She earned her Ph.D. degree in Engineering Education from Purdue University in 2013, M.S. degree in Biomedical Engineering from Purdue University in 2009, and B.S. degree in Material Science and Engineering from Tsinghua University in China in 2007. She has 5 years of experience in survey instrument validation and data analysis. Her research interests focus on educational studies that can help improve teaching, learning, and educational policy decision making, using both quantitative and qualitative research methods<br />
+					<br />
+					<strong>Maximilian Reithmann</strong> is studying Communication Sciences at the Ludwig Maximilians University in Munich (LMU). His major interest lies in the role of communication in innovation processes. In his latest research project he analyzed the role of communication in the diffusion of e-mobility, in cooperation with BMWi. He also participates in the Entrepreneurial Qualification Program &quot;Manage&amp;More&ldquo; at the Center for Innovation and Business Creation (UnternehmerTUM) at the Technical University of Munich (TU Munich). While at UnternehmerTUM, Maximilian was involved in various innovative projects. He has worked on a consultancy project about future scenarios with SIEMENS. He has developed applications for innovative structures in the automobile industry with the BMW Group and lately he has worked on a project in the field of digitally supported logistics with MAN.<br />
+					<br />
+					Maximilian joined the Designing Education Lab and the Engineering Majors Survey Team to learn more about the roots of innovative thinking. He likes to spend his free time on the tennis court and he is a passionate sailor.<br />
+					<br />
+					<strong>Mark Schar</strong> is currently conducting research on a new core engineering curricula that incorporates entrepreneurial concepts with case-based instruction and hands-on classroom labs. Mark is more broadly researching a concept called &ldquo;pivot thinking,&rdquo; which is the neurological shift between convergent and divergent problem solving. As part of this research direction, Mark is experimenting with several psychometric instruments that measure empathy, field dependence/independence and narcism and the impact on problem solving style.&nbsp; He is a Lecturer in the Stanford University School of Engineering, a member of Sheri Sheppard&rsquo;s Designing Education Lab and Brian Knutson&rsquo;s SPANlab cognitive neuroscience lab.&nbsp;<br />
+					<br />
+					Mark Schar received his BSS from Northwestern University, an MBA from the Kellogg School of Management at Northwestern University and PhD from Stanford University School of Engineering. He is a veteran of industry with a 30+ year career at The Procter &amp; Gamble Company (P&amp;G) and Intuit, Inc. Mark is currently a member of Silicon Valley&rsquo;s Band of Angels, the largest start-up funding organization in the world and Founder of One Page Solutions, a strategy consulting firm. He is experienced with survey design, survey implementation and data analysis, serving as P&amp;G&rsquo;s Vice President of Market Research for part of his career.&nbsp; Mark also teaches ME305 - Statistics for Design Researchers using an inverted style with lectures on videos and classroom time devoted to problem solving using R-statistics.<br />
+					<br />
+					<strong>George Toye</strong> is a Consulting Professor of Mechanical Engineering in the Stanford School of Engineering.&nbsp; He completed his Bachelors (energy systems) and Masters (controls) degrees in Mechanical Engineering at the University of California at Berkeley.&nbsp; Before ultimately deciding to pursue his Ph.D., George worked at an international research consulting firm in Palo Alto.&nbsp; Since completing his Ph.D. in mechanical engineering with a minor in electrical engineering at Stanford University, he has been a longstanding contributor to and supporter of Dr. Sheppard&rsquo;s NSF-funded research grants and is engaged in numerous research, consulting, product development, and start-up initiatives at Stanford and in Silicon Valley.</p>
+				<p>
+					&nbsp;</p>
+				<p>
+					&nbsp;</p>
+				<h3>
+					<a id="Contact" name="Contact"></a>Contact</h3>
+				<br />
+				<br />
+				<p>
+					<em><strong>Whom can I contact for more information about FIGS?</strong></em></p>
+				<p>
+					For more information about FIGS, please contact our research team at <a href="mailto:figs@epicenter-research.stanford.edu">figs@epicenter-research.stanford. edu</a>. &nbsp;</p>
+				<div class="wp-caption aligncenter" id="attachment_2151" style="width: 400px">
+					<a href="#"><img alt="" class="wp-image-2151" height="217" src="../images/9981.jpeg" title="Epicenter" width="400" /> </a>
+					<p class="wp-caption-text">
+						We really, really want you to contact us.</p>
+				</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>
+
+
+
+
+<span style="float: right;"><strong>6504 page views</strong></span><div style="clear: both;"></div></div></div></div><div version="2.0" id="footer"><div class="box"><div id="footer_ie" style="height: 140px; width: 840px;"><div class="container"><div id="FooterTwo" style="width: 840px; text-align:center; padding: 20px;"><a class="logo" href="http://nsf.gov/"><img width="90px" height="90px" src="../resources/images/nsfLogo.gif"/></a><a class="logo" href="http://www.stanford.edu/"><img width="175px" height="80px" src="../resources/images/SUSig_White_Stack.png"/></a><a class="logo" href="http://venturewell.org/"><img width="320px" height="87px" src="../resources/images/VW-logo-website-footer.png"/></a></div></div></div><p class="disclaimer" style="width: 740px;padding-left: 45px;">This material is based upon work supported by the National Science Foundation under Grant No. 1125457. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</p><p class="epi_copy">&copy; 2018 Epicenter&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a target="_blank" href="http://www.stanford.edu/site/terms.html">Terms of Service</a></p></div><script type="text/javascript"> 
+ 
+	jQuery(document).ready(function() { 
+        jQuery('ul.sf-menu').superfish(); 
+
+		jQuery('.postinn').css('opacity','0');
+
+		jQuery('#latestpost li').hoverIntent(function() {
+			jQuery(this).find('.postinn')
+				.animate({
+					opacity: '1', 	
+				}, 600); 
+
+			} , function() {
+			jQuery(this).find('.postinn')
+				.animate({
+					opacity: '0', 	
+				}, 1000); 
+
+		});
+
+		jQuery('.latestpost_hidden li').hoverIntent(function() {
+			jQuery(this).find('.postinn')
+				.animate({
+					opacity: '1', 	
+				}, 600); 
+
+			} , function() {
+			jQuery(this).find('.postinn')
+				.animate({
+					opacity: '0', 	
+				}, 1000); 
+
+		});
+
+		jQuery(".more_div_img").click(function() {
+			var id = jQuery(this).attr('id').substring(13);
+			jQuery("#more_div_"+id).fadeOut("fast", function() {
+				jQuery("#latestpost_hidden_"+id).slideDown();
+			});
+		});
+
+    	jQuery('.accordion-title').click(function() {
+    		$(this).next().slideToggle();
+		});
+	});
+</script></div></div></body></html>

@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML SYSTEM "about:legacy-compat">
+<html><head><link href="../resources/dijit/themes/tundra/tundra.css" type="text/css" rel="stylesheet"/><link href="../resources/styles/epicenter.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/autosuggest-tags/autoSuggest.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/file-upload/file-upload.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/jquery-ui-1.8.23/css/smoothness/jquery-ui-1.8.23.custom.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/jwysiwyg/jquery.wysiwyg.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/datatables/css/dataTables.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/fineuploader.jquery/fineuploader.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/flexslider/flexslider.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/simpletabs/simpletabs.css" media="screen" type="text/css" rel="stylesheet"/><link href="../resources/images/favicon.ico" type="image/ico" rel="shortcut icon"/><script src="../resources/jquery-ui-1.8.23/js/jquery-1.8.0.min.js" type="text/javascript"></script><script src="../resources/mygrid2/js/superfish-ver=3.3.2.js" type="text/javascript"></script><script src="../resources/mygrid2/js/jquery.hoverIntent.minified-ver=3.3.2.js" type="text/javascript"></script><script type="text/javascript">var djConfig = {parseOnLoad: false, isDebug: false, locale: 'en-us'};</script><script type="text/javascript" src="../resources/dojo/dojo.js"></script><script type="text/javascript" src="../resources/spring/Spring.js"></script><script type="text/javascript" src="../resources/spring/Spring-Dojo.js"></script><script type="text/javascript" language="JavaScript">dojo.require("dojo.parser");</script><script type="text/javascript" src="../resources/file-upload/jelly.min.js"></script><script type="text/javascript" src="../resources/file-upload/file-upload.js"></script><script type="text/javascript" src="../resources/autosuggest-tags/jquery.autoSuggest.js"></script><script type="text/javascript" src="../resources/elastic/jquery.elastic.source.js"></script><script type="text/javascript" src="../resources/ckeditor/ckeditor.js"></script><script type="text/javascript" src="../resources/ckeditor/adapters/jquery.js"></script><script type="text/javascript" src="../resources/jquery-ui-1.8.23/js/jquery-ui-1.8.23.custom.min.js"></script><script type="text/javascript" src="../resources/jquery-ui-1.8.23/jquery-ui-timepicker-addon.js"></script><script type="text/javascript" src="../resources/datatables/js/dataTables.min.js"></script><script type="text/javascript" src="../resources/fineuploader.jquery/jquery.fineuploader-3.0.min.js"></script><script type="text/javascript" src="../resources/flexslider/jquery.flexslider-min.js"></script><script src="../resources/jfeed/jquery.jfeed.js" type="text/javascript"></script><title>Epicenter:  Team and National Advisory Board</title><link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700"/><link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"/><script type="text/javascript">//
+	// Google Analytics for WordPress by Yoast v4.2.3 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	if (window.location.host.indexOf('staging')<0) {
+		// Production
+		_gaq.push(['_setAccount','UA-25375360-1']);
+	} else {
+		_gaq.push(['_setAccount','UA-25375360-1']);
+	}
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	//</script></head><body class="home blog"><div version="2.0" id="container"><div version="2.0" id="header"><style type="text/css">ul.topnav li {
+	float: left;
+	margin: 0;	
+	padding: 0 0 0 15px;
+	position: relative; /*--Declare X and Y axis base for sub navigation--*/
+}
+ul.topnav li a{
+	padding: 10px 5px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	float: left;
+}
+ul.topnav li a:hover{
+	background-color: #2F3641 !important;
+}
+ul.topnav li span { /*--Drop down trigger styles--*/
+	width: 17px;
+	height: 35px;
+	float: left;
+	background-color: #2F3641 !important;
+}
+ul.topnav li span.subhover {background-position: center bottom; cursor: pointer;} /*--Hover effect for trigger--*/
+ul.topnav li ul.subnav {
+	list-style: none;
+	position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+	left: 0; top: 35px;
+	background: #333;
+	margin: 0; padding: 0;
+	display: none;
+	float: left;
+	width: 170px;
+	border: 1px solid #111;
+	z-index: 1000000;
+	
+}
+ul.topnav li ul.subnav li{
+	margin: 0; padding: 0;
+	border-top: 1px solid #252525; /*--Create bevel effect--*/
+	border-bottom: 1px solid #444; /*--Create bevel effect--*/
+	clear: both;
+	width: 170px;
+	text-align: left !important;
+}
+html ul.topnav li ul.subnav li a {
+	float: left;
+	width: 145px;
+	background-color: #2F3641 !important;
+	padding-left: 20px;
+}
+html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
+	background-color: #2F3641 !important;
+}
+</style><div class="box"><a class="main-logo" href="../index.html">Epicenter: National Center for Engineering Pathways to Innovation</a><div id="links" class="nav-top-wrap"><ul class="nav-top"><li><a href="../login.html">Login</a></li><li><form action="../search.html" method="get"><input type="text" name="term" value="Search" maxlength="50" onblur="if (this.value == '') {this.value = 'Search'; this.style.color='#888888';}" onfocus="if (this.value == 'Search') {this.value = ''; this.style.color='#000000';}"/></form></li></ul></div><div class="nav-main-wrap"><ul class="nav-main sf-js-enabled topnav"><li><a class="sf-with-ul" href="#">About <i class="fa fa-sort-asc"></i></a><ul class="subnav"><li><a href="about.html">Overview</a></li><li><a href="about-programs.html">What We Do</a></li><li><a href="about-team.html">Team</a></li><li><a href="in-the-news.html">In the News</a></li></ul></li><li><a class="sf-with-ul" href="#">Initiatives <i class="fa fa-sort-asc"></i></a><ul class="subnav"><li><a href="university-innovation-fellows.html">University Innovation Fellows</a></li><li><a href="pathways-to-innovation.html">Pathways to Innovation Program</a></li><li><a href="fostering-innovative-generations-studies.html">Fostering Innovative Generations Studies</a></li></ul></li><li><a class="sf-with-ul" href="#">Resources <i class="fa fa-sort-asc"></i></a><ul class="subnav"><li><a href="../resources/story.html">Stories</a></li><li><a href="../events.html">Events</a></li><li><a href="../resources/all.html">Tools</a></li></ul></li><li><a href="newsletter.html">Newsletter</a><span></span></li><li><a href="contact.html">Contact</a></li></ul></div></div><script type="text/javascript">
+	
+	$(document).ready(function(){
+
+		$("ul.subnav").parent().append("<span/>"); //Only shows drop down trigger when js is enabled (Adds empty span tag after ul.subnav*)
+		
+		$("ul.topnav li a").hover(function() { //When trigger is clicked...
+			
+			//Following events are applied to the subnav itself (moving subnav up and down)
+			$(this).parent().find("ul.subnav").slideDown('fast').show(); //Drop down the subnav on click
+
+			$(this).parent().hover(function() {
+			}, function(){	
+				$(this).parent().find("ul.subnav").slideUp('slow'); //When the mouse hovers out of the subnav, move it back up
+			});
+
+			//Following events are applied to the trigger (Hover events for the trigger)
+			}).hover(function() { 
+				$(this).addClass("subhover"); //On hover over, add class "subhover"
+			}, function(){	//On Hover Out
+				$(this).removeClass("subhover"); //On hover out, remove class "subhover"
+		});
+
+	});
+	</script></div><div class="main"><div class="post" id="post-101"><div class="page-heading"><h2><a href="about-team.html" rel="bookmark" title="">Team and National Advisory Board</a></h2></div><div class="entry_full bags">
+
+<div class="accordion">
+	<h3 class="accordion-title">
+		Team</h3>
+	<div class="accordion-content">
+		<br />
+		<div id="team">
+			<strong><a name="TomByers"></a>Tom Byers</strong></div>
+		<div>
+			Director, Principal Investigator, Epicenter<br />
+			<em>Stanford University</em></div>
+		<div>
+			<img class="alignleft" src="../images/9731.jpeg" style="height: 142px; width: 116px;" /></div>
+		<div>
+			At Stanford University since 1995, Tom Byers focuses on education regarding high-growth entrepreneurship and technology innovation. He holds the Entrepreneurship Professorship Chair of the School of Engineering, and is also a Bass University Fellow in Undergraduate Education. He has been a faculty director since the inception of the Stanford Technology Ventures Program (STVP), which serves as the entrepreneurship center for the engineering school. STVP includes the Mayfield Fellows work/study program, the Entrepreneurship Corner (ECorner) website of thought leader videos, and a set of global Roundtable on Entrepreneurship Education (REE) conferences for educators and policy makers. He is a principal investigator for the Epicenter, which is funded by a $10 million grant from the National Science Foundation to stimulate entrepreneurship education at all engineering and science colleges.</div>
+		<br />
+		<div>
+			He is the lead author of a textbook called<em> Technology Ventures: From Idea to Enterprise</em> that is published by McGraw-Hill. He is a past recipient of the prestigious Gordon Prize by the National Academy of Engineering in the USA and Stanford University&#39;s Gores Award, which is its highest honor for excellence in teaching. He is a member of advisory boards at Harvard Business School, World Economic Forum, Conservation International, and several private enterprises. Tom was executive vice president and general manager of Symantec Corporation during its formation, and started his career at Accenture. Tom holds a BS in Industrial Engineering and Operations Research and an MBA from UC Berkeley. He also earned a PhD in Business Administration (Management Science) at UC Berkeley.</div>
+		<br />
+		<div>
+			<strong><a id="KathleenEisenhardt2" name="SheriSheppard"></a>Sheri Sheppard</strong></div>
+		<div>
+			Principal Investigator, Epicenter<br />
+			<em>Stanford University&nbsp;</em></div>
+		<div>
+			<img alt="" class="alignleft" height="144" src="../resources/images/SheriSheppard.jpg" width="103" /></div>
+		<div>
+			Sheri Sheppard has been a Stanford Professor of Mechanical Engineering in the Design division since 1986. Her research focuses on weld fatigue and impact failures, fracture mechanics and applied finite element analysis. Sheri is also co-director of the Center for Design Research in Stanford&#39;s School of Engineering.</div>
+		<br />
+		<div>
+			Sheri is a nationally recognized expert on engineering education. She led a three-year study of engineering education, &quot;Educating Engineers,&quot; in the United States at the Carnegie Foundation for the Advancement of Teaching. For the last decade, she has been the faculty adviser to the Mechanical Engineering Women&#39;s Group at Stanford, which holds an annual seminar series and a welcome program for all female engineers. In 2010, she received the Stanford Gores Award, the university&#39;s highest award for excellence in teaching.</div>
+		<br />
+		<div>
+			<strong><a id="KathleenEisenhardt" name="KathleenEisenhardt"></a>Kathleen Eisenhardt</strong></div>
+		<div>
+			Principal Investigator, Epicenter<br />
+			<em>Stanford University&nbsp;</em></div>
+		<div>
+			<img alt="" class="alignleft" src="../resources/images/KathyEisenhardt.jpg" style="width: 100px; height: 144px; margin-bottom: 10px;" />Kathleen Eisenhardt is the Stanford W. Ascherman M.D. Professor at Stanford University&#39;s School of Engineering and the co-director of the Stanford Technology Ventures Program. She is also a visiting faculty member within INSEAD&rsquo;s Entrepreneurship and Family Enterprise area. Kathleen&#39;s work centers on strategy and organization, especially in technology-based companies and high-velocity industries.</div>
+		<br />
+		<div id="team">
+			Kathleen has worked extensively in research and as a consultant with a variety of firms in the telecommunications, Internet, software, biotech and agribusiness industries. She is a co-author of <em>Competing on the Edge: Strategy as Structured Chaos</em>, published by Harvard Business School Press, winner of the George R. Terry award for outstanding contribution to management thinking. She has published in a variety of academic and management journals, and was recently named the most cited research author in the domain of strategy and organization studies in the past 25 years.</div>
+		<br />
+		<div>
+			<strong><a id="KathleenEisenhardt4" name="LeticiaBritosCavagnaro"></a>Leticia Britos Cavagnaro</strong></div>
+		<div>
+			Deputy Director, Epicenter<br />
+			<em>Stanford University</em></div>
+		<div>
+			<img alt="" class="alignleft" height="121" src="../resources/images/LeticiaBritosCavagnaro.jpg" width="104" />Leticia Britos Cavagnaro is adjunct faculty of the Mechanical Engineering Department at Stanford, and she teaches creativity, innovation and design thinking at the Hasso Plattner Institute of Design (d.school). Leticia holds a Ph.D. in Developmental Biology from Stanford University&#39;s School of Medicine.</div>
+		<div>
+			<br />
+			She is a former member of the REDlab (Research in Education &amp; Design - Stanford School of Education), where she explored how design thinking impacts learning in K-12 environments and higher education. She co-founded the design consultancy Lime Design Associates to bring design thinking to schools, non-profits and companies, as a means to catalyze 21st century learning skills and innovation.</div>
+		<br />
+		<div>
+			<strong>Phil Weilerstein</strong></div>
+		<div>
+			Deputy Director, Epicenter<br />
+			<i>VentureWell&nbsp;</i></div>
+		<div>
+			<img alt="" class="alignleft" height="144" src="../resources/images/alan.jpg" width="103" />Phil Weilerstein is the Executive Director of VentureWell (formerly NCIIA) and leads VentureWell&#39;s role as the Epicenter&#39;s key partner in creating a nation of entrepreneurial engineers. Phil began his own career as an entrepreneur as a student at the University of Massachusetts. He and a team launched a start-up biotech company which ultimately went public. This experience, coupled with a lifelong passion for entrepreneurship, led to his work with the VentureWell.</div>
+		<br />
+		<div>
+			Phil&rsquo;s tenure at VentureWell is marked by his skill for network-building and expert leverage of resources. As an entrepreneur in a not-for-profit organization, he has grown&nbsp;VentureWell from a grassroots group of enthusiastic faculty to a national in-demand knowledge base and resource center. Phil also serves as the Chair of the Entrepreneurship Division of the American Society of Engineering Education.</div>
+		<br />
+		<div>
+			<div>
+				<strong>Helen Chen</strong></div>
+			<div>
+				Research, Epicenter<br />
+				<em>Stanford University</em></div>
+			<div>
+				<img class="alignleft" src="../images/6211.jpeg" />Helen L. Chen is a research scientist in the Designing Education Lab in the Department of Mechanical Engineering and the Director of ePortfolio Initiatives in the Office of the Registrar at Stanford University. She earned her undergraduate degree from UCLA and her PhD in Communication with a minor in Psychology from Stanford University in 1998. As a former research associate with the Center for the Advancement of Engineering Education (CAEE), Helen has collaborated with Professor Sheri Sheppard on various NSF-funded engineering education studies, conference presentations, and publications.</div>
+			<div>
+				<br />
+				Helen works closely with Association of American Colleges and Universities as a member of the Assessment Advisory Group for the Quality Collaboratives project and as a faculty member for the Institute on General Education and Assessment. Helen is also the Director of Research for the Association for Authentic, Experiential and Evidence-Based Learning (AAEEBL) and a senior scholar on LaGuardia Community College&rsquo;s FIPSE-funded Connect to Learning project. She and her colleagues Tracy Penny-Light and John Ittelson are the authors of Documenting Learning with ePortfolios: A Guide for College Instructors (2011, Wiley).</div>
+			<div>
+				&nbsp;</div>
+			<div>
+				&nbsp;</div>
+			<br />
+			<div>
+				<strong>Katie Dzugan</strong></div>
+			<div>
+				Student Engagement, Epicenter<br />
+				<em>VentureWell</em></div>
+			<div>
+				<img class="alignleft" src="../images/6551.jpeg" style="font-size: 12px;" />Katie, a University Innovation Fellows Program Associate at VentureWell (formerly NCIIA), is a former University Innovation Fellow who graduated from Southern Illinois University at Carbondale. She joined VentureWell and Epicenter to expand the national student movement, through the work of the University Innovation Fellows program. By grooming engineering students to be change agents on campus, the Fellows program empowers students to create programming and resources to support the growing student interest in Innovation and Entrepreneurship.</div>
+			<br />
+			<div>
+				Katie provides support to communities of Fellows working to deploy similar strategies and who collaborate regionally. In addition, Katie is expanding the programs communications strategies to meet the aggressive program growth goals. She continues to pursue her passion for learning about the entrepreneurial mindset and lending her knowledge to student catalysts changing the innovation and entrepreneurship ecosystem on campuses nationwide. Katie holds a B.S. in Management, Marketing, and Entrepreneurship, as well as a dual Master&rsquo;s of Business Administration and Master&rsquo;s of Arts focused on the nonprofit sector and strategic communication.</div>
+			<br />
+			<div>
+				<strong>Humera Fasihuddin</strong></div>
+			<div>
+				Student Engagement, Epicenter<br />
+				<em>VentureWell</em></div>
+			<div>
+				<img class="alignleft" src="../images/5151.jpeg" />Humera is a Senior Program Officer at VentureWell (formerly NCIIA) and leads the University Innovation Fellows program, a key driver of Epicenter&#39;s student engagement strategy. In it, she works with students to create lasting institutional impact within the innovation and entrepreneurship ecosystem on campus. While at VentureWell, she has led the creation of numerous program including the organization&#39;s first foray in advanced venture training workshops, which today account for over half of the 501c(3)&#39;s income.</div>
+			<br />
+			<div>
+				Prior to&nbsp;<span style="font-size: 12px;">VentureWell</span>, Humera created innovation networks between industry and the University of Massachusetts Amherst under an NSF Partnership for Innovation grant. Humera began her career at the publicly-traded UK firm Rexam, serving as product manager in their precision coated materials subsidiary. Humera holds an M.B.A. from UMass Amherst and a B.S. from Smith College.</div>
+			<br />
+			<div>
+				<strong><a id="KathleenEisenhardt6" name="ShannonGilmartin"></a>Shannon Gilmartin</strong></div>
+			<div>
+				Research, Epicenter<br />
+				<em>Stanford University</em></div>
+			<div>
+				<img class="alignleft" src="../images/5511.jpeg" />Shannon Gilmartin, Epicenter Research Scientist, is currently conducting mixed-methods research on entrepreneurship programs and engineering students&rsquo; experiences in entrepreneurship learning environments. Shannon also is a Consulting Associate Professor at Stanford University&rsquo;s School of Engineering and the Director of SKG Analysis, a research consulting firm. Shannon&rsquo;s expertise is in higher education and workforce research, especially in science and engineering fields.</div>
+			<div>
+				<br />
+				She received her B.A. at Stanford University and her M.A. and Ph.D. at UCLA, and held two research appointments at the California Institute of Technology and Stanford before starting her consulting practice in 2006.She has taught undergraduate courses at UCLA in gender, education, and psychology, and, since 2008, has worked with Professor Sheri Sheppard&rsquo;s Designing Education Lab on studies of engineering student pathways. She has published in a wide range of journals in education, gender studies, and related areas.</div>
+		</div>
+		<br />
+		<br />
+		<div>
+			<strong>Victoria Matthew</strong></div>
+		<div>
+			Faculty Development, Epicenter<br />
+			<em>VentureWell</em></div>
+		<div>
+			<img class="alignleft" src="../images/6621.jpeg" />Victoria Matthew is Senior Program Officer for Faculty Development at VentureWell (formerly NCIIA) and as such plays a key role in the Pathways to Innovation Program, the driver of the Epicenter&rsquo;s faculty development and engagement strategy. In Pathways, she leads the design of in-person and online workshops and convenings. She connects faculty with curated content, experts, and with each other, with a goal of growing the Pathways learning community.</div>
+		<br />
+		<div>
+			Prior to joining VentureWell, Victoria spent over a decade working in the higher education field. Victoria&rsquo;s work in the higher education sector spans community colleges, private colleges and public research institutions. She has designed, developed and managed degree, and certificate programs, and has experience as an online instructor, and mentor and trainer of other online instructors. Across these various roles, Victoria has focused on placing learner needs at the center of the learning experience, and creating learning communities that maximize engagement and transformative learning. Victoria holds a BSc from the University of Hull, and an MS from Marlboro College.</div>
+		<br />
+		<div>
+			<strong><a id="Thema" name="Thema"></a>Thema Monroe-White </strong></div>
+		<div>
+			External Evaluator, Epicenter<br />
+			<em>SageFox Consulting Group</em></div>
+		<div>
+			<img alt="" class="alignleft" src="../images/7721.jpeg" style="height: 144px;" />Thema Monroe-White is a senior evaluator at SageFox Consulting Group, specializing on driving organizational and program performance through efficient and effective evaluation design and implementation. Prior to joining SageFox, she worked as a researcher and evaluator for several local and federally funded projects in the areas of mental health, STI Policy and the STEM pipeline. Thema has also taught in the K-12 environment and served as an invited guest lecturer for courses in leadership, statistics and cross-cultural psychology at the graduate and undergraduate levels</div>
+		<br />
+		<div>
+			Thema recently completed her PhD in Science, Technology and Innovation Policy at the Georgia Institute of Technology where she studied social entrepreneurship and innovation. Her dissertation entitled: &ldquo;A cross-country comparative investigation of social enterprises: a multilevel-approach&rdquo; was the Institute&rsquo;s nominee for the 2014 CGS /Proquest Dissertation Award in Social Sciences. Thema graduated magna cum laude with a B.S. in Cognitive Psychology from Howard University as a National Institutes of Mental Health-Minority Access to Research Careers (NIMH-MARC) Scholar in 2001; and received her Master Degree in Developmental Neuropsychology from Howard University in 2004 as an American Psychological Association Neuroscience Fellow. She is a fluent Spanish speaker and world traveler having spent time in over one dozen countries since the age of nine. Thema currently lives in Atlanta, Georgia with her husband and three children.<br />
+			&nbsp;</div>
+		<div>
+			<strong><a id="LaurieMoore" name="LaurieMoore"></a>Laurie Moore</strong></div>
+		<div>
+			Communications, Epicenter<br />
+			<em>Stanford University</em></div>
+		<div>
+			<img alt="" class="alignleft" height="144" src="../images/1041.jpeg" />Laurie Moore is Epicenter&rsquo;s communications manager and leads community outreach efforts at Epicenter. She manages the website and its content, social media accounts, media relations, email campaigns, and tells the stories of engineering faculty and students who exemplify the innovative, entrepreneurial spirit that defines the center.</div>
+		<br />
+		<div>
+			Laurie has worked for eight years as a writer and editor for web and print, with experience in website management and graphic design. Before joining Epicenter, she worked for the University of Southern California as the web editor for the USC Dornsife College.</div>
+		<br />
+		<br />
+		<div>
+			<strong><a id="Stacey" name="Stacey Mushenski"></a>Stacey Mushenski</strong></div>
+		<div>
+			Student Engagement, Epicenter<br />
+			<em>VentureWell</em></div>
+		<div>
+			<img alt="" class="alignleft" src="../images/10931.jpeg" style="height: 144px;" /> Stacey is a Program Administrator for Epicenter&rsquo;s University Innovation Fellows program at VentureWell (formerly NCIIA). She supports the Fellows team through organization and implementation of the application process, online training, communications and digital media. In her spare time, she founded and directs a nonprofit, Helping Hearts for Hadley Schools, which has provided her a deeper appreciation as to how the nonprofit sector can improve the quality of life. Stacey joins the Fellows team to bring this appreciation to a national network of students who are changing the innovation and entrepreneurship ecosystem at their institution. However, her true passion in life is spending time with her three beautiful children, her spouse, and dog Colby Pickles.</div>
+		<br />
+		<br />
+		<div>
+			<strong>Alan Peterfreund</strong></div>
+		<div>
+			External Evaluator, Epicenter<br />
+			<em>SageFox Consulting Group</em></div>
+		<div>
+			<img alt="" class="alignleft" height="144" src="../resources/images/phil.jpg" width="103" />Alan Peterfreund, Ph.D., is the executive director of SageFox, the firm overseeing external evaluation of the Epicenter. Alan has 25 years of experience as a consultant, evaluator and researcher for clients in the public and private sectors of business, government and education. He has a Ph.D. in Geology from Arizona State University, and has been a research faculty member at Brown University.</div>
+		<br />
+		<div>
+			A career shift in 1984 led to 16 years of consulting in the private and public sector with primary emphasis on organizational change, quality management, and employee participation. In 2000, Alan began to focus on supporting higher education partners in projects that address the broadening of participation in the sciences, graduate student development, and other educational reforms.</div>
+		<br />
+		<br />
+		<div>
+			<strong><a id="KathleenEisenhardt3" name="TinaSeelig"></a>Tina Seelig</strong></div>
+		<div>
+			Online Resources, Epicenter<br />
+			<em>Stanford University</em></div>
+		<div>
+			<img alt="" class="alignleft" height="144" src="../resources/images/TinaSeelig.jpg" width="96" />Tina Seelig is the executive director of the Stanford Technology Ventures Program and a Professor of the Practice in Management Science and Engineering. At Stanford, Tina teaches courses on creativity, innovation and entrepreneurship in the department of Management Science and Engineering, and within the Hasso Plattner Institute of Design. She was awarded the 2009 Gordon Prize from the National Academy of Engineering, recognizing her as a national leader in engineering education. She also received the 2008 National Olympus Innovation Award and the 2005 Stanford Tau Beta Pi Award for Excellence in Undergraduate Teaching. Seelig holds a Ph.D. in Neuroscience from Stanford University.</div>
+		<br />
+		<div>
+			Tina has worked as a management consultant, as a multimedia producer and was the founder of a multimedia company. She has also written 16 popular books and educational games. Her books include <em>The Epicurean Laboratory </em>and <em>Incredible Edible Science</em>, published by Scientific American; and a series of twelve games called <em>Games for Your Brain</em>, published by Chronicle Books. She is also the author of <em>What I Wish I Knew When I Was 20</em>, and <em>inGenius: A Crash Course on Creativity</em>, both published by HarperCollins.</div>
+		<br />
+		<div>
+			<strong>Angela Shartrand </strong></div>
+		<div>
+			Research, Epicenter<br />
+			<em>VentureWell</em></div>
+		<div>
+			<img alt="" class="alignleft" height="144" src="../resources/images/angela.jpg" width="103" />Angela Shartrand is a Research and Evaluation Manager at VentureWell (formerly&nbsp;NCIIA) and develops many of the Epicenter&#39;s external research and evaluation initiatives. Most recently, she has helped VentureWell to build that organization&#39;s capacity to conduct research in areas that are closely aligned with VentureWell&#39;s mission, through developing collaborations with faculty researchers and developing successful research proposals to the National Science Foundation.</div>
+		<br />
+		<div>
+			Prior to VentureWell, Angela worked as a researcher and evaluator in several organizations, including the Young Sisters for Justice at the Boston Women&#39;s Fund and the Harvard Family Research Project. She holds a Ph.D. in Applied Developmental and Educational Psychology from Boston College, an Ed.M. from Harvard University and a B.A. from Williams College.</div>
+	</div>
+	<br />
+	<h3 class="accordion-title">
+		<strong style="font-size: 12px;"><a name="NationalAdvisoryBoard"></a></strong>National Advisory Board</h3>
+	<div class="accordion-content-open">
+		<p dir="ltr">
+			<strong><img alt="" class="alignleft" src="../images/6931.jpeg" style="width: 96px;" />Cammy Abernathy</strong><br />
+			<em>Dean, College of Engineering, University of Florida</em><br />
+			<br />
+			Cammy R. Abernathy received her S.B. degree in materials science and engineering from the Massachusetts Institute of Technology in 1980, and her M.S. and Ph.D. degrees in materials science and engineering from Stanford University in 1982 and 1985 respectively. She joined the University of Florida&rsquo;s Department of Materials Science and Engineering as a professor in 1993. In 2004, she became the College&rsquo;s Associate Dean for Academic Affairs, and in July 2009 was appointed Dean of the College of Engineering.<br />
+			<br />
+			Dr. Abernathy&rsquo;s research interests are in synthesis of thin-film electronic materials and devices using metal organic chemical vapor deposition and molecular beam epitaxy. She is the author of more than 500 journal publications, more than 430 conference papers, one co-authored book, seven edited books, eight book chapters and seven patents.<br />
+			<br />
+			Dr. Abernathy is a fellow of the AVS, APS and the Electrochemical Society. She is also a member of the American Society of Engineering Education, and the Materials Research Society.<br />
+			<br />
+			<br />
+			<strong><img alt="" class="alignleft" src="../images/6941.jpeg" style="width: 96px;" /></strong><strong>Steve Blank</strong><br />
+			<em>Author, entrepreneur, educator</em><br />
+			<br />
+			Steve Blank is a seasoned Silicon Valley entrepreneur. Translation: he has failed and--more often--succeeded, in a 21-year career building 8 Valley startups, including several with major IPO&#39;s. Along the way, he&#39;s learned an incredible amount, and has spent the last decade sharing what he&#39;s learned with entrepreneurs all over the world. Author of two famous books on entrepreneurship, The Four Steps to the Epiphany, and The Startup Owner&#39;s Manual. Steve teaches entrepreneurship at Udacity, Stanford, Berkeley, Columbia, and other major universities worldwide. He was named &quot;Master of Innovation&quot; by Harvard Business Review and is an advisor to many successful entrepreneurs. He is also an avid conservationist, contributing generously to preserve the California Coast.<br />
+			<br />
+			<br />
+			<strong><img alt="" class="alignleft" src="../images/6951.jpeg" style="width: 96px;" /></strong><strong>Susan Brennan</strong><br />
+			<em>Chief Operations Officer, Bloom Energy </em><br />
+			<br />
+			Susan Brennan brings more than 24 years of manufacturing experience, including automotive vehicle, powertrain and components assembly. Susan has dedicated her career to improving American manufacturing and assuring that the United States maintains a vital manufacturing footprint, especially in areas of key technological advances. In her time as a manufacturing practitioner, she has always been a strong proponent of sustainability, starting in her first role as the Environmental and Coating Manager with Douglas and Lomason, leading the plant to the State of Iowa&#39;s first ever Waste Minimization award and, most recently, launching the all-electric Nissan Leaf in Smyrna, TN. Throughout her career, she has maintained that jobs and the environment can have a symbiotic relationship, and that passion drives her as she pursues her role at Bloom. In addition, she has created and supported organizations that encourage young women to pursue careers in math and science as a way to support future generations of technological manufacturing in the United States. Susan holds a Master of Business Administration from the University of Nebraska, Omaha and a Bachelor&#39;s of Science in Microbiology from the University of Illinois, C-U.<br />
+			&nbsp;<br />
+			<br />
+			<strong><img alt="" class="alignleft" src="../images/6961.jpeg" style="width: 96px;" />Jim Breyer</strong><br />
+			<em>Partner, Accel Partners; Founder/CEO, Breyer Capital</em><br />
+			<br />
+			Jim is a Partner at Accel and is the Founder/CEO of Breyer Capital, an investment and venture philanthropy firm. Jim has been an investor in over 30 consumer Internet, media, and technology companies that have completed public offerings or successful mergers. Several of these investments returned over 100 times their initial cost and many of these investments have returned over 25 times their cost to investors.<br />
+			<br />
+			In 2013, 2012 and 2011, Forbes ranked Jim #1 in its Midas List of top technology investors. Fortune Magazine also named Jim the #1 smartest investor in technology, and one of the 10 smartest people in all of technology. In October, 2012, Jim was named to the Vanity Fair New Establishment Hall of Fame, and in June, 2012, he received the Silicon Valley Lifetime Visionary Award. In December, 2012, he was named AlwaysOn Venture Capitalist of the Year. In February, 2013, Jim was elected a fellow of the Harvard Corporation, Harvard University&rsquo;s senior governing board.<br />
+			<br />
+			<br />
+			<strong><img alt="" class="alignleft" src="../images/7021.jpeg" style="width: 96px;" /></strong><strong>Carlton Brown</strong><br />
+			<em>President, Clark Atlanta University </em><br />
+			<br />
+			Carlton E. Brown became the third president of Clark Atlanta University on August 1, 2008 after serving as Executive Vice President and Provost, beginning July 2007.<br />
+			<br />
+			Dr. Brown brings a great wealth of executive experience and accomplishments in higher education after serving as the president of Savannah State University (SSU) for nine and a half years and holding senior-level administrative positions at several universities. Before coming to CAU, Dr. Brown was appointed by Georgia Board of Regents Chancellor Errol Davis to assist in the implementation of major system-wide initiatives.<br />
+			<br />
+			A native of Macon, Ga., Dr. Brown received both his Bachelor of Arts degree and his doctorate from the University of Massachusetts, Amherst. He earned his doctorate in multicultural education in 1979, and his bachelor&#39;s degree in English and American Studies in 1971. After completing his undergraduate degree, Dr. Brown worked as a teacher and counselor in an inner-city alternative high school.<br />
+			<br />
+			After serving on the faculty of the School of Education at Old Dominion University in Virginia from 1979 to 1987, he joined the faculty of Hampton University in Virginia as the Dean of the School of Education. Later, he served as Dean of the School of Liberal Arts and Education and in 1996, was promoted to Vice President for Planning and Dean of the Graduate College.<br />
+			<br />
+			During his tenure as SSU&#39;s 11th president, the university reached several notable milestones. Among them were an increase in student enrollment of 48 percent from fall 1998 to fall 2005; the transformation of student housing and academic support facilities; the accreditation and reaccreditation of several academic programs; major increases in grants and contracts; improved student retention; and strengthened graduate programs to increase the number of minorities pursuing graduate degrees in science, technology, engineering and mathematics.<br />
+			<br />
+			<br />
+			<strong><img alt="" class="alignleft" height="134" src="../resources/images/LeahJamieson.jpg" width="96" />Leah H. Jamieson</strong><br />
+			<em>Dean, College of Engineering, Purdue University </em><br />
+			<br />
+			Leah H. Jamieson is the John A. Edwardson Dean of the College of Engineering at Purdue University, Ransburg Distinguished Professor of Electrical and Computer Engineering, and holds a courtesy appointment in Purdue&rsquo;s School of Engineering Education. She served as 2007 President and CEO of the IEEE. She is co-founder and past director of the EPICS &ndash; Engineering Projects in Community Service &ndash; Program.<br />
+			<br />
+			With colleagues Edward Coyle and William Oakes, she was awarded the 2005 NAE Bernard M. Gordon Prize for Innovation in Engineering and Technology Education for the creation and dissemination of EPICS. She was an inaugural recipient of the National Science Foundation Director&rsquo;s Award for Distinguished Teaching Scholars, the IEEE Education Society&rsquo;s 2000 Harriet B. Rigas &ldquo;Outstanding Woman Engineering Educator&rdquo; Award, and the Anita Borg Institute&rsquo;s 2007 &ldquo;Women of Vision Award for Social Impact.&rdquo; She was elected to the U.S. National Academy of Engineering &ldquo;for innovations in integrating engineering education and community service&rdquo; and was elected a Fellow of the IEEE for her research on parallel processing algorithms.<br />
+			<br />
+			<br />
+			<strong><img alt="" class="alignleft" src="../images/7011.jpeg" />Kristina M. Johnson</strong><br />
+			<em>CEO, Enduring Hydro; Former Under Secretary of Energy; Former Provost at Johns Hopkins</em><br />
+			<br />
+			Kristina Johnson most recently served as Under Secretary of Energy at the U.S. Department of Energy. As Under Secretary, Kristina was responsible for unifying and managing a broad $10.5 billion Energy and Environment portfolio, including an additional $37 billion in energy and environment investments from the American Recovery and Reinvestment Act. The portfolio included research, development, demonstration and deployment projects involving the national laboratories, universities, state and local governments and private industry in renewable energy, carbon-capture and sequestration, nuclear power, energy efficiency, smart grid and nuclear waste.<br />
+			<br />
+			Kristina previously served as Provost and Vice President for Academic Affairs at Johns Hopkins University, the largest research university in the U.S. From 1999-2007, she was Dean of the Pratt School of Engineering at Duke University. In addition to her academic career, she is an inventor and entrepreneur, holding over 45 U.S. patents (129 U.S. and international patents) and co-founder of several successful companies.<br />
+			<br />
+			<br />
+			<strong><img alt="" class="alignleft" src="../images/6981.jpeg" />Gary S. May</strong><br />
+			<em>Dean, College of Engineering, Georgia Institute of Technology</em><br />
+			<br />
+			Gary S. May is the dean of the College of Engineering at the Georgia Institute of Technology. From May 2005-June 2011, he served as the Steve W. Chaddick School Chair of the School of Electrical and Computer Engineering, and previous to that, he was the executive assistant to Georgia Tech President G. Wayne Clough from 2002-2005. Gary joined the ECE school faculty in 1991 as a member of the School&#39;s microelectronics group. His research is in the field of computer-aided manufacturing of integrated circuits.<br />
+			<br />
+			He was a National Science Foundation &quot;National Young Investigator&quot; (1993-98) and was Editor-in-Chief of IEEE Transactions on Semiconductor Manufacturing (1997-2001). He has authored over 200 articles and technical presentations in the area of IC computer-aided manufacturing. In 2001, he was named Motorola Foundation Professor, and was appointed associate chair for Faculty Development. He is the founder of Georgia Tech&#39;s Summer Undergraduate Research in Engineering/Science (SURE) program, a summer research program designed to attract talented minority students into graduate school.<br />
+			<br />
+			<br />
+			<strong><img alt="" class="alignleft" src="../images/6991.jpeg" style="width: 96px;" /></strong><strong>Richard K. Miller</strong><br />
+			<em>President, Olin College </em><br />
+			<br />
+			Richard K. Miller was appointed President and first employee of Olin College of Engineering in 1999. He served as Dean of the College of Engineering at the University of Iowa from 1992-99. The previous 17 years were spent on the Engineering faculty at USC in Los Angeles and UCSB in Santa Barbara. With a background in applied mechanics and current interests in innovation in higher education, Miller is the author of more than 100 reviewed journal articles and other technical publications. Together with two Olin colleagues, he received the 2013 Bernard M. Gordon Prize from the U.S. National Academy of Engineering (NAE) for Innovation in Engineering and Technology Education.<br />
+			<br />
+			A member of the NAE, he received the Marlowe Award for creative and distinguished administrative leadership from the American Society for Engineering Education in 2011. Miller served as Chair of the Engineering Advisory Committee of the U.S. National Science Foundation and has served on advisory boards and committees for Harvard University, Stanford University, the NAE and the U.S. Military Academy at West Point in addition to others. Furthermore, he has served as a consultant to the World Bank in the establishment of new universities. A frequent speaker on engineering education, he received the 2002 Distinguished Engineering Alumnus Award from the University of California at Davis, where he earned his B.S. He earned his M.S. from MIT and Ph.D. from the California Institute of Technology, where he received the 2014 Distinguished Alumni Award.<br />
+			<br />
+			<br />
+			<strong><img alt="" class="alignleft" height="132" src="../resources/images/DavidMunson.jpg" width="96" />David C. Munson</strong><br />
+			<em>Dean, College of Engineering, University of Michigan, Ann Arbor</em><br />
+			<br />
+			David C. Munson became Chair of the Department of Electrical Engineering and Computer Science at the University of Michigan, Ann Arbor, in 2003. In 2006 he assumed the position of Robert J. Vlasic Dean of Engineering. From 1979 to 2003 he was with the University of Illinois at Urbana-Champaign, where he was the Robert C. MacClinchie Distinguished Professor of Electrical and Computer Engineering, Research Professor in the Coordinated Science Laboratory, and a faculty member in the Beckman Institute for Advanced Science and Technology. David&rsquo;s teaching and research interests are in signal and image processing. His current research is focused on radar imaging, passive millimeter-wave imaging, and computer tomography.<br />
+			<br />
+			He has held summer positions in digital communications and speech processing, and he has served as a consultant in synthetic aperture radar to the Lockheed Palo Alto Research Laboratory. He is co-founder of InstaRecon, Inc., a start-up to commercialize fast algorithms for image formation in computer tomography. He is affiliated with the Infinity Project, where he is coauthor of a textbook on the digital world, which is used in high schools nationwide to introduce students to engineering. David is a Fellow of the Institute of Electrical and Electronics Engineers (IEEE), a past president of the IEEE Signal Processing Society, founding editor-in-chief of the IEEE Transactions on Image Processing, and co-founder of the IEEE International Conference on Image Processing.<br />
+			<br />
+			<strong><img alt="" class="alignleft" src="../images/9391.jpeg" style="width: 96px;" /></strong><strong>Diana Natalicio</strong><br />
+			<em>President, University of Texas at El Paso</em><br />
+			<br />
+			Diana Natalicio was named president of UTEP in 1988. During her long and distinguished career with the University, Dr. Natalicio has served as vice president for academic affairs, dean of liberal arts, chair of the modern languages department and professor of linguistics. Her sustained commitment to provide all residents of the Paso del Norte region access to outstanding higher education opportunities has helped make UTEP a national success story.<br />
+			<br />
+			During Dr. Natalicio&rsquo;s tenure as president, UTEP&rsquo;s enrollment has grown from 14,971 to more than 23,000 students, who reflect the demographics of the Paso del Norte region from which 90% of them come. More than 78% are Mexican American, and another 6% commute to the campus from Ciudad Ju&aacute;rez, Mexico. UTEP&rsquo;s annual budget has increased from $65 million to more than $400 million, since 1988. UTEP is designated as a research/doctoral university, recognized nationally for both the excellence and breadth of its academic and research programs. UTEP&rsquo;s annual research expenditures have grown from $6 million to more than $84 million per year, and doctoral programs from one to 20 during this same period. To accommodate steady growth in enrollment, academic programs and research, over the past five years the university has managed nearly $300 million in new and renovated facilities expansion projects in science, engineering, health sciences, and other student quality-of-life related infrastructure.<br />
+			<br />
+			Dr. Natalicio is immediate past chair of the board of the American Council on Education and serves on the board of directors of ACT. She has served on the board of trustees of the Rockefeller Foundation, on the board of governors of the U.S.-Mexico Foundation for Science, the NASA Advisory Committee (NAC), the boards of the Association of Public and Land-grant Universities, Trinity Industries, National Action Council for Minorities in Engineering, Sandia Corporation and Internet2, and was appointed by President George H.W. Bush as a member of the Advisory Commission on Educational Excellence for Hispanic Americans. Initially appointed to the National Science Board by President Bill Clinton in 1994, she served two six-year terms as a Board member and three two-year terms as the NSB&rsquo;s vice chair.<br />
+			<br />
+			Dr. Natalicio was awarded the 2013 TIAA-CREF Theodore M. Hesburgh Award for Leadership Excellence and was recognized in 2011 by the President of Mexico with the Orden Mexicana del Aguila Azteca, the highest honor bestowed on foreign nationals. She received the Harold W. McGraw, Jr. Prize in Education in 1997, was inducted into the Texas Women&rsquo;s Hall of Fame in 1999, was honored with the Distinguished Alumnus Award at The University of Texas at Austin in 2006, and is the recipient of honorary doctoral degrees from Georgetown University, Smith College and the Universidad Autonoma de Nuevo Leon. A graduate of St. Louis University, Dr. Natalicio earned a master&rsquo;s degree in Portuguese and a doctorate in linguistics from The University of Texas at Austin.<br />
+			<br />
+			<br />
+			<strong><img alt="" class="alignleft" src="../images/9381.jpeg" style="width: 96px;" /></strong><strong>Shankar Sastry</strong><br />
+			<em>Dean, College of Engineering, University of California, Berkeley</em><br />
+			<br />
+			S. Shankar Sastry is the Dean of Engineering at University of California, Berkeley and the faculty director of the Blum Center for Developing Economies. From 2004 to 2007 he was the Director of CITRIS (Center for Information Technology in the Interests of Society) an interdisciplinary center spanning UC Berkeley, Davis, Merced and Santa Cruz. He has served as Chairman, Department of Electrical Engineering and Computer Sciences, University of California, Berkeley from January 2001 through June 2004. From 1999 to early 2001, he was on leave from Berkeley as Director of the Information Technology Office at the Defense Advanced Research Projects Agency (DARPA). From 1996-1999, he was the Director of the Electronics Research Laboratory at Berkeley.<br />
+			<br />
+			Dr. Sastry received his Ph.D. degree in 1981 from the University of California, Berkeley. He was on the faculty of MIT as Asst. Professor from 1980 to 1982 and Harvard University as a chaired Gordon McKay professor in 1994. His areas of personal research are resilient network control systems, cybersecurity, autonomous and unmanned systems (especially aerial vehicles), computer vision, nonlinear and adaptive control, control of hybrid and embedded systems, and software.<br />
+			<br />
+			<strong><img alt="" class="alignleft" src="../images/7001.jpeg" style="width: 96px;" /></strong><strong>Beverly Daniel Tatum</strong><br />
+			<em>President, Spelman College</em><br />
+			<br />
+			A 2013 recipient of the Carnegie Academic Leadership Award, Dr. Beverly Daniel Tatum has served as president of Spelman College since 2002. Her tenure as president has been marked by a period of great innovation and growth. Spelman College, long recognized as the leading educator of women of African descent, is now ranked among the top 100 liberal arts colleges in the nation and is one of the most selective women&rsquo;s colleges in the United States. Overall, scholarship support for Spelman students has tripled since 2002, and opportunities for faculty research and development have expanded significantly. In 2008, the Gordon-Zeto Fund for International Initiatives was established with a gift of $17,000,000, creating more opportunities for faculty and student travel and increased funding for international students. Alumnae support of the annual fund has also tripled, reaching a record high of 41% in 2011. Campus improvements include the award-winning renovation of four historic buildings and the 2008 completion of a new &ldquo;green&rdquo; residence hall, increasing on-campus housing capacity by more than 25% and establishing the campus commitment to environmental sustainability for the 21st century. In 2012 Dr. Tatum made the bold decision to withdraw from NCAA intercollegiate sports participation, a program serving less than 100 students, in favor of a campus-wide wellness initiative designed to impact the entire student community of 2100. Collectively, these improvements serve as the foundation for Strengthening the Core: The Strategic Plan for 2015, which focuses on global engagement, expanded opportunities for undergraduate research and internships, alumnae-student connections, leadership development and service learning linked to an increasingly interdisciplinary curriculum.<br />
+			<br />
+			An accomplished administrator, Dr. Tatum is widely recognized as a race relations expert and leader in higher education. Her areas of research include racial identity development, and the role of race in the classroom. She is the author of Can We Talk About Race? And Other Conversations in an Era of School Resegregation (2007) and &ldquo;Why Are All the Black Kids Sitting Together in the Cafeteria?&rdquo; and Other Conversations about Race (1997) as well as Assimilation Blues: Black Families in a White Community (1987). A Fellow of the American Psychological Association, in 2005 Dr. Tatum was awarded the prestigious Brock International Prize in Education for her innovative leadership in the field.<br />
+			<br />
+			In addition to her active involvement in the Atlanta community, Dr. Tatum is a member of national non-profit boards including the Institute for International Education, the Carnegie Foundation for the Advancement of Teaching, and Teach for America. Appointed by President Obama, she is a member of the Advisory Board for the White House Initiative on Historically Black Colleges and Universities. She also serves on the Georgia Power corporate board of directors.<br />
+			<br />
+			She holds a B.A. degree in psychology from Wesleyan University, and M.A. and Ph.D. in clinical psychology from University of Michigan as well as an M.A. in Religious Studies from Hartford Seminary. Prior to her appointment at Spelman, she served as dean and acting president at Mount Holyoke College. President Tatum is married to Dr. Travis Tatum, professor emeritus of education; they are the parents of two adult sons.<br />
+			<br />
+			<br />
+			<strong><img alt="" class="alignleft" height="134" src="../resources/images/KaranWatson.jpg" width="96" />Karan L. Watson</strong><br />
+			<em>Provost and Executive Vice President for Academic Affairs, Texas A&amp;M University</em><br />
+			<br />
+			Karan L. Watson has served as provost and executive vice president for academic affairs of Texas A&amp;M University since March 2011. She previously served as vice provost and as dean of faculties and associate provost. She joined the faculty in 1983 and is currently a Regents Professor in the Department of Electrical and Computer Engineering and in the Department of Computer Science and Engineering.<br />
+			<br />
+			Karan is the president of ABET, and a fellow of the Institute of Electrical and Electronic Engineers (IEEE) and the American Society for Engineering Education. Her awards and recognitions include the U.S. President&#39;s Award for Mentoring Minorities and Women in Science and Technology, the American Association for the Advancement of Science mentoring award, and the IEEE International Undergraduate Teaching Award. Since 1991, Karan has served as an accreditation evaluator and commissioner and is now on the Board of Directors for ABET, Inc., formerly the Accreditation Board for Engineering and Technology.</p>
+	</div>
+</div>
+<p>
+	&nbsp;</p>
+<h3 class="accordion-title">
+	Curation Board (Emeritus)</h3>
+<div class="accordion-content-closed">
+	<p>
+		<em>For the first two years of the Epicenter grant, our curation board was instrumental in identifying and gathering ideologies, pedagogies, methods, tools and other resources related to innovation and entrepreneurship education. </em></p>
+	<div>
+		<strong>Stephanie G. Adams</strong></div>
+	<div>
+		Virginia Tech</div>
+	<div>
+		<img alt="" class="alignleft" height="145" src="../resources/images/StephanieAdams.png" width="96" />Stephanie G. Adams is the Department Head and Professor of Engineering Education at Virginia Tech. She has held faculty and administrative positions at Virginia Commonwealth University, the University of Nebraska-Lincoln, North Carolina State University, Texas Tech University and the University of Notre Dame. As a student she interned with the 3M Corporation.&nbsp;Stephanie earned her BS in Mechanical Engineering with honors from North Carolina A&amp;T State University, the Master of Engineering degree in Systems Engineering from the University of Virginia and her Ph.D. in Interdisciplinary Engineering from Texas A&amp;M University.</div>
+	<br />
+	<div id="cur">
+		Her research interests include Team Effectiveness, Collaborative and Active Learning, and Quality Control and Management. In 2003 she received the CAREER award from the National Science Foundation. She holds membership in a number of organizations and presently serves on the Board of Directors of the American Society of Engineering Education and the National Advisory Board of the National Society of Black Engineers.</div>
+	<br />
+	<div>
+		<strong>Mark L. Chang</strong></div>
+	<div>
+		Olin College</div>
+	<div>
+		<img alt="" class="alignleft" height="107" src="../resources/images/chang.jpg" /></div>
+	<div>
+		Mark L. Chang is Associate Professor of Electrical and Computer Engineering at Olin College. He joined the faculty in 2004, and is a current Resident Scholar at the college. He is a Creative Technologist at The Globe Lab, dedicated to the research and development of next-generation news production and consumption technologies. He holds his M.S. in electrical and computer engineering from Northwestern University and a B.S. from Johns Hopkins University.</div>
+	<div>
+		<br />
+		Mark&rsquo;s honors include an Intel Foundation Graduate Fellowship to study computer-aided design tools and methodologies for easier implementation of arithmetic hardware onto FPGA devices. His current research interests are mobile, social, and ubiquitous computing; engineering education, in particular design and student motivation; and reconfigurable computing.</div>
+	<br />
+	<div>
+		<strong>Andrew Hargadon</strong></div>
+	<div>
+		University of California, Davis</div>
+	<div>
+		<img alt="" class="alignleft" height="107" src="../resources/images/AndrewHargadon.jpg" width="96" /></div>
+	<div>
+		Andrew Hargadon is the Charles J. Soderquist Chair in Entrepreneurship and Professor of Technology Management at the Graduate School of Management at University of California, Davis and a Senior Fellow at the Kauffman Foundation. He is the author of How Breakthroughs Happen: The Surprising Truth About How Companies Innovate (Harvard Business School Press 2003). Andrew&rsquo;s research focuses on the effective management of innovation and entrepreneurship, particularly in the development and commercialization of sustainable technologies.</div>
+	<div>
+		<br />
+		His research has been used to develop or guide new innovation programs in organizations as diverse as Hewlett-Packard, Avery Dennison, Clorox, Edmunds.com, Mars, Canadian Health Services, and Silicon Valley start-ups. He teaches corporate executive programs and serves on the advisory boards for Physic Ventures and American River Ventures. Andrew is the founding director of two key centers at the University of California, Davis&mdash;the Center for Entrepreneurship and the Energy Efficiency Center.</div>
+	<br />
+	<div>
+		<strong>Elizabeth C. Kisenwether</strong></div>
+	<div>
+		Penn State University</div>
+	<div>
+		<img alt="" class="alignleft" height="137" src="../resources/images/ElizabethKisenwether.jpg" width="96" />Elizabeth C. Kisenwether is Assistant Professor and Director of the Engineering Entrepreneurship (E-SHIP) minor in the College of Engineering at Penn State University. She holds her B.S.E.E. degree from Penn State, and M.S.E.E. degrees from Massachusetts Institute of Technology and The Johns Hopkins University. After eleven years with HRB Systems/Raytheon, she co-founded and worked for five years with a high-tech startup that developed digital video add-in cards/modules for portable computers.</div>
+	<div>
+		<br />
+		Since joining Penn State in 1999, Elizabeth has taught design-focused courses in three engineering departments: the School of Engineering Design, Technology and Professional Programs and the Engineering Entrepreneurship (E-SHIP) minor. She supported the launch of Engineering Projects in Community Service (EPICS) at Penn State, as well as the NSF-sponsored Hybrid and Electric Vehicle M3 (Manipulatives, Motivation and Mentoring) Education Project. She is president and founder of KidTech, Inc., a non-profit engineering outreach company developing hands-on design and problem-based learning kits and activities for K-12 youth.</div>
+	<br />
+	<div>
+		<strong>Steven Nichols</strong></div>
+	<div>
+		University of Texas, Austin</div>
+	<div>
+		<img alt="" class="alignleft" height="112" src="../resources/images/StevenNichols.jpg" width="96" /></div>
+	<div>
+		Steven Nichols&rsquo;s research interests include topics in engineering design and manufacturing, technology commercialization, and professional aspects of engineering practice. He currently serves in three administrative posts at The University of Texas at Austin (Area Coordinator for Dynamic Systems and Controls in the Department of Mechanical Engineering, the Director of the Advanced Manufacturing Center in the Cockrell School of Engineering, and Director of the Chair of Free Enterprise. As the Director of the M.S.E. in Engineering management, Steven focuses on creating and nurturing a culture of technology innovation, creativity, leadership, and entrepreneurship in the program.</div>
+	<div>
+		<br />
+		Steven organized the Roden Scholar (Leadership) program and supported the start-up of the Engineering Entrepreneurship Society, and the Idea to Product (I2P) technology competition. He has also initiated multidisciplinary research and classroom activities that encourage collaborative learning environments for students, faculty and staff from the College of Engineering, the College of Natural Sciences, the McCombs School of Business and the School of Law. He previously serves as the Associate Chair for the Department of Mechanical Engineering.</div>
+	<br />
+	<div>
+		<strong>Andrew Singer</strong></div>
+	<div>
+		University of Illinois, Urbana-Champaign</div>
+	<div>
+		<img alt="" class="alignleft" height="144" src="../resources/images/AndrewSinger.jpg" width="96" /></div>
+	<div>
+		Andrew Singer received the S.B., S.M., and Ph.D. degrees, all in electrical engineering and computer science, from the Massachusetts Institute of Technology. Since 1998, he has been on the faculty of the department of Electrical and Computer Engineering at the University of Illinois at Urbana-Champaign, where he is currently a Professor in the ECE department and the Coordinated Science Laboratory. During the academic year 1996, he was a Postdoctoral Research Affiliate in the Research Laboratory of Electronics at MIT.</div>
+	<div>
+		<br />
+		His research interests include signal processing and communication systems. He was a Hughes Aircraft Masters Fellow, and was the recipient of the Harold L. Hazen Memorial Award for excellence in teaching in 1991. In 2000, he received the National Science Foundation CAREER Award, in 2001 he received the Xerox Faculty Research Award, and in 2002 was named a Willett Faculty Scholar.</div>
+</div>
+<p>
+	&nbsp;</p>
+
+
+
+
+<span style="float: right;"><strong>575830 page views</strong></span><div style="clear: both;"></div></div></div></div><div version="2.0" id="footer"><div class="box"><div id="footer_ie" style="height: 140px; width: 840px;"><div class="container"><div id="FooterTwo" style="width: 840px; text-align:center; padding: 20px;"><a class="logo" href="http://nsf.gov/"><img width="90px" height="90px" src="../resources/images/nsfLogo.gif"/></a><a class="logo" href="http://www.stanford.edu/"><img width="175px" height="80px" src="../resources/images/SUSig_White_Stack.png"/></a><a class="logo" href="http://venturewell.org/"><img width="320px" height="87px" src="../resources/images/VW-logo-website-footer.png"/></a></div></div></div><p class="disclaimer" style="width: 740px;padding-left: 45px;">This material is based upon work supported by the National Science Foundation under Grant No. 1125457. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</p><p class="epi_copy">&copy; 2018 Epicenter&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a target="_blank" href="http://www.stanford.edu/site/terms.html">Terms of Service</a></p></div><script type="text/javascript"> 
+ 
+	jQuery(document).ready(function() { 
+        jQuery('ul.sf-menu').superfish(); 
+
+		jQuery('.postinn').css('opacity','0');
+
+		jQuery('#latestpost li').hoverIntent(function() {
+			jQuery(this).find('.postinn')
+				.animate({
+					opacity: '1', 	
+				}, 600); 
+
+			} , function() {
+			jQuery(this).find('.postinn')
+				.animate({
+					opacity: '0', 	
+				}, 1000); 
+
+		});
+
+		jQuery('.latestpost_hidden li').hoverIntent(function() {
+			jQuery(this).find('.postinn')
+				.animate({
+					opacity: '1', 	
+				}, 600); 
+
+			} , function() {
+			jQuery(this).find('.postinn')
+				.animate({
+					opacity: '0', 	
+				}, 1000); 
+
+		});
+
+		jQuery(".more_div_img").click(function() {
+			var id = jQuery(this).attr('id').substring(13);
+			jQuery("#more_div_"+id).fadeOut("fast", function() {
+				jQuery("#latestpost_hidden_"+id).slideDown();
+			});
+		});
+
+    	jQuery('.accordion-title').click(function() {
+    		$(this).next().slideToggle();
+		});
+	});
+</script></div></div></body></html>
